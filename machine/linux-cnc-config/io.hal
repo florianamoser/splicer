@@ -1,0 +1,29 @@
+# This file was created with the 7i96 Wizard on Feb 04 2021 19:04:14
+# If you make changes to this file your screwed
+
+# Endstop X
+net home-joint-0 joint.0.home-sw-in <= hm2_7i96.0.gpio.000.in
+# Endstop Y
+net home-joint-1 joint.1.home-sw-in <= hm2_7i96.0.gpio.001.in
+# Endstop Z Right
+net home-joint-2 joint.2.home-sw-in <= hm2_7i96.0.gpio.002.in
+# Endstop Z Left
+net home-joint-3 joint.3.home-sw-in <= hm2_7i96.0.gpio.003.in
+# Endstop C (Sample Rotation)
+net home-joint-4 joint.4.home-sw-in <= hm2_7i96.0.gpio.004.in
+# Endstop V (Focus)
+net home-joint-5 joint.5.home-sw-in <= hm2_7i96.0.gpio.005.in
+# Endstop B (Shift Vertical)
+net home-joint-6 joint.6.home-sw-in <= hm2_7i96.0.gpio.007.in
+# Endstop A (Shift Horizontal)
+net home-joint-7 joint.7.home-sw-in <= hm2_7i96.0.gpio.006.in
+# Endstop U (Sensor Rotation)
+net home-joint-8 joint.8.home-sw-in <= hm2_7i96.0.gpio.008.in
+# net digital-out-0 motion.digital-out-00 => hm2_7i96.0.ssr.00.out-00
+# net digital-out-2 motion.digital-out-01 => hm2_7i96.0.ssr.00.out-01
+
+
+# E-STOP
+net estop-ext <= hm2_7i96.0.gpio.010.in
+net estop-out <= iocontrol.0.user-enable-out
+net estop-ext => iocontrol.0.emc-enable-in

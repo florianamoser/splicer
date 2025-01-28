@@ -1,0 +1,475 @@
+# This file was created with the 7i96 Wizard on Feb 04 2021 19:04:14
+# If you make changes to this file DO NOT run the configuration tool again!
+# This file will be replaced with a new file if you do!
+
+# kinematics
+loadrt [KINS]KINEMATICS
+
+# motion controller
+loadrt [EMCMOT]EMCMOT servo_period_nsec=[EMCMOT]SERVO_PERIOD num_joints=[KINS]JOINTS
+
+# standard components
+loadrt pid num_chan=9 
+
+# hostmot2 driver
+loadrt hostmot2
+
+# # load corexy translation module for shift axis
+# loadrt corexy
+
+loadrt [HOSTMOT2](DRIVER) board_ip=[HOSTMOT2](IPADDRESS) config="num_encoders=[HOSTMOT2](ENCODERS) num_stepgens=[HOSTMOT2](STEPGENS) sserial_port_0=[HOSTMOT2](SSERIAL_PORT)"
+setp hm2_[HOSTMOT2](BOARD).0.watchdog.timeout_ns 25000000
+
+# THREADS
+addf hm2_[HOSTMOT2](BOARD).0.read servo-thread
+# addf corexy.pos-fb servo-thread
+addf motion-command-handler servo-thread
+addf motion-controller servo-thread
+setp hm2_[HOSTMOT2](BOARD).0.dpll.01.timer-us -100
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.timer-number 1 
+addf pid.0.do-pid-calcs servo-thread
+addf pid.1.do-pid-calcs servo-thread
+addf pid.2.do-pid-calcs servo-thread
+addf pid.3.do-pid-calcs servo-thread
+addf pid.4.do-pid-calcs servo-thread
+addf pid.5.do-pid-calcs servo-thread
+# addf corexy.pos-cmd servo-thread
+addf pid.6.do-pid-calcs servo-thread
+addf pid.7.do-pid-calcs servo-thread
+addf pid.8.do-pid-calcs servo-thread
+addf hm2_[HOSTMOT2](BOARD).0.write servo-thread
+
+#_________________________________________________________________________________________________________
+
+###############################
+# X Axis
+# Joint 0
+# Stepgen 5
+# Servo on Mesa 7i78 
+###############################
+
+# axis enable chain
+newsig emcmot.0.enable bit
+sets emcmot.0.enable FALSE
+net emcmot.0.enable <= joint.0.amp-enable-out
+net emcmot.0.enable => hm2_[HOSTMOT2](BOARD).0.stepgen.05.enable pid.0.enable
+
+# position command and feedback
+net emcmot.0.pos-cmd joint.0.motor-pos-cmd => pid.0.command
+net motor.0.pos-fb <= hm2_[HOSTMOT2](BOARD).0.stepgen.05.position-fb joint.0.motor-pos-fb pid.0.feedback
+net motor.0.command pid.0.output hm2_[HOSTMOT2](BOARD).0.stepgen.05.velocity-cmd
+setp pid.0.error-previous-target true
+
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.05.dirsetup [JOINT_0]DIRSETUP
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.05.dirhold [JOINT_0]DIRHOLD
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.05.steplen [JOINT_0]STEPLEN
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.05.stepspace [JOINT_0]STEPSPACE
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.05.position-scale [JOINT_0]SCALE
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.05.maxvel [JOINT_0]STEPGEN_MAX_VEL
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.05.maxaccel [JOINT_0]STEPGEN_MAX_ACC
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.05.step_type 0
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.05.control-type 1
+
+setp pid.0.Pgain [JOINT_0]P
+setp pid.0.Igain [JOINT_0]I
+setp pid.0.Dgain [JOINT_0]D
+setp pid.0.bias [JOINT_0]BIAS
+setp pid.0.FF0 [JOINT_0]FF0
+setp pid.0.FF1 [JOINT_0]FF1
+setp pid.0.FF2 [JOINT_0]FF2
+setp pid.0.deadband [JOINT_0]DEADBAND
+setp pid.0.maxoutput [JOINT_0]MAX_OUTPUT
+setp pid.0.maxerror [JOINT_0]MAX_ERROR
+
+#_________________________________________________________________________________________________________
+
+###############################
+# Y Axis
+# Joint 1
+# Stepgen 6
+# Servo on Mesa 7i78 
+###############################
+
+# axis enable chain
+newsig emcmot.1.enable bit
+sets emcmot.1.enable FALSE
+net emcmot.1.enable <= joint.1.amp-enable-out
+net emcmot.1.enable => hm2_[HOSTMOT2](BOARD).0.stepgen.06.enable pid.1.enable
+
+# position command and feedback
+net emcmot.1.pos-cmd joint.1.motor-pos-cmd => pid.1.command
+net motor.1.pos-fb <= hm2_[HOSTMOT2](BOARD).0.stepgen.06.position-fb joint.1.motor-pos-fb pid.1.feedback
+net motor.1.command pid.1.output hm2_[HOSTMOT2](BOARD).0.stepgen.06.velocity-cmd
+setp pid.1.error-previous-target true
+
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.06.dirsetup [JOINT_1]DIRSETUP
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.06.dirhold [JOINT_1]DIRHOLD
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.06.steplen [JOINT_1]STEPLEN
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.06.stepspace [JOINT_1]STEPSPACE
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.06.position-scale [JOINT_1]SCALE
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.06.maxvel [JOINT_1]STEPGEN_MAX_VEL
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.06.maxaccel [JOINT_1]STEPGEN_MAX_ACC
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.06.step_type 0
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.06.control-type 1
+
+setp pid.1.Pgain [JOINT_1]P
+setp pid.1.Igain [JOINT_1]I
+setp pid.1.Dgain [JOINT_1]D
+setp pid.1.bias [JOINT_1]BIAS
+setp pid.1.FF0 [JOINT_1]FF0
+setp pid.1.FF1 [JOINT_1]FF1
+setp pid.1.FF2 [JOINT_1]FF2
+setp pid.1.deadband [JOINT_1]DEADBAND
+setp pid.1.maxoutput [JOINT_1]MAX_OUTPUT
+setp pid.1.maxerror [JOINT_1]MAX_ERROR
+
+#_________________________________________________________________________________________________________
+
+###############################
+# Z Lift Right
+# Joint 2
+# Stepgen 7
+# Servo on Mesa 7i78 
+###############################
+
+# axis enable chain
+newsig emcmot.2.enable bit
+sets emcmot.2.enable FALSE
+net emcmot.2.enable <= joint.2.amp-enable-out
+net emcmot.2.enable => hm2_[HOSTMOT2](BOARD).0.stepgen.07.enable pid.2.enable
+
+# position command and feedback
+net emcmot.2.pos-cmd joint.2.motor-pos-cmd => pid.2.command
+net motor.2.pos-fb <= hm2_[HOSTMOT2](BOARD).0.stepgen.07.position-fb joint.2.motor-pos-fb pid.2.feedback
+net motor.2.command pid.2.output hm2_[HOSTMOT2](BOARD).0.stepgen.07.velocity-cmd
+setp pid.2.error-previous-target true
+
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.07.dirsetup [JOINT_2]DIRSETUP
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.07.dirhold [JOINT_2]DIRHOLD
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.07.steplen [JOINT_2]STEPLEN
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.07.stepspace [JOINT_2]STEPSPACE
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.07.position-scale [JOINT_2]SCALE
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.07.maxvel [JOINT_2]STEPGEN_MAX_VEL
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.07.maxaccel [JOINT_2]STEPGEN_MAX_ACC
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.07.step_type 0
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.07.control-type 1
+
+setp pid.2.Pgain [JOINT_2]P
+setp pid.2.Igain [JOINT_2]I
+setp pid.2.Dgain [JOINT_2]D
+setp pid.2.bias [JOINT_2]BIAS
+setp pid.2.FF0 [JOINT_2]FF0
+setp pid.2.FF1 [JOINT_2]FF1
+setp pid.2.FF2 [JOINT_2]FF2
+setp pid.2.deadband [JOINT_2]DEADBAND
+setp pid.2.maxoutput [JOINT_2]MAX_OUTPUT
+setp pid.2.maxerror [JOINT_2]MAX_ERROR
+
+#_________________________________________________________________________________________________________
+
+###############################
+# Z Lift Left
+# Joint 3
+# Stepgen 8
+# Servo on Mesa 7i78 
+###############################
+
+# axis enable chain
+newsig emcmot.3.enable bit
+sets emcmot.3.enable FALSE
+net emcmot.3.enable <= joint.3.amp-enable-out
+net emcmot.3.enable => hm2_[HOSTMOT2](BOARD).0.stepgen.08.enable pid.3.enable
+
+# position command and feedback
+net emcmot.3.pos-cmd joint.3.motor-pos-cmd => pid.3.command
+net motor.3.pos-fb <= hm2_[HOSTMOT2](BOARD).0.stepgen.08.position-fb joint.3.motor-pos-fb pid.3.feedback
+net motor.3.command pid.3.output hm2_[HOSTMOT2](BOARD).0.stepgen.08.velocity-cmd
+setp pid.3.error-previous-target true
+
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.08.dirsetup [JOINT_3]DIRSETUP
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.08.dirhold [JOINT_3]DIRHOLD
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.08.steplen [JOINT_3]STEPLEN
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.08.stepspace [JOINT_3]STEPSPACE
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.08.position-scale [JOINT_3]SCALE
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.08.maxvel [JOINT_3]STEPGEN_MAX_VEL
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.08.maxaccel [JOINT_3]STEPGEN_MAX_ACC
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.08.step_type 0
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.08.control-type 1
+
+setp pid.3.Pgain [JOINT_3]P
+setp pid.3.Igain [JOINT_3]I
+setp pid.3.Dgain [JOINT_3]D
+setp pid.3.bias [JOINT_3]BIAS
+setp pid.3.FF0 [JOINT_3]FF0
+setp pid.3.FF1 [JOINT_3]FF1
+setp pid.3.FF2 [JOINT_3]FF2
+setp pid.3.deadband [JOINT_3]DEADBAND
+setp pid.3.maxoutput [JOINT_3]MAX_OUTPUT
+setp pid.3.maxerror [JOINT_3]MAX_ERROR
+
+
+#_________________________________________________________________________________________________________
+
+###############################
+# C Rotation Axis
+# Joint 4
+# Stepgen 4
+# Stepper on Mesa 7i96 
+###############################
+
+# axis enable chain
+newsig emcmot.4.enable bit
+sets emcmot.4.enable FALSE
+net emcmot.4.enable <= joint.4.amp-enable-out
+net emcmot.4.enable => hm2_[HOSTMOT2](BOARD).0.stepgen.04.enable pid.4.enable
+
+# position command and feedback
+net emcmot.4.pos-cmd joint.4.motor-pos-cmd => pid.4.command
+net motor.4.pos-fb <= hm2_[HOSTMOT2](BOARD).0.stepgen.04.position-fb joint.4.motor-pos-fb pid.4.feedback
+net motor.4.command pid.4.output hm2_[HOSTMOT2](BOARD).0.stepgen.04.velocity-cmd
+setp pid.4.error-previous-target true
+
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.04.dirsetup [JOINT_4]DIRSETUP
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.04.dirhold [JOINT_4]DIRHOLD
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.04.steplen [JOINT_4]STEPLEN
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.04.stepspace [JOINT_4]STEPSPACE
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.04.position-scale [JOINT_4]SCALE
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.04.maxvel [JOINT_4]STEPGEN_MAX_VEL
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.04.maxaccel [JOINT_4]STEPGEN_MAX_ACC
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.04.step_type 0
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.04.control-type 1
+
+setp pid.4.Pgain [JOINT_4]P
+setp pid.4.Igain [JOINT_4]I
+setp pid.4.Dgain [JOINT_4]D
+setp pid.4.bias [JOINT_4]BIAS
+setp pid.4.FF0 [JOINT_4]FF0
+setp pid.4.FF1 [JOINT_4]FF1
+setp pid.4.FF2 [JOINT_4]FF2
+setp pid.4.deadband [JOINT_4]DEADBAND
+setp pid.4.maxoutput [JOINT_4]MAX_OUTPUT
+setp pid.4.maxerror [JOINT_4]MAX_ERROR
+
+#_________________________________________________________________________________________________________
+
+###############################
+# Focus (V Axis)
+# Joint 5
+# Stepgen 0
+# Stepper on Mesa 7i96 
+###############################
+
+# axis enable chain
+newsig emcmot.5.enable bit
+sets emcmot.5.enable FALSE
+net emcmot.5.enable <= joint.5.amp-enable-out
+net emcmot.5.enable => hm2_[HOSTMOT2](BOARD).0.stepgen.00.enable pid.5.enable
+
+# position command and feedback
+net emcmot.5.pos-cmd joint.5.motor-pos-cmd => pid.5.command
+net motor.5.pos-fb <= hm2_[HOSTMOT2](BOARD).0.stepgen.00.position-fb joint.5.motor-pos-fb pid.5.feedback
+net motor.5.command pid.5.output hm2_[HOSTMOT2](BOARD).0.stepgen.00.velocity-cmd
+setp pid.5.error-previous-target true
+
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.00.dirsetup [JOINT_5]DIRSETUP
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.00.dirhold [JOINT_5]DIRHOLD
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.00.steplen [JOINT_5]STEPLEN
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.00.stepspace [JOINT_5]STEPSPACE
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.00.position-scale [JOINT_5]SCALE
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.00.maxvel [JOINT_5]STEPGEN_MAX_VEL
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.00.maxaccel [JOINT_5]STEPGEN_MAX_ACC
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.00.step_type 0
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.00.control-type 1
+
+setp pid.5.Pgain [JOINT_5]P
+setp pid.5.Igain [JOINT_5]I
+setp pid.5.Dgain [JOINT_5]D
+setp pid.5.bias [JOINT_5]BIAS
+setp pid.5.FF0 [JOINT_5]FF0
+setp pid.5.FF1 [JOINT_5]FF1
+setp pid.5.FF2 [JOINT_5]FF2
+setp pid.5.deadband [JOINT_5]DEADBAND
+setp pid.5.maxoutput [JOINT_5]MAX_OUTPUT
+setp pid.5.maxerror [JOINT_5]MAX_ERROR
+
+#_________________________________________________________________________________________________________
+
+###############################
+# Shift (B Axis)
+# Joint 6
+# Stepgen 1
+# Stepper on Mesa 7i96 
+###############################
+
+
+# # axis enable chain
+# newsig emcmot.6.enable bit
+# sets emcmot.6.enable FALSE
+# net emcmot.6.enable <= joint.6.amp-enable-out
+# net emcmot.6.enable => hm2_[HOSTMOT2](BOARD).0.stepgen.01.enable pid.6.enable
+
+# # position command and feedback
+# #net emcmot.6.pos-cmd joint.6.motor-pos-cmd => pid.6.command
+# # net motor.6.pos-fb <= hm2_[HOSTMOT2](BOARD).0.stepgen.01.position-fb joint.6.motor-pos-fb pid.6.feedback
+# net motor.6.command pid.6.output hm2_[HOSTMOT2](BOARD).0.stepgen.01.velocity-cmd
+# setp pid.6.error-previous-target true
+
+# setp hm2_[HOSTMOT2](BOARD).0.stepgen.01.dirsetup [JOINT_6]DIRSETUP
+# setp hm2_[HOSTMOT2](BOARD).0.stepgen.01.dirhold [JOINT_6]DIRHOLD
+# setp hm2_[HOSTMOT2](BOARD).0.stepgen.01.steplen [JOINT_6]STEPLEN
+# setp hm2_[HOSTMOT2](BOARD).0.stepgen.01.stepspace [JOINT_6]STEPSPACE
+# setp hm2_[HOSTMOT2](BOARD).0.stepgen.01.position-scale [JOINT_6]SCALE
+# setp hm2_[HOSTMOT2](BOARD).0.stepgen.01.maxvel [JOINT_6]STEPGEN_MAX_VEL
+# setp hm2_[HOSTMOT2](BOARD).0.stepgen.01.maxaccel [JOINT_6]STEPGEN_MAX_ACC
+
+# net emcmot.6.pos-cmd joint.6.motor-pos-cmd => corexy.xpos-cmd 
+# net m0pos-cmd corexy.m0pos-cmd => pid.6.command 
+# net m0pos-fb pid.6.feedback => corexy.m0pos-fb
+# net xpos-fb corexy.xpos-fb => joint.6.motor-pos-fb
+
+
+
+# axis enable chain
+newsig emcmot.6.enable bit
+sets emcmot.6.enable FALSE
+net emcmot.6.enable <= joint.6.amp-enable-out
+net emcmot.6.enable => hm2_[HOSTMOT2](BOARD).0.stepgen.01.enable pid.6.enable
+
+# position command and feedback
+net emcmot.6.pos-cmd joint.6.motor-pos-cmd => pid.6.command
+net motor.6.pos-fb <= hm2_[HOSTMOT2](BOARD).0.stepgen.01.position-fb joint.6.motor-pos-fb pid.6.feedback
+net motor.6.command pid.6.output hm2_[HOSTMOT2](BOARD).0.stepgen.01.velocity-cmd
+setp pid.6.error-previous-target true
+
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.01.dirsetup [JOINT_6]DIRSETUP
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.01.dirhold [JOINT_6]DIRHOLD
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.01.steplen [JOINT_6]STEPLEN
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.01.stepspace [JOINT_6]STEPSPACE
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.01.position-scale [JOINT_6]SCALE
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.01.maxvel [JOINT_6]STEPGEN_MAX_VEL
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.01.maxaccel [JOINT_6]STEPGEN_MAX_ACC
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.01.step_type 0
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.01.control-type 1
+
+setp pid.6.Pgain [JOINT_6]P
+setp pid.6.Igain [JOINT_6]I
+setp pid.6.Dgain [JOINT_6]D
+setp pid.6.bias [JOINT_6]BIAS
+setp pid.6.FF0 [JOINT_6]FF0
+setp pid.6.FF1 [JOINT_6]FF1
+setp pid.6.FF2 [JOINT_6]FF2
+setp pid.6.deadband [JOINT_6]DEADBAND
+setp pid.6.maxoutput [JOINT_6]MAX_OUTPUT
+setp pid.6.maxerror [JOINT_6]MAX_ERROR
+
+
+#_________________________________________________________________________________________________________
+
+###############################
+# Shift (A Axis)
+# Joint 7
+# Stepgen 2
+# Stepper on Mesa 7i96 
+###############################
+
+# # axis enable chain
+# newsig emcmot.7.enable bit
+# sets emcmot.7.enable FALSE
+# net emcmot.7.enable <= joint.7.amp-enable-out
+# net emcmot.7.enable => hm2_[HOSTMOT2](BOARD).0.stepgen.02.enable pid.7.enable
+
+# setp hm2_[HOSTMOT2](BOARD).0.stepgen.02.dirsetup [JOINT_7]DIRSETUP
+# setp hm2_[HOSTMOT2](BOARD).0.stepgen.02.dirhold [JOINT_7]DIRHOLD
+# setp hm2_[HOSTMOT2](BOARD).0.stepgen.02.steplen [JOINT_7]STEPLEN
+# setp hm2_[HOSTMOT2](BOARD).0.stepgen.02.stepspace [JOINT_7]STEPSPACE
+# setp hm2_[HOSTMOT2](BOARD).0.stepgen.02.position-scale [JOINT_7]SCALE
+# setp hm2_[HOSTMOT2](BOARD).0.stepgen.02.maxvel [JOINT_7]STEPGEN_MAX_VEL
+# setp hm2_[HOSTMOT2](BOARD).0.stepgen.02.maxaccel [JOINT_7]STEPGEN_MAX_ACC
+# setp hm2_[HOSTMOT2](BOARD).0.stepgen.02.step_type 0
+# setp hm2_[HOSTMOT2](BOARD).0.stepgen.02.control-type 1
+
+# net emcmot.7.pos-cmd joint.7.motor-pos-cmd => corexy.ypos-cmd 
+# net m1pos-cmd corexy.m1pos-cmd => pid.7.command 
+# net m1pos-fb pid.7.feedback => corexy.m1pos-fb
+# net ypos-fb corexy.ypos-fb => joint.7.motor-pos-fb
+
+
+# axis enable chain
+newsig emcmot.7.enable bit
+sets emcmot.7.enable FALSE
+net emcmot.7.enable <= joint.7.amp-enable-out
+net emcmot.7.enable => hm2_[HOSTMOT2](BOARD).0.stepgen.02.enable pid.7.enable
+
+# position command and feedback
+net emcmot.7.pos-cmd joint.7.motor-pos-cmd => pid.7.command
+net motor.7.pos-fb <= hm2_[HOSTMOT2](BOARD).0.stepgen.02.position-fb joint.7.motor-pos-fb pid.7.feedback
+net motor.7.command pid.7.output hm2_[HOSTMOT2](BOARD).0.stepgen.02.velocity-cmd
+setp pid.7.error-previous-target true
+
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.02.dirsetup [JOINT_7]DIRSETUP
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.02.dirhold [JOINT_7]DIRHOLD
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.02.steplen [JOINT_7]STEPLEN
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.02.stepspace [JOINT_7]STEPSPACE
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.02.position-scale [JOINT_7]SCALE
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.02.maxvel [JOINT_7]STEPGEN_MAX_VEL
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.02.maxaccel [JOINT_7]STEPGEN_MAX_ACC
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.02.step_type 0
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.02.control-type 1
+
+setp pid.7.Pgain [JOINT_7]P
+setp pid.7.Igain [JOINT_7]I
+setp pid.7.Dgain [JOINT_7]D
+setp pid.7.bias [JOINT_7]BIAS
+setp pid.7.FF0 [JOINT_7]FF0
+setp pid.7.FF1 [JOINT_7]FF1
+setp pid.7.FF2 [JOINT_7]FF2
+setp pid.7.deadband [JOINT_7]DEADBAND
+setp pid.7.maxoutput [JOINT_7]MAX_OUTPUT
+setp pid.7.maxerror [JOINT_7]MAX_ERROR
+
+
+#_________________________________________________________________________________________________________
+
+###############################
+# U Sensor Rotation Axis
+# Joint 8
+# Stepgen 3
+# Stepper on Mesa 7i96 
+###############################
+
+# axis enable chain
+newsig emcmot.8.enable bit
+sets emcmot.8.enable FALSE
+net emcmot.8.enable <= joint.8.amp-enable-out
+net emcmot.8.enable => hm2_[HOSTMOT2](BOARD).0.stepgen.03.enable pid.8.enable
+
+# position command and feedback
+net emcmot.8.pos-cmd joint.8.motor-pos-cmd => pid.8.command
+net motor.8.pos-fb <= hm2_[HOSTMOT2](BOARD).0.stepgen.03.position-fb joint.8.motor-pos-fb pid.8.feedback
+net motor.8.command pid.8.output hm2_[HOSTMOT2](BOARD).0.stepgen.03.velocity-cmd
+setp pid.8.error-previous-target true
+
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.03.dirsetup [JOINT_8]DIRSETUP
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.03.dirhold [JOINT_8]DIRHOLD
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.03.steplen [JOINT_8]STEPLEN
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.03.stepspace [JOINT_8]STEPSPACE
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.03.position-scale [JOINT_8]SCALE
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.03.maxvel [JOINT_8]STEPGEN_MAX_VEL
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.03.maxaccel [JOINT_8]STEPGEN_MAX_ACC
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.03.step_type 0
+setp hm2_[HOSTMOT2](BOARD).0.stepgen.03.control-type 1
+
+setp pid.8.Pgain [JOINT_8]P
+setp pid.8.Igain [JOINT_8]I
+setp pid.8.Dgain [JOINT_8]D
+setp pid.8.bias [JOINT_8]BIAS
+setp pid.8.FF0 [JOINT_8]FF0
+setp pid.8.FF1 [JOINT_8]FF1
+setp pid.8.FF2 [JOINT_8]FF2
+setp pid.8.deadband [JOINT_8]DEADBAND
+setp pid.8.maxoutput [JOINT_8]MAX_OUTPUT
+setp pid.8.maxerror [JOINT_8]MAX_ERROR
+
+# Standard I/O Block - EStop, Etc
+# create a signal for the estop loopback
+#net estop-loop iocontrol.0.user-enable-out => iocontrol.0.emc-enable-in

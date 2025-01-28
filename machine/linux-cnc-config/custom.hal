@@ -1,0 +1,5 @@
+# Place any HAL commands in this file that you want to run before the GUI.
+# This file will not be written over by the configuration tool.
+
+net frametrigger hm2_7i96.0.ssr.00.out-05
+net linetrigger hm2_7i96.0.ssr.00.out-04

@@ -1,0 +1,52 @@
+# from https://github.com/antonchromjak/corexy_by_hal-with-mesa-7i96-config
+# without this I would not have managed to implement it
+
+# show original signals for joints 0,1
+show sig emcmot.7.pos-cmd emcmot.6.pos-cmd
+show sig motor.7.pos-fb  motor.6.pos-fb
+
+# remove original signals that connect
+# pins for stepgens 0,1:
+delsig emcmot.7.pos-cmd
+delsig emcmot.6.pos-cmd
+delsig motor.7.command
+delsig motor.6.command
+delsig motor.7.pos-fb
+delsig motor.6.pos-fb
+
+# implement corexy kinematics with hal component:
+loadrt corexy_by_hal names=corexy_by_hal
+addf   corexy_by_hal servo-thread
+
+net :j0motor-cmd <= joint.6.motor-pos-cmd
+net :j0motor-cmd => corexy_by_hal.j0-motor-pos-cmd
+
+net :j1motor-cmd <= joint.7.motor-pos-cmd
+net :j1motor-cmd => corexy_by_hal.j1-motor-pos-cmd
+
+net :j0motor-fb <= corexy_by_hal.j0-motor-pos-fb
+net :j0motor-fb => joint.6.motor-pos-fb
+
+net :j1motor-fb <= corexy_by_hal.j1-motor-pos-fb
+net :j1motor-fb => joint.7.motor-pos-fb
+
+# new signals connecting pins for stepgens 0,1:
+net :alpha-cmd <= corexy_by_hal.alpha-cmd
+net :alpha-cmd => pid.6.command
+net alpha-cmd-m pid.6.output hm2_[HOSTMOT2](BOARD).0.stepgen.01.velocity-cmd
+
+net :beta-cmd => corexy_by_hal.beta-cmd
+net :beta-cmd <= pid.7.command
+net beta-cmd-m pid.7.output hm2_[HOSTMOT2](BOARD).0.stepgen.02.velocity-cmd
+
+net :alpha-fb  <= hm2_[HOSTMOT2](BOARD).0.stepgen.01.position-fb
+net :alpha-fb  => pid.6.feedback
+net :alpha-fb  => corexy_by_hal.alpha-fb
+
+net :beta-fb  <= hm2_[HOSTMOT2](BOARD).0.stepgen.02.position-fb
+net :beta-fb  => pid.7.feedback
+net :beta-fb  => corexy_by_hal.beta-fb
+
+# show new signals:
+show sig :*alpha*
+show sig :*beta*
