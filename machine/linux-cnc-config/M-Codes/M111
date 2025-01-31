@@ -1,0 +1,13 @@
+# !/bin/sh
+# trigger line
+
+# RGB Filter
+# M110 = no filter    = false / false
+# M111 = red filter   = true / false
+# M112 = green filter = true / true
+# M113 = blue filter  = false / true
+
+halcmd sets filterA true
+halcmd sets filterB false
+exit 0
+

@@ -1,5 +1,10 @@
 # Place any HAL commands in this file that you want to run before the GUI.
 # This file will not be written over by the configuration tool.
 
+# camera control
 net frametrigger hm2_7i96.0.ssr.00.out-05
 net linetrigger hm2_7i96.0.ssr.00.out-04
+
+# rgb filter control
+net filterA hm2_7i96.0.ssr.00.out-03
+net filterB hm2_7i96.0.ssr.00.out-02
