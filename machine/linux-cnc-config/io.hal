@@ -19,6 +19,7 @@ net home-joint-6 joint.6.home-sw-in <= hm2_7i96.0.gpio.007.in
 net home-joint-7 joint.7.home-sw-in <= hm2_7i96.0.gpio.006.in
 # Endstop U (Sensor Rotation)
 net home-joint-8 joint.8.home-sw-in <= hm2_7i96.0.gpio.008.in
+
 # net digital-out-0 motion.digital-out-00 => hm2_7i96.0.ssr.00.out-00
 # net digital-out-2 motion.digital-out-01 => hm2_7i96.0.ssr.00.out-01
 
