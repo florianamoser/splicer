@@ -1,10 +1,10 @@
 %
-(2025-32-14, 14:32:12, Florian Amoser)
+(2025-33-14, 14:33:00, Florian Amoser)
 (This is machine specific gcode for SPLICER)
-(250214_testing0_0-1500.ngc)
+(250214_looking-out-450_0-1500.ngc)
 (linenumbers: 1500)
 (color: a)
-(exposure time: 1500μs)
+(exposure time: 3200μs)
 G90 G17
 G21
 G01 F5000
