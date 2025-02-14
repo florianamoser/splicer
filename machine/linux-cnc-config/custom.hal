@@ -6,5 +6,5 @@ net frametrigger hm2_7i96.0.ssr.00.out-05
 net linetrigger hm2_7i96.0.ssr.00.out-04
 
 # rgb filter control
-net filterA hm2_7i96.0.ssr.00.out-03
-net filterB hm2_7i96.0.ssr.00.out-02
+net filterA hm2_7i96.0.ssr.00.out-02
+net filterB hm2_7i96.0.ssr.00.out-03
