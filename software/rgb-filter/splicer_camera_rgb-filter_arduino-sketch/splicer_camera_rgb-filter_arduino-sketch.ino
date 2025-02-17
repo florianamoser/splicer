@@ -36,6 +36,7 @@ void setup() {
 void loop() {
   int stateA = digitalRead(pinA); // Read the state of pin A
   int stateB = digitalRead(pinB); // Read the state of pin B
+  // Serial.println("B : ",digitalRead(3));
 
   // // Since internal pull-ups are enabled, HIGH means unpressed, LOW means pressed
   // stateA = !stateA; // Invert the state (LOW becomes HIGH, HIGH becomes LOW)
