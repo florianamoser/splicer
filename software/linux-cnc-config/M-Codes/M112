@@ -1,6 +1,4 @@
 # !/bin/sh
-# trigger line
-
 # RGB Filter
 # M110 = no filter    = false / false
 # M111 = red filter   = true / false

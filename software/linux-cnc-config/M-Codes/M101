@@ -1,5 +1,0 @@
-# !/bin/sh
-# trigger line
-halcmd sets linetrigger 1
-halcmd sets linetrigger 0
-exit 0

@@ -1,5 +1,0 @@
-# !/bin/sh
-# trigger line
-halcmd sets frametrigger false
-exit 0
-
