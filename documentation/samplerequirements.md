@@ -1,7 +1,6 @@
 Follow the specifications below as a starting point to select a sample for splicer. Ideally the sample is a three dimensional object. Flat, two dimensional objects are less suitable. Very dark or very glossy, or the combination of both, can be hard to capture.  
 
->[!TIP]   
->If unsure of your sample, check with splicer operator.
+!!! tip "If unsure of your sample, check with splicer operator."  
 
 |Type| Description |
 |-----|-----|
