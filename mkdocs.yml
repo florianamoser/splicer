@@ -16,7 +16,7 @@ nav:
     - Abstract: abstract.md
   - Using Splicer: 
     - Sample Requirements: samplerequirements.md
-    - Blender Splicer Animation Script: spliceranimationscript.md
+    - Blender Splicer Animation Script: splicer-animator.md
     # - Monochrome and tri-color capture: monocolorcapture.md
     # - Merging tri-color capture images: mergingcolorimages.md
 
@@ -99,12 +99,14 @@ markdown_extensions:
   - def_list
   - footnotes
   - meta
+  - md_in_html
   - toc:
       permalink: true
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
       smart_enable: all
+  - pymdownx.blocks.caption
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
