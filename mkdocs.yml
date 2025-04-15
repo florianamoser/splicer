@@ -44,12 +44,12 @@ theme:
 # Plugins
 plugins:
   - search
-  - with-pdf:
+  - to-pdf:
       author: Florian Amoser
       copyright: Florian Amoser
       
       cover: true
-      back_cover: true
+      back_cover: false
       cover_title: splicer owners manual
       cover_subtitle: SUBTITLE TEXT
       custom_template_path: TEMPLATES PATH
@@ -73,7 +73,7 @@ plugins:
       #two_columns_level: 3
       #
       render_js: true
-      headless_chrome_path: headless-chromium
+      headless_chrome_path: chromium
       #
       output_path: splicer_manual.pdf
       enabled_if_env: ENABLE_PDF_EXPORT

@@ -14,6 +14,8 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - uses: browser-actions/setup-chrome@v1
+      - run: chrome --version
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
@@ -24,5 +26,5 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material mkdocs-with-pdf
-      - run: mkdocs gh-deploy --force
+      - run: pip install mkdocs-material mkdocs-to-pdf
+      - run: ENABLE_PDF_EXPORT=1 mkdocs gh-deploy --force
