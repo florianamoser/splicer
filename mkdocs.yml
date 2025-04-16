@@ -37,8 +37,8 @@ theme:
   font:
     text: Space Grotesk
     code: Space Mono
-  # icon:
-  #   logo: /splicer/assets/splicer_logo_white.svg
+  icon:
+    logo: /splicer/assets/splicer_logo_white.svg
   features:
     # - navigation.tabs
     - navigation.instant
