@@ -35,18 +35,18 @@ nav:
 theme:
   name: material
   font:
-    text: IBM Plex Sans
-    code: IBM Plex Mono
+    text: Space Grotesk
+    code: Space Mono
   icon:
-    logo: material/library
+    logo: assets/splicer_logo_white.svg
   features:
     # - navigation.tabs
     - navigation.instant
     - navigation.expand
   palette:
     scheme: default
-    primary: blue
-    accent: blue
+    primary: black
+    accent: red
 
 # Plugins
 plugins:
