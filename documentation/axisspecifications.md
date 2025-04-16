@@ -76,12 +76,14 @@ In standard use, axis **V** is set automatically by the `splicer-animator` scrip
 
     Axis **A** (software) does **not** directly correspond to motor **A** due to the use of **CoreXY kinematics**. Similarly, axis **B** (software) is also abstracted. Always refer to the configuration documentation when working with these axes to avoid confusion. 
 
-> **A and B Axis:**
-> **Unit**: mm
+**A and B Axis:**
+**Unit**: mm
 >
-> **A-Motor**
-> **Joint**: 6  
-> **Step-gen**: 1  
+**A-Motor**  
+| **Joint** | **Step-gen** |
+| ----- | ----- |
+| 6 | 1 |
+
 >
 > **B-Motor**
 > **Joint**: 7  
