@@ -1,14 +1,24 @@
-Follow the specifications below as a starting point to select a sample for splicer. Ideally the sample is a three dimensional object. Flat, two dimensional objects are less suitable. Very dark or very glossy, or the combination of both, can be hard to capture.  
+### **Sample Selection Guidelines**
 
-!!! tip "If unsure of your sample, check with splicer operator."  
+Use the following specifications as a starting point when selecting a sample for Splicer:
+
+- Ideally, the sample should be a **three-dimensional object**.  
+- **Flat, two-dimensional objects** are generally less suitable.  
+- **Very dark**, **very glossy**, or **dark and glossy** surfaces can be challenging to capture accurately.
+
+These considerations help ensure optimal results during imaging and reconstruction.
+
+!!! tip "If you are unsure whether your sample is suitable, check with splicer operator."  
 
 |Type| Description |
 |-----|-----|
-| Relation | The relational value of the object is the most important aspect of the sample. All relationships are possible. The more intense or long the relation to the object is, the better. The sample may include a personal story, whether uplifting or difficult. It could be something you’ve created, use for work, love, or even strongly dislike. |
-| Size | 150 x 150 x 150mm (length, width, height) is ideal. Possible range is 30 x 30 x 30 mm to 250 x 250 x 500 mm.|
-| Colour | Any color is possible. Neon and other special colors will not show. |
-| Materiality | matte, glossy or transparent. Ideally the sample has an interesting texture or some transparency or translucency. Protruding three dimensional features can result in interesting overlaps. |
-| Value | Do not take your very expensive vase. Under normal circumstances, the sample does not get damaged in the process of sampling. If the material is sensitive to light or heat, check with operator. The sample can become warm due to the bright lights.|
-| Copyright | As the object will be photographed as a sample, you will at least need to be allowed to show the sample. (Do not sample the secret prototype from your workplace).|
+| **Relation** | The **relational value** of the object is the most important selection criterion. Any type of relationship is valid, what matters is the depth or intensity of your connection. The object may carry a personal story, whether uplifting or difficult. It could be something you've created, use in your work, cherish, or even strongly dislike. The more meaningful the connection, the more suitable the object is for this project. |
+| **Size** | Ideal: 150 × 150 × 150 mm (L × W × H).  
+Supported: 30 × 30 × 30 mm to 250 × 250 × 500 mm.  
+If near the limits, consult the Splicer operator to confirm compatibility. |
+| **Color** | Any color is generally supported. However, **neon** and other **special or highly reflective colors** may not be accurately captured and may not appear as expected in the final image.|
+| **Surface and Materiality** | Supports **matte**, **glossy**, or **transparent** surfaces. Ideally, the sample includes **interesting textures**, **partial transparency or translucency**, and **protruding three-dimensional features**, which can create visually engaging overlaps. |
+| **Value** | Avoid using highly valuable or irreplaceable objects. Under normal conditions, the sample is not damaged during the sampling process. However, if the material is sensitive to light or heat, consult the Splicer operator. The sample may become warm due to exposure to bright illumination. |
+| **Copyright** | As the object will be photographed and potentially shown publicly, you must have the rights to display it. Do not submit confidential or restricted items, such as undisclosed prototypes from your workplace ;) |
 	
 
