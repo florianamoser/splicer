@@ -31,13 +31,13 @@ From the perspective of the lens, axis **Y** controls the distance to the sample
 
 ### **Z-Axis**
 
-**Z-Motor Right**
-**Joint**: 2  
-**Step-gen**: 7
+Z-Motor Right:
+- Joint: `2`  
+- Step-gen: `7`
 
-**Z-Motor Left**
-**Joint**: 3  
-**Step-gen**: 8
+Z-Motor Left:
+- Joint: `3`  
+- Step-gen: `8`
 
 From the perspective of the lens, axis **Z** controls the vertical position (height) of the sample. Its origin lies along the optical centerline of the lens, at the top side of the sample post. Negative values position the camera below the sample; positive values position it above. When the line sensor is in vertical orientation (`U = 0`), the Z axis corresponds to the vertical position of the sample in the captured image.
 
