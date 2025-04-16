@@ -26,5 +26,5 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material mkdocs-to-pdf
+      - run: pip install mkdocs-material mkdocs-to-pdf mkdocs-glightbox
       - run: ENABLE_PDF_EXPORT=1 mkdocs gh-deploy --force
