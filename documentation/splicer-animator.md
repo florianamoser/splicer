@@ -1,4 +1,4 @@
-**splicer-animator** is the splicer control script. It is used to control the precise movement of the sample infront of the camera lens of splicer. The script is used inside Blender to convert a frame animation inside blender to a machine readable gcode file to animate splicer.
+**splicer-animator** is the splicer control script. Use it to control the precise movement of the sample. The script is running in Blender to convert a frame animation to machine readable gcode file on splicer.
 
 [Click here for current release of the splicer-animator](https://github.com/florianamoser/splicer/tree/main/software/animator)
 

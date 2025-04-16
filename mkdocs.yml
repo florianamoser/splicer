@@ -16,6 +16,7 @@ nav:
     - Abstract: abstract.md
   - Using Splicer: 
     - Sample Requirements: samplerequirements.md
+    - Axis Specifications: axisspecifications.md
     - Splicer-animatior Blender Script: splicer-animator.md
     # - Monochrome and tri-color capture: monocolorcapture.md
     # - Merging tri-color capture images: mergingcolorimages.md
@@ -103,7 +104,7 @@ plugins:
        background: white
        shadow: true
        manual: false
-       
+
 # Customization
 # TBD
 
