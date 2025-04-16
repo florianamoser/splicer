@@ -10,13 +10,9 @@ Each axis on Splicer is identified by a letter, a joint number, and a step gener
 
 ### **X-Axis**
 
----
-**Joint**: 0  
-**Step-gen**: 5  
-**Units**: [mm]  
-**Min. Value**: 00  
-**Max. Value**: 00  
----
+| Joint | **Step-gen** | **Units** | **Min. Value** | **Max. Value** |
+| 0 | 5 | [mm] | 00 | 00 |  
+
 
 From the perspective of the lens, axis **X** controls the left-to-right movement of the sample. Its origin is aligned with the optical centerline of the lens. Negative values move the sample to the left, while positive values move it to the right.
 
