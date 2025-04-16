@@ -11,6 +11,7 @@ Each axis on Splicer is identified by a letter, a joint number, and a step gener
 ### **X-Axis**
 
 | Joint | **Step-gen** | **Units** | **Min. Value** | **Max. Value** |
+|---|---|---|---|---|
 | 0 | 5 | [mm] | 00 | 00 |  
 
 
