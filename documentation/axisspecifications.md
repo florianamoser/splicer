@@ -5,24 +5,24 @@ Special cases include axes Z, A, and B. In software, axis Z simultaneously contr
 
 
 
-### **X Axis**
+### **X-Axis**
 
-**Joint**: 0  
-**Step-gen**: 5
-**Units**: [mm]
-**Min. Value**:
-**Max. Value**:
+    **Joint**: 0  
+    **Step-gen**: 5  
+    **Units**: [mm]  
+    **Min. Value**:  
+    **Max. Value**:  
 
 From the perspective of the lens, axis **X** controls the left-to-right movement of the sample. Its origin is aligned with the optical centerline of the lens. Negative values move the sample to the left, while positive values move it to the right.
 
-### **Y Axis**
+### **Y-Axis**
 
 **Joint**: 1  
 **Step-gen**: 6
 
 From the perspective of the lens, axis **Y** controls the distance to the sample. Its origin is located at the lens board of Splicer. Smaller values position the sample closer to the lens, while larger values move it farther away. The Y axis corresponds to the depth dimension in the captured image.
 
-### **Z Axis**
+### **Z-Axis**
 
 **Z-Motor Right**
 **Joint**: 2  
@@ -34,7 +34,7 @@ From the perspective of the lens, axis **Y** controls the distance to the sample
 
 From the perspective of the lens, axis **Z** controls the vertical position (height) of the sample. Its origin lies along the optical centerline of the lens, at the top side of the sample post. Negative values position the camera below the sample; positive values position it above. When the line sensor is in vertical orientation (`U = 0`), the Z axis corresponds to the vertical position of the sample in the captured image.
 
-### **C Axis**
+### **C-Axis**
 
 **Joint**: 4  
 **Step-gen**: 4
@@ -42,7 +42,7 @@ From the perspective of the lens, axis **Z** controls the vertical position (hei
 
 From the perspective of the lens, axis **C** controls the rotation of the sample around the vertical axis. Positive values rotate the sample clockwise; negative values rotate it counterclockwise.
 
-### **V Axis**
+### **V-Axis**
 
 **Joint**: 5  
 **Step-gen**: 0
