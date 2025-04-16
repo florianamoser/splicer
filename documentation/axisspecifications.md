@@ -9,6 +9,9 @@ Special cases include axes Z, A, and B. In software, axis Z simultaneously contr
 
 **Joint**: 0  
 **Step-gen**: 5
+**Units**: [mm]
+**Min. Value**:
+**Max. Value**:
 
 From the perspective of the lens, axis **X** controls the left-to-right movement of the sample. Its origin is aligned with the optical centerline of the lens. Negative values move the sample to the left, while positive values move it to the right.
 
@@ -21,14 +24,38 @@ From the perspective of the lens, axis **Y** controls the distance to the sample
 
 ### **Z Axis**
 
+**Z-Motor Right**
 **Joint**: 2  
 **Step-gen**: 7
 
+**Z-Motor Left**
+**Joint**: 3  
+**Step-gen**: 8
+
 From the perspective of the lens, axis **Z** controls the vertical position (height) of the sample. Its origin lies along the optical centerline of the lens, at the top side of the sample post. Negative values position the camera below the sample; positive values position it above. When the line sensor is in vertical orientation (`U = 0`), the Z axis corresponds to the vertical position of the sample in the captured image.
 
+### **C Axis**
+
+**Joint**: 4  
+**Step-gen**: 4
+**Unit**: Degrees
+
+From the perspective of the lens, axis **C** controls the rotation of the sample around the vertical axis. Positive values rotate the sample clockwise; negative values rotate it counterclockwise.
+
+### **V Axis**
+
+**Joint**: 5  
+**Step-gen**: 0
+**Unit**: mm
+
+Axis **V** controls the autofocus mechanism of Splicer.
+
+Its origin is located at the lens board of Splicer. Smaller values move the sensor closer to the lens, shifting the focus toward infinity. Larger values move the sensor farther from the lens, shifting the focus closer.
+
+The classic rule of thumb from large format photography applies here as well:
+- At infinity focus, the focus distance is equal to the **focal length** of the lens.
+- At 1:1 magnification (where the projected image size matches the object size), the focus distance equals **2× the focal length**.
+
+In typical use, axis **V** is set automatically by the `splicer-animator` script at export and does not require manual control. The value of **V** is determined by the `Y-axis` and the `focus-offset` parameter defined in the `splicer-animator` for the corresponding line.
 
 
-**Axis A**
-Joint 6, step-gen 1
-
-Axis A is controlling the B Motor of the 
