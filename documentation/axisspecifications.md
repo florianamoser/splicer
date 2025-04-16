@@ -1,7 +1,10 @@
 IMAGE OF AXIS
 
 Each axis on Splicer is identified by a letter, a joint number, and a step generator (step-gen) number. The joint and step-gen numbers are primarily relevant during initial configuration or for debugging purposes. They are included here solely for the sake of completeness. The axis letters follow standard CNC axis naming conventions (A, B, C, X, Y, Z, U, V, W) and cannot be arbitrarily assigned.  
-Special cases include axes Z, A, and B. In software, axis Z simultaneously controls two physical motors on the machine. Axes A and B in software control two motors via a CoreXY kinematic translation. The corresponding physical motors are also labeled A and B; however, they do not correspond to software axes A and B. This distinction is only relevant during the configuration of Splicer. Although the naming scheme is suboptimal, it cannot be changed due to the constraints of the CNC axis naming convention and the CoreXY naming convention. This has no impact during normal operation.
+
+!!! tip "This has no impact during normal operation."
+    
+    Special cases include axes Z, A, and B. In software, axis Z simultaneously controls two physical motors on the machine. Axes A and B in software control two motors via a CoreXY kinematic translation. The corresponding physical motors are also labeled A and B; however, they do not correspond to software axes A and B. This distinction is only relevant during the configuration of Splicer. Although the naming scheme is suboptimal, it cannot be changed due to the constraints of the CNC axis naming convention and the CoreXY naming convention. 
 
 ***
 
@@ -70,8 +73,10 @@ In standard use, axis **V** is set automatically by the `splicer-animator` scrip
 
 ### **A-Axis, B-Axis**
 
-!!! warning "Axis A and B denominates different things in software and hardware! Axis A (software) does not directly to motor A due to CoreXY Kinematics."  
- 
+!!! warning "A and B refer to different things in software and hardware"
+
+    Axis **A** (software) does **not** directly correspond to motor **A** due to the use of **CoreXY kinematics**. Similarly, axis **B** (software) is also abstracted. Always refer to the configuration documentation when working with these axes to avoid confusion. 
+
 > **A and B Axis:**
 > **Unit**: mm
 >
