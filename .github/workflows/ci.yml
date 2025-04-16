@@ -27,4 +27,6 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material mkdocs-to-pdf mkdocs-glightbox
+      - run: mkdocs gh-deploy --force
+
   #    - run: ENABLE_PDF_EXPORT=1 mkdocs gh-deploy --force
