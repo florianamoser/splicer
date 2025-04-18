@@ -2,12 +2,12 @@ ADD SCREENSHOT FILTER CHANGER
 
 ### Monochrome Capture
 
-![splicer sensor spectral sensitivity](/splicer/assets/mono-and-rgb_1.png){ align=center, width="450" }  
+![splicer sensor spectral sensitivity](/splicer/assets/mono-and-rgb_1.png){ align=left, width="450" }  
 *Splicer sensor spectral sensitivity[^1]*   
 
 The Splicer's line sensor is monochrome and exhibits sensitivity in the infrared (IR) spectrum. To ensure accurate image capture, a UV/IR blocking filter is installed in the optical path behind the lens, preventing unwanted spectral tinting the output.   
 
-![UV&IR Cut Filter Transmission curve](/splicer/assets/mono-and-rgb_2.png){ align=center, width="450" }   
+![UV&IR Cut Filter Transmission curve](/splicer/assets/mono-and-rgb_2.png){ align=left, width="450" }   
 *Transmission Curve of Hoya UV & IR cut filter[^2]*
 
 ***
@@ -44,15 +44,15 @@ The current RGB separation filters are 75 × 75 mm gel filters from Lee Filter
 These reference numbers follow the Kodak Wratten 2[^5] naming scheme.  
 As of now, these specific filters appear to be discontinued. A potential, but  more costly, replacement could be glass filters available from Edmund Optics.  
 
-![Kodak Wratten 2 #25 Transmission Curve](/splicer/assets/mono-and-rgb_3.png){ align=center, width ="450" }  
+![Kodak Wratten 2 #25 Transmission Curve](/splicer/assets/mono-and-rgb_3.png){ align=left, width="450" }  
 *Kodak Wratten 2, red #25 Transmission Curve[^5]*  
 
 
-![Kodak Wratten 2 #58 Transmission Curve](/splicer/assets/mono-and-rgb_4.png){ align=center, width ="450" }  
+![Kodak Wratten 2 #58 Transmission Curve](/splicer/assets/mono-and-rgb_4.png){ align=left, width="450" }  
 *Kodak Wratten 2, red #58 Transmission Curve[^6]*  
 
 
-![Kodak Wratten 2 #47 Transmission Curve](/splicer/assets/mono-and-rgb_5.png){ align=center, width ="450" }  
+![Kodak Wratten 2 #47 Transmission Curve](/splicer/assets/mono-and-rgb_5.png){ align=left, width="450" }  
 *Kodak Wratten 2, red #47 Transmission Curve[^7]*  
 
 !!! tip "RGB Filter Wheel"
