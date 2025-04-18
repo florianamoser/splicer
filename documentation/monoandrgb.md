@@ -1,7 +1,9 @@
-SCREENSHOT FILTER CHANGER
+ADD SCREENSHOT FILTER CHANGER
 
-![splicer sensor spectral sensitivity](/splicer/assets/mono-and-rgb_1.png){ align=left }  
-Splicer sensor spectral sensitivity[^1]
+![splicer sensor spectral sensitivity](/splicer/assets/mono-and-rgb_1.png){ align=left, width="300" }  
+///
+Splicer sensor spectral sensitivity[^1]  
+///
 
 Splicer' line sensor is monochrome. The monochrome sensor has sensitivity into IR spectrum. Therefore a UV / IR filter blocking filter is installed in the optical path behind the lens.
 
