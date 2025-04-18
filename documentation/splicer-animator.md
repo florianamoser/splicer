@@ -5,7 +5,7 @@
 !!! tip "Prerequisite to run splicer-animator"  
 
     The script has so far only been tested on MacOS. When starting Blender from the application launcher, the splicer-animation-script is not able to write the GCODE to the harddisk. Blender needs to be started from the command line. Follow the link below for more informations on how to start blender from the command line.  
-    [Blender Documentation MacOS: Launching from the command line](https://docs.blender.org/manual/en/latest/advanced/command_line/launch/macos.html)
+    [Blender Documentation MacOS: Launching from the command line](https://docs.blender.org/manual/en/latest/advanced/command_line/launch/macos.html){:target="_blank"}  
 
 ***
 
@@ -18,7 +18,7 @@
 2. **Blender Outliner**: Select between the **Camera** and the **Sample** object.  
 3. **Overview**: The **origin of the scene** is located at the **aperture of the Splicer's lens**. The **black triangle** represents the view cone of the **line sensor**.  
 4. **Camera View**: Displays the scene from the **camera's perspective**. The **gray line** in the center of the viewport indicates the region captured by the sensor.  
-5. **Graph Editor**: Used to **animate the movement** of splicer's axes.
+5. **Graph Editor**: Used to **animate the movement** of splicer's axes.  
 
 ***
 
@@ -27,14 +27,13 @@
 ![splicer animator in blender: Aspect Ratio](/splicer/assets/splicer-animator-2.png){ align=left }  
 *Click on image to enlarge*
 
-
 !!! tip "Aspect Ratio of the Image"
 
     To start a new image, decide first on the aspect ratio of the image. The sensor has 8096 by 1 pixels. A square image (Aspect Ratio 1:1) requires therefore 8096 lines (equal to 8096 frames in Blender. The terms **"lines"** and **"frames"** are used interchangeably.). An horizontal image with the ratio 4:5 therefore requires `8096 / 4 * 5 = 10120` frames in Blender and results in an output image of about 82 Megapixel.  
 
 1. **Select the Camera object** in the Blender Outliner.
 2. Set the **Frame Range → End** value to the desired image length.
-3. Adjust the **Preview Range** to match the updated frame range as needed.
+3. Adjust the **Preview Range** to match the updated frame range as needed.  
 
 ***
 
@@ -42,7 +41,6 @@
 
 ![splicer animator in blender: Animate Sample](/splicer/assets/splicer-animator-3.png){ align=left }  
 *Click on image to enlarge*
-
 
 !!! tip "Read the chapter "Axis Specification" before starting animation"
 
@@ -69,7 +67,7 @@
 
 !!! tip "Working Iteratively"
 
-    After creating an initial rough animation, it is often useful to work on smaller frame ranges to fine-tune specific sections of the image.  To do this, adjust the **Start Frame**, **End Frame**, and **Preview Range** settings in the Camera configuration panel. Once the adjustments are complete, switch back to the **full frame range** for the final capture.
+    After creating an initial rough animation, it is often useful to work on smaller frame ranges to fine-tune specific sections of the image.  To do this, adjust the **Start Frame**, **End Frame**, and **Preview Range** settings in the Camera configuration panel. Once the adjustments are complete, switch back to the **full frame range** for the final capture.  
 
 ***
 

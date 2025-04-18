@@ -18,6 +18,8 @@ nav:
     - Sample Selection Guidelines: samplerequirements.md
     - Axis Specification: axisspecifications.md
     - Controlling Splicer: splicer-animator.md
+    - Image Capture Software: imagecapture.md
+    - Monochrome and RGB Capture: monoandrgb.md
     # - Monochrome and tri-color capture: monocolorcapture.md
     # - Merging tri-color capture images: mergingcolorimages.md
 
