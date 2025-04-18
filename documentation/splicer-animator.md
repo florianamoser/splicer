@@ -2,28 +2,31 @@
 
 [Click here for current release of the splicer-animator](https://github.com/florianamoser/splicer/tree/main/software/animator)
 
-
 !!! tip "Prerequisite to run splicer-animator"  
 
     The script has so far only been tested on MacOS. When starting Blender from the application launcher, the splicer-animation-script is not able to write the GCODE to the harddisk. Blender needs to be started from the command line. Follow the link below for more informations on how to start blender from the command line.  
     [Blender Documentation MacOS: Launching from the command line](https://docs.blender.org/manual/en/latest/advanced/command_line/launch/macos.html)
 
+***
+
+**Splicer-animator Interface Overview**
 
 ![splicer animator in blender: overview](/splicer/assets/splicer-animator-1.png){ align=left }  
 *Click on image to enlarge*
-
-**Splicer-animator Interface Overview**
 
 1. **Tabs**: Switch between **Animator** and **Export Script** workspace.  
 2. **Blender Outliner**: Select between the **Camera** and the **Sample** object.  
 3. **Overview**: The **origin of the scene** is located at the **aperture of the Splicer's lens**. The **black triangle** represents the view cone of the **line sensor**.  
 4. **Camera View**: Displays the scene from the **camera's perspective**. The **gray line** in the center of the viewport indicates the region captured by the sensor.  
-5. **Graph Editor**: Used to **animate the movement** of splicer's axes.  
+5. **Graph Editor**: Used to **animate the movement** of splicer's axes.
+
+***
+
+**Splicer-animator Aspect Ratio**
 
 ![splicer animator in blender: Aspect Ratio](/splicer/assets/splicer-animator-2.png){ align=left }  
 *Click on image to enlarge*
 
-**Splicer-animator Aspect Ratio**
 
 !!! tip "Aspect Ratio of the Image"
 
@@ -33,27 +36,28 @@
 2. Set the **Frame Range → End** value to the desired image length.
 3. Adjust the **Preview Range** to match the updated frame range as needed.
 
-![splicer animator in blender: Animate Sample](/splicer/assets/splicer-animator-3.png){ align=left }  
-*Click on image to enlarge*
+***
 
 **Splicer-animator Animate Sample**
 
-!!! tip "Read `Axis Specification` before animation"
+![splicer animator in blender: Animate Sample](/splicer/assets/splicer-animator-3.png){ align=left }  
+*Click on image to enlarge*
+
+
+!!! tip "Read the chapter "Axis Specification" before starting animation"
 
 1. **Select the Sample object** in the Blender Outliner.  
 2. Set the **Sample object dimensions** to match the physical dimensions of the actual sample.  
 3. Move the **Cursor** to the desired line position.  
 4. Alternatively, jump directly to a specific line position by entering the exact line number.  It is recommended to begin by setting keyframes at major intervals (e.g., `0`, `1000`, `2000`, etc.) and aligning keyframes between different axis before refining the animation with additional detail.  
-5. Adjust the **position of each axis** as required.  
+5. Adjust the **position of each axis** as required. A **gray background** indicates that no keyframes are present for that axis. A **green background** indicates that keyframes are present, but not at the current cursor position. A **yellow background** indicates that keyframes are present at the current cursor position for the selected axis.  
 
-   - A **gray background** indicates that no keyframes are present for that axis.   
-   - A **green background** indicates that keyframes are present, but not at the current cursor position.  
-   - A **yellow background** indicates that keyframes are present at the current cursor position for the selected axis.  
+***
+
+**Splicer-animator Export Gcode**
 
 ![splicer animator in blender: Export Gcode](/splicer/assets/splicer-animator-4.png){ align=left }  
 *Click on image to enlarge*
-
-**Splicer-animator Export Gcode**
 
 1. Select the **Export Script** workspace.
 2. Set the **Name Variable** to the desired image title.
@@ -66,6 +70,22 @@
 !!! tip "Working Iteratively"
 
     After creating an initial rough animation, it is often useful to work on smaller frame ranges to fine-tune specific sections of the image.  To do this, adjust the **Start Frame**, **End Frame**, and **Preview Range** settings in the Camera configuration panel. Once the adjustments are complete, switch back to the **full frame range** for the final capture.
+
+***
+
+**Splicer-animator Check Export and Debugging**
+
+![splicer animator in blender: Check Export and Debugging](/splicer/assets/splicer-animator-5.png){ align=left }  
+*Click on image to enlarge*
+
+!!! tip "Export Debugging"
+
+    If no Gcode file is generated, check the **Terminal** for messages. Setting `debug = True` in the export script enables verbose output, providing detailed information about the values being written to the Gcode file.
+
+
+
+
+
 
 
 
