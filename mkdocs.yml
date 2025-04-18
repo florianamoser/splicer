@@ -11,22 +11,52 @@ docs_dir: documentation
 
 # Navigation
 nav:
-  - Welcome:
-    - Overview: README.md 
-    - Abstract: abstract.md
+  - Abstract: abstract.md
+  - Introduction: 
+    - About this manual: 
+    - About me: 
+    - Why splicer:
+    - About splicer:
+    - How splicer works:
+  - Theory:
+  - Acknowledgements:
+  - Specifications:
+    - Naming Convention:
+    - Physical Dimension:
+    - Axis Specification: axisspecifications.md
+    - Image Output:
+    - Light needed:
+  - Building splicer:
+    - Tools:
+    - Start:
+    - Lens choice:
+    - Sensor choice:
+    - RGB Trichromy filter choice:
+    - Sourcing Parts:
+    - Building Aluminium Structure:
+    - Wiring:
+    - Gcode Specifications:
+  - Initial Startup:
+    - Placement and leveling of machine:
+    - Initial calibration of axis:
+    - Frame grabber settings:
+    - Sensor settings and calibration:
   - Using Splicer: 
     - Sample Selection Guidelines: samplerequirements.md
-    - Axis Specification: axisspecifications.md
     - Controlling Splicer: splicer-animator.md
     - Image Capture Software: imagecapture.md
     - Monochrome and RGB Capture: monoandrgb.md
+  - Checklists:
+    - Setting up for Transport: checklist-transport.md
+    - Setting up after Transport: checklist-after-transport.md
+    - Before startup: checklist-startup.md
+  - Splicer Conversations:
+    - Methodology:
+    - Conversation 1 Charles Kwong:
+    - Conversation 2 Lukas Schmid:
+  
     # - Monochrome and tri-color capture: monocolorcapture.md
     # - Merging tri-color capture images: mergingcolorimages.md
-
-  # - Steps:
-  #   - 1 MkDocs installation on Mac: steps/1-MkDocs-installation-on-Mac.md 
-  #   - 2 Verify your documentation and build the pages: steps/2-Verify-your-documentation-and-build-the-pages.md
-  #   - 3 Setup the integration to your GitHub project: steps/3-Setup-the-integration-to-your-GitHub-project.md
 
 ## DO NOT CHANGE BELOW THIS LINE
 
