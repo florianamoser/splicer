@@ -13,6 +13,7 @@ docs_dir: documentation
 nav:
   - Welcome: 
     - Abstract: abstract.md
+    - Acknowledgements: placeholder.md
   - Introduction: 
     - About this manual: placeholder.md 
     - About me: placeholder.md
@@ -21,7 +22,6 @@ nav:
     - How splicer works: placeholder.md
   - Theory:
     - a: placeholder.md
-  - Acknowledgements: placeholder.md
   - Specifications: 
     - Naming Convention: placeholder.md
     - Physical Dimension: placeholder.md
