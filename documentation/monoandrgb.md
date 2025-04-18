@@ -49,11 +49,11 @@ As of now, these specific filters appear to be discontinued. A potential, but  m
 
 
 ![Kodak Wratten 2 #58 Transmission Curve](/splicer/assets/mono-and-rgb_4.png){ align=left, width="450" }  
-*Kodak Wratten 2, red #58 Transmission Curve[^6]*  
+*Kodak Wratten 2, green #58 Transmission Curve[^6]*  
 
 
 ![Kodak Wratten 2 #47 Transmission Curve](/splicer/assets/mono-and-rgb_5.png){ align=left, width="450" }  
-*Kodak Wratten 2, red #47 Transmission Curve[^7]*  
+*Kodak Wratten 2, blue #47 Transmission Curve[^7]*  
 
 !!! tip "RGB Filter Wheel"
 
