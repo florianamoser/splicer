@@ -13,34 +13,35 @@ docs_dir: documentation
 nav:
   - Abstract: abstract.md
   - Introduction: 
-    - About this manual: 
-    - About me: 
-    - Why splicer:
-    - About splicer:
-    - How splicer works:
+    - About this manual: placeholder.md 
+    - About me: placeholder.md
+    - Why splicer: placeholder.md
+    - About splicer: placeholder.md
+    - How splicer works: placeholder.md
   - Theory:
-  - Acknowledgements:
-  - Specifications:
-    - Naming Convention:
-    - Physical Dimension:
+    - a: placeholder.md
+  - Acknowledgements: placeholder.md
+  - Specifications: 
+    - Naming Convention: placeholder.md
+    - Physical Dimension: placeholder.md
     - Axis Specification: axisspecifications.md
-    - Image Output:
-    - Light needed:
+    - Image Output: placeholder.md
+    - Light needed: placeholder.md
   - Building splicer:
-    - Tools:
-    - Start:
-    - Lens choice:
-    - Sensor choice:
-    - RGB Trichromy filter choice:
-    - Sourcing Parts:
-    - Building Aluminium Structure:
-    - Wiring:
-    - Gcode Specifications:
+    - Tools: placeholder.md
+    - Start: placeholder.md
+    - Lens choice: placeholder.md
+    - Sensor choice: placeholder.md
+    - RGB Trichromy filter choice: placeholder.md
+    - Sourcing Parts: placeholder.md
+    - Building Aluminium Structure: placeholder.md
+    - Wiring: placeholder.md
+    - Gcode Specifications: placeholder.md
   - Initial Startup:
-    - Placement and leveling of machine:
-    - Initial calibration of axis:
-    - Frame grabber settings:
-    - Sensor settings and calibration:
+    - Placement and leveling of machine: placeholder.md
+    - Initial calibration of axis: placeholder.md
+    - Frame grabber settings: placeholder.md
+    - Sensor settings and calibration: placeholder.md
   - Using Splicer: 
     - Sample Selection Guidelines: samplerequirements.md
     - Controlling Splicer: splicer-animator.md
@@ -52,8 +53,8 @@ nav:
     - Before startup: checklist-startup.md
   - Splicer Conversations:
     - Methodology:
-    - Conversation 1 Charles Kwong:
-    - Conversation 2 Lukas Schmid:
+    - Conversation 1 Charles Kwong: placeholder.md
+    - Conversation 2 Lukas Schmid: placeholder.md
   
     # - Monochrome and tri-color capture: monocolorcapture.md
     # - Merging tri-color capture images: mergingcolorimages.md
