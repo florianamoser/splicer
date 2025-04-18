@@ -11,7 +11,8 @@ docs_dir: documentation
 
 # Navigation
 nav:
-  - Abstract: abstract.md
+  - Welcome: 
+    - Abstract: abstract.md
   - Introduction: 
     - About this manual: placeholder.md 
     - About me: placeholder.md
