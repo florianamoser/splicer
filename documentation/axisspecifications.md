@@ -12,7 +12,7 @@ Each axis on Splicer is identified by a letter, a joint number, and a step gener
 
 | Joint | Step-gen | Units | Axis Origin | Min. Value | Max. Value |
 |---|---|---|---|---|---|
-| 0 | 5 | [mm] | Optical Centerline | 00 | 00 |  
+| `0` | `5` | `mm` | `Optical Centerline` | `-254` | `254` |  
 
 From the perspective of the lens, `X` controls the left-to-right movement of the sample. Its origin is aligned with the optical centerline of the lens. `X < 0` move the sample to the left, while `X > 0` move it to the right.
 
@@ -22,7 +22,7 @@ From the perspective of the lens, `X` controls the left-to-right movement of the
 
 | Joint | Step-gen | Units | Axis Origin | Min. Value | Max. Value |
 |---|---|---|---|---|---|
-| 1 | 6 | [mm] | Lensboard | 00 | 00 |  
+| `1` | `6` | `mm` | `Lensboard` | `130` | `1100` |  
 
 From the perspective of the lens, `Y`**` controls the distance to the sample. Its origin is located at the lens board of Splicer. Smaller values position the sample closer to the lens, while larger values move it farther away. The `Y-Axis` corresponds to the depth dimension in the captured image.
 
@@ -32,11 +32,11 @@ From the perspective of the lens, `Y`**` controls the distance to the sample. It
 
 | Joint (Z-Motor Right) | Step-gen (Z-Motor Right) | Units | Axis Origin | Min. Value | Max. Value |
 |---|---|---|---|---|---|
-| `2` | `7` | `[mm]` | `Lensboard` | 00 | 00 |  
+| `2` | `7` | `[mm]` | `Lensboard` | `-100` | `440` |  
 
 | Joint (Z-Motor Left) | Step-gen (Z-Motor Left) | Units | Axis Origin | Min. Value | Max. Value |
 |---|---|---|---|---|---|
-| `3` | `8` | `[mm]` | `Lensboard` | 00 | 00 |  
+| `3` | `8` | `[mm]` | `Lensboard` | `-100` | `440` |  
 
 From the perspective of the lens, `Z` controls the vertical position (height) of the sample. Its origin lies along the optical centerline of the lens, at the top side of the sample post. Negative values position the camera below the sample; positive values position it above. When the line sensor is in vertical orientation (`U = 0`), the `Z Axis` corresponds to the vertical position of the sample in the captured image.
 
@@ -52,13 +52,13 @@ From the perspective of the lens, `Z` controls the vertical position (height) of
 
 | Joint (A-Motor) | Step-gen (A-Motor) | Units | Axis Origin | Min. Value | Max. Value |
 |---|---|---|---|---|---|
-| `6` | `1` | `mm` | `Optical Axis` | `00` | `00` |  
+| `6` | `1` | `mm` | `Optical Axis` | `-105` | `105` |  
 
 **B-Axis**  
 
 | Joint (B-Motor) | Step-gen (B-Motor) | Units | Axis Origin | Min. Value | Max. Value |
 |---|---|---|---|---|---|
-| `7` | `2` | `mm` | `Optical Axis` | `00` | `00` | 
+| `7` | `2` | `mm` | `Optical Axis` | `-80` | `80` | 
 
 From the perspective of the lens:
 
@@ -82,7 +82,7 @@ For example, a command to “look up” (i.e., a positive shift on Axis A) resul
 
 | Joint | Step-gen | Units | Axis Origin | Min. Value | Max. Value |
 |---|---|---|---|---|---|
-| `4` | `4` | `Degrees` | `Vertical Axis of Sample` | `00` | `00` |  
+| `4` | `4` | `Degrees` | `Vertical Axis of Sample` | `-3600` | `3600` |  
 
 From the perspective of the lens, `C` controls the rotation of the sample around the vertical axis. Positive values rotate the sample clockwise; negative values rotate it counterclockwise.
 
@@ -106,7 +106,7 @@ Care must be taken to monitor cable tension and routing behind the sensor carria
 
 | Joint | Step-gen | Units | Axis Origin | Min. Value | Max. Value |
 |---|---|---|---|---|---|
-| `5` | `0` | `mm` | `Lensboard` | `00` | `00` |  
+| `5` | `0` | `mm` | `Lensboard` | `53` | `275` |  
 
 `V` controls the autofocus mechanism of Splicer.
 

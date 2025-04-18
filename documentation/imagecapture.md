@@ -1,0 +1,1 @@
+write about settings in sapera explorer
