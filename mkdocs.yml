@@ -1,6 +1,6 @@
 # Project information
 site_name: splicer
-site_url: https://florianamoser.github.io/splicer/abstract
+site_url: https://florianamoser.github.io/splicer/
 site_author: Florian Amoser
 
 # Repository
@@ -11,7 +11,7 @@ docs_dir: documentation
 
 # Navigation
 nav:
-  - Home: abstract.md
+  - Abstract: README.md
   #   - Acknowledgements: placeholder.md
   # - Introduction: 
   #   - About this manual: placeholder.md 
