@@ -74,9 +74,10 @@ theme:
   # icon:
   #   logo: assets/splicer_logo_white.png
   features:
-    # - navigation.tabs
+    - navigation.tabs
     - navigation.instant
     - navigation.expand
+    - navigation.footer
   palette:
     scheme: default
     primary: black
