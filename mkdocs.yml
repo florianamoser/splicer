@@ -72,7 +72,7 @@ theme:
     text: Space Grotesk
     code: Space Mono
   # icon:
-    logo: /assets/splicer_logo_white.png
+    logo: assets/splicer_logo_white.png
   features:
     - navigation.tabs
     - navigation.instant
@@ -85,7 +85,7 @@ theme:
     primary: black
     accent: red
   extra:
-    homepage: https://github.com/florianamoser/splicer/tree/gh-pages
+    #homepage: https://github.com/florianamoser/splicer/tree/gh-pages
     
 copyright: Copyright &copy; 2025 Florian Amoser
 
