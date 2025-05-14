@@ -11,8 +11,7 @@ docs_dir: documentation
 
 # Navigation
 nav:
-  - Welcome: 
-    - Abstract: abstract.md
+  - Home: abstract.md
   #   - Acknowledgements: placeholder.md
   # - Introduction: 
   #   - About this manual: placeholder.md 
@@ -71,20 +70,21 @@ theme:
   font:
     text: Space Grotesk
     code: Space Mono
+  favicon: assets/favicon.png
   logo: assets/splicer_logo_white.svg
   features:
     - navigation.tabs
     - navigation.instant
     - navigation.expand
     - navigation.footer
-    - navigation.path
     - navigation.top 
+    - navigation.path
   palette:
     scheme: default
     primary: black
     accent: red
   extra:
-    homepage: https://splicer.camera
+    homepage: https://www.splicer.camera
     
 copyright: Copyright &copy; 2025 Florian Amoser
 
