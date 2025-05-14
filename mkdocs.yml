@@ -11,24 +11,25 @@ docs_dir: documentation
 
 # Navigation
 nav:
-  - Home: README.md
   - Getting started: 
+      - Abstract: README.md
       - Acknowledgements: placeholder.md
+  - Introduction: 
       - About this manual: placeholder.md 
   #   - About me: placeholder.md
   #   - Why splicer: placeholder.md
   #   - About splicer: placeholder.md
   #   - How splicer works: placeholder.md
-  - Theory:
-      - a: placeholder.md
+  # - Theory:
+  #   - a: placeholder.md
   - Specifications: 
     # - Naming Convention: placeholder.md
     # - Physical Dimension: placeholder.md
     - Axis Specification: axisspecifications.md
   #   - Image Output: placeholder.md
   #   - Light needed: placeholder.md
-  - Building splicer:
-      - Tools: placeholder.md
+  # - Building splicer:
+  #   - Tools: placeholder.md
   #   - Start: placeholder.md
   #   - Lens choice: placeholder.md
   #   - Sensor choice: placeholder.md
@@ -37,7 +38,7 @@ nav:
   #   - Building Aluminium Structure: placeholder.md
   #   - Wiring: placeholder.md
   #   - Gcode Specifications: placeholder.md
-  - Initial Startup:
+  # - Initial Startup:
   #   - Placement and leveling of machine: placeholder.md
   #   - Initial calibration of axis: placeholder.md
   #   - Frame grabber settings: placeholder.md
@@ -51,7 +52,7 @@ nav:
     - Setting up for Transport: checklist-transport.md
     - Setting up after Transport: checklist-after-transport.md
     - Before startup: checklist-startup.md
-  - Conversations:
+  - Splicer Conversations:
     - Methodology: placeholder.md
     - Conversation 1 Charles Kwong: placeholder.md
     - Conversation 2 Lukas Schmid: placeholder.md
