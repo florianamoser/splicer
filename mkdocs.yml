@@ -11,10 +11,9 @@ docs_dir: documentation
 
 # Navigation
 nav:
-  - Home: 
-      - Abstract: README.md
+  - Home: README.md
+  - Getting started: 
       - Acknowledgements: placeholder.md
-  - Introduction: 
       - About this manual: placeholder.md 
   #   - About me: placeholder.md
   #   - Why splicer: placeholder.md
