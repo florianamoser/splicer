@@ -169,6 +169,11 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.smartsymbols
+  - pymdownx.pathconverter:
+      base_path: 'YOUR_REPO_NAME' # default: ''
+      relative_path: '' # default ''
+      absolute: true # default: false
+      tags: 'a script img link object embed'
   - pymdownx.snippets:
       check_paths: true
   - pymdownx.superfences:
