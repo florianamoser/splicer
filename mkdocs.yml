@@ -83,8 +83,8 @@ theme:
     scheme: default
     primary: black
     accent: red
-  #extra:
-    #homepage: https://github.com/florianamoser/splicer/tree/gh-pages
+  extra:
+    homepage: https://splicer.camera
     
 copyright: Copyright &copy; 2025 Florian Amoser
 
