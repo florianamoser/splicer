@@ -1,6 +1,6 @@
 ### Tools required
-- Allen key (size 5)
-- Allen key (size 2.5)
+- Hex key (size 5)
+- Hex key (size 2.5)
 - Bubble level
 
 ### Checklist
