@@ -82,6 +82,7 @@ theme:
     scheme: default
     primary: black
     accent: red
+  copyright: Copyright &copy; 2025 Florian Amoser
 
 # Plugins
 plugins:
