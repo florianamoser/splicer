@@ -28,12 +28,12 @@ nav:
     - Splicer: theory-4.md
   - Specifications: 
     - Operational Principles of Splicer: operationprinciples.md
-    - Naming Convention: namingconventions.md
     - Physical Dimension: physicaldimensions.md
+    - Naming Convention: namingconventions.md
     - Axis Specification: axisspecifications.md
+    - Image Output: imageoutput.md
     - Light Requirements: lightrequirements.md
     - Link to Relevant Manuals: linkmanuals.md
-  #   - Image Output: placeholder.md
   - Building splicer:
     - Tools: placeholder.md
   #   - Start: placeholder.md

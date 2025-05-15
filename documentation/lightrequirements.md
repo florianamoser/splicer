@@ -26,7 +26,7 @@ The RGB trichromatic filter system in the optical path introduces additional lig
 - Sample size  
 - Desired acquisition speed
 
-> ⚠️ **Avoid flickering**: Some dimming circuits introduce flicker at high frame rates, causing visible banding in the final image. To prevent this, operate flickerprone lights at full power. Adjust intensity by changing the **distance** between the light source and the subject — not via dimming controls.
+> **Avoid flickering**: Some dimming circuits introduce flicker at high frame rates, causing visible banding in the final image. To prevent this, operate flickerprone lights at full power. Adjust intensity by changing the **distance** between the light source and the subject — not via dimming controls.
 
 ---
 
@@ -34,4 +34,4 @@ The RGB trichromatic filter system in the optical path introduces additional lig
 
 Use **diffusion foils** or other translucent materials to build a lightbox around the sample. This softens shadows and helps achieve even lighting. The configuration should be adapted based on the sample’s optical properties and fragility.
 
-> 💡 **Thermal caution**: Bright, focused lights can generate heat. Use care with **heat-sensitive or delicate materials** to prevent damage or deformation. Monitor temperature during prolonged exposure.
+> **Thermal caution**: Bright, focused lights can generate heat. Use care with **heat-sensitive or delicate materials** to prevent damage or deformation. Monitor temperature during prolonged exposure.
