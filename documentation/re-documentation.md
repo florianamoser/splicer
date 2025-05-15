@@ -5,3 +5,6 @@ This is a fictional email exchange that stages the internal frictions and cross-
 
 ![Re: Documentation Splicer: Assistant](/splicer/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-Assistant.png){ align=left }  
 *Click on image to enlarge*
+
+![Re: Documentation Splicer: Theorist](/splicer/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-Theorist.jpg){ align=left }  
+*Click on image to enlarge*
