@@ -16,6 +16,14 @@ Schneider Componon-S 80mm f/4.0</a>
 <a href="https://linuxcnc.org/docs/stable/html/" target="_blank" rel="noopener noreferrer">
 LinuxCNC Stable Documentation</a>
 
+### Manual: Mesa Motion Control Interface 
+<a href="https://www.mesanet.com/pdf/parallel/7i96man.pdf" target="_blank" rel="noopener noreferrer">
+Mesa 7i96 Step/Dir Motion Control Interface</a>
+
+### Manual: Mesa Motion Control Interface  
+<a href="https://www.mesanet.com/pdf/parallel/7i78man.pdf" target="_blank" rel="noopener noreferrer">
+Mesa 7i78 Step/Dir Plus I/O Daughtercard</a>
+
 ### HAL Config: LinuxCNC CoreXY with Mesa 7i96  
 <a href="https://github.com/antonchromjak/corexy_by_hal-with-mesa-7i96-config" target="_blank" rel="noopener noreferrer">
 CoreXY by HAL with Mesa 7i96 (GitHub)</a>

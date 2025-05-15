@@ -64,7 +64,8 @@ nav:
     - Methodology: conversation-methodology.md
     # - "Conversation 1: Charles Kwong": placeholder.md
     # - "Conversation 2: Lukas Schmid": placeholder.md
-  - Outlook: outlook.md 
+  - Outlook: 
+    - Outlook: outlook.md 
   
     # - Monochrome and tri-color capture: monocolorcapture.md
     # - Merging tri-color capture images: mergingcolorimages.md
@@ -110,7 +111,7 @@ plugins:
       cover_title: Splicer Manual
       cover_subtitle: Refer to the digital version on documentation.splicer.camera for the latest version.
       cover_logo: assets/splicer_logo_black.svg
-      custom_template_path: TEMPLATES PATH
+      custom_template_path: templates/
       #
       toc_title: Table of Contents
       heading_shift: false
