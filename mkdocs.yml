@@ -27,12 +27,12 @@ nav:
     - Grounded Apparatus, Situated Image: theory-3.md
     - Splicer: theory-4.md
   - Specifications: 
-    # - Naming Convention: placeholder.md
-    # - Physical Dimension: placeholder.md
+    - Naming Convention: namingconventions.md
+    - Physical Dimension: physicaldimensions.md
     - Axis Specification: axisspecifications.md
+    - Link to Relevant Manuals: linkmanuals.md
   #   - Image Output: placeholder.md
   #   - Light needed: placeholder.md
-    - Link to Relevant Manuals: linkmanuals.md
   - Building splicer:
     - Tools: placeholder.md
   #   - Start: placeholder.md
