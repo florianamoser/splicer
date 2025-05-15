@@ -109,6 +109,7 @@ plugins:
       back_cover: false
       cover_title: Splicer Manual
       cover_subtitle: Refer to the digital version on documentation.splicer.camera for the latest version.
+      cover_logo: assets/splicer_logo_black.svg
       custom_template_path: TEMPLATES PATH
       #
       toc_title: Table of Contents
@@ -132,7 +133,7 @@ plugins:
       render_js: true
       headless_chrome_path: chromium
       #
-      output_path: Splicer_Manual.pdf
+      output_path: FlorianAmoser_Splicer_Manual.pdf
       enabled_if_env: ENABLE_PDF_EXPORT
       #
       debug_html: true
