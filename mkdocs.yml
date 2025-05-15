@@ -12,16 +12,16 @@ docs_dir: documentation
 # Navigation
 nav:
   - Abstract: 
-      - Abstract: README.md
-      - Acknowledgements: acknowledgements.md
-      - Print Version: printversion.md
-      - Licence: licence.md
-      - Changelog: changelog.md
+    - Abstract: README.md
+    - Acknowledgements: acknowledgements.md
+    - Print Version: printversion.md
+    - Licence: licence.md
+    - Changelog: changelog.md
   - Introduction: 
-      - Research Questions: researchquestions.md 
-      - Three Popes and the End of Indexicality: threepopes.md 
-      - Working Inside The Apparatus: workinginsidetheapparatus.md 
-      - "«Re: Documentation: Splicer»": re-documentation.md
+    - Research Questions: researchquestions.md 
+    - Three Popes and the End of Indexicality: threepopes.md 
+    - Working Inside The Apparatus: workinginsidetheapparatus.md 
+    - "«Re: Documentation: Splicer»": re-documentation.md
   - Theory:
     - From Window to Hyperobject: theory-1.md
     - From Seduction to Resonance: theory-2.md
@@ -36,8 +36,8 @@ nav:
     - Image Output: imageoutput.md
     - Light Requirements: lightrequirements.md
     - Link to Relevant Manuals: linkmanuals.md
-  - Building splicer:
-    - Tools: placeholder.md
+  - Building Splicer:
+    - Becoming Splicer: becomingsplicer.md
   #   - Start: placeholder.md
   #   - Lens choice: placeholder.md
   #   - Sensor choice: placeholder.md
@@ -61,7 +61,7 @@ nav:
       - Setting up after Transport: checklist-after-transport.md
       - Before startup: checklist-startup.md
   - Conversations:
-    - Methodology: 
+    - Methodology: conversation-methodology.md
     - "Conversation 1: Charles Kwong": placeholder.md
     - "Conversation 2: Lukas Schmid": placeholder.md
   - Outlook: outlook.md 
