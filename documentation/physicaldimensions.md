@@ -1,6 +1,4 @@
-## Physical Dimensions
-
-The Splicer is modular and designed for transport. It is possible to setup Splicer an studio-scale environment or larger. Below are the key dimensions and considerations for use and transport.
+Splicer is modular and designed for transport. Below are the key dimensions and considerations for use and transport.
 
 ### In Use
 
