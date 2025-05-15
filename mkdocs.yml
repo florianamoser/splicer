@@ -20,12 +20,12 @@ nav:
       - Research Questions: researchquestions.md 
       - Three Popes and the End of Indexicality: threepopes.md 
       - Working Inside The Apparatus: workinginsidetheapparatus.md 
-  #   - About me: placeholder.md
-  #   - Why splicer: placeholder.md
-  #   - About splicer: placeholder.md
-  #   - How splicer works: placeholder.md
+      - "«Re: Documentation: Splicer»": re-documentation.md
   - Theory:
-    - a: placeholder.md
+    - From Window to Hyperobject: theory-1.md
+    - From Seduction to Resonance: theory-2.md
+    - Grounded Apparatus, Situated Image: theory-3.md
+    - Splicer: theory-4.md
   - Specifications: 
     # - Naming Convention: placeholder.md
     # - Physical Dimension: placeholder.md
