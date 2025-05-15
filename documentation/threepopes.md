@@ -1,5 +1,5 @@
 ![Three Popes And The End Of Indexicality](/splicer/assets/FlorianAmoser_Splicer_ThreePopesAndTheEndOfIndexicality.webp){ align=left }  
-*Click on image to enlarge*
+*Click on image to enlarge*  
 Collage by the author. Images used under fair use for research and critical commentary. © Respective copyright holders.
 
 These three images serve as visual markers of a contextual shift that defines the ground on which I situate my artistic research within contemporary photography. They frame artistic inquiry against the backdrop of photography’s widespread popular use and circulation – ranging from smartphone snapshots to press photography and advertising. This everyday visual landscape constitutes the baseline from which critical artistic practice can begin: a field shaped by attention, repetition, and algorithmic distribution, and one that demands reflection, resistance, or reconfiguration.
