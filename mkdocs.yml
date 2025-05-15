@@ -29,7 +29,7 @@ nav:
     - Splicer: theory-4.md
     - References: theory-5.md
   - Specifications: 
-    - Operational Principles: operationprinciples.md
+    - Operational Principles: operationalprinciples.md
     - Physical Dimension: physicaldimensions.md
     - Naming Convention: namingconventions.md
     - Axis Specification: axisspecifications.md
@@ -62,8 +62,8 @@ nav:
       - Before startup: checklist-startup.md
   - Conversations:
     - Methodology: conversation-methodology.md
-    - "Conversation 1: Charles Kwong": placeholder.md
-    - "Conversation 2: Lukas Schmid": placeholder.md
+    # - "Conversation 1: Charles Kwong": placeholder.md
+    # - "Conversation 2: Lukas Schmid": placeholder.md
   - Outlook: outlook.md 
   
     # - Monochrome and tri-color capture: monocolorcapture.md

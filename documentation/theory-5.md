@@ -1,6 +1,6 @@
 Alloa, E. (2015). *Could Perspective Ever be a Symbolic Form?: Revisiting Panofsky with Cassirer*. *Journal of Aesthetics and Phenomenology*, 2(1), 51–71. https://doi.org/10.1080/20539320.2015.11428459  
 
-Azulai, A. (2015). *Civil Imagination: A Political Ontology of Photography*. Verso UK.  
+Azulay, A. (2015). *Civil Imagination: A Political Ontology of Photography*. Verso UK.  
 
 Barthes, R. (2024). *Die helle Kammer: Bemerkung zur Photographie* (D. Leube, Trans.; 19. Auflage). Suhrkamp.  
 
