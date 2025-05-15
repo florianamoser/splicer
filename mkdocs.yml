@@ -61,9 +61,10 @@ nav:
       - Setting up after Transport: checklist-after-transport.md
       - Before startup: checklist-startup.md
   - Conversations:
-    - Methodology: placeholder.md
-    - Conversation 1 Charles Kwong: placeholder.md
-    - Conversation 2 Lukas Schmid: placeholder.md
+    - Methodology: 
+    - "Conversation 1: Charles Kwong": placeholder.md
+    - "Conversation 2: Lukas Schmid": placeholder.md
+  - Outlook: outlook.md 
   
     # - Monochrome and tri-color capture: monocolorcapture.md
     # - Merging tri-color capture images: mergingcolorimages.md

@@ -25,7 +25,7 @@ The total number of captured lines determines the height (or width, depending on
 - **Square image**:  
   Requires 8196 lines to match the sensor’s vertical resolution.  
   → **8196 × 8196 pixels**
-
+    
 - **4:5 aspect ratio** (landscape orientation):  
   Requires:  
   `8196 ÷ 4 × 5 = 10,245` lines  
