@@ -84,7 +84,7 @@ theme:
   favicon: assets/favicon.png
   logo: assets/splicer_logo_white.svg
   features:
-   #- navigation.tabs
+    - navigation.tabs
     - navigation.instant
     - navigation.expand
     - navigation.footer
@@ -111,7 +111,7 @@ plugins:
       cover_title: Splicer Manual
       cover_subtitle: Refer to the digital version on documentation.splicer.camera for the latest version.
       cover_logo: assets/splicer_logo_black.svg
-      custom_template_path: templates/
+      custom_template_path: templates
       #
       toc_title: Table of Contents
       heading_shift: false

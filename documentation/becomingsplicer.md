@@ -1,6 +1,6 @@
 The idea of Splicer began in 2018 after I started working at ECAL/University of Art and Design Lausanne and development continued through to 2025 as I completed my Master's at ZHdK/Zurich University of the Arts. Rather than progressing through clearly separated phases, the project evolved through an ongoing, iterative loop of experimentation, reflection, and adaptation. Major advancements occurred in 2020 to 2021 and again between 2023 to 2025 (during the Master Transdisciplinarity in the Arts at ZHdK), each driven by hands-on engagement with the device, its images, and their implications.
 
-![Splicer Concept Drawing, April 2019](/splicer/assets/FlorianAmoser_Splicer_ConceptDrawing_April2019.webp){ align=left }  
+![Splicer Concept Drawing, April 2019](https://github.com/florianamoser/splicer/tree/main/documentation/assets/FlorianAmoser_Splicer_ConceptDrawing_April2019.webp){ align=left }  
 Splicer Concept Drawing, April 2019  
 
 The early phase was characterized by a deep investigation into the individual components that make up a contemporary imaging system. Much of this time was spent acquiring the necessary technological expertise, reading through manuals, exploring a range of possible approaches and technologies – and working to fund the project.
