@@ -11,9 +11,11 @@ docs_dir: documentation
 
 # Navigation
 nav:
-  - Getting started: 
+  - Abstract: 
       - Abstract: README.md
-      - Acknowledgements: placeholder.md
+      - Acknowledgements: acknowledgements.md
+      - Licence: licence.md
+      - Changelog: changelog.md
   - Introduction: 
       - About this manual: placeholder.md 
   #   - About me: placeholder.md
