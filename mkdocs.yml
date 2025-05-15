@@ -103,18 +103,18 @@ plugins:
   - search
   - to-pdf:
       author: Florian Amoser
-      copyright: Florian Amoser
+      #copyright: Florian Amoser
       
       cover: true
       back_cover: false
-      cover_title: splicer owners manual
-      cover_subtitle: SUBTITLE TEXT
+      cover_title: Splicer Manual
+      cover_subtitle: Refer to the digital version on documentation.splicer.camera for the latest version.
       custom_template_path: TEMPLATES PATH
       #
-      toc_title: TOC TITLE TEXT
+      toc_title: Table of Contents
       heading_shift: false
       toc_level: 3
-      ordered_chapter_level: 2
+      ordered_chapter_level: 3
       #excludes_children:
       #    - 'release-notes/:upgrading'
       #    - 'release-notes/:changelog'
@@ -132,7 +132,7 @@ plugins:
       render_js: true
       headless_chrome_path: chromium
       #
-      output_path: splicer_manual.pdf
+      output_path: Splicer_Manual.pdf
       enabled_if_env: ENABLE_PDF_EXPORT
       #
       debug_html: true
