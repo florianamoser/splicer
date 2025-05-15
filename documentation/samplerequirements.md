@@ -1,12 +1,13 @@
 Use the following specifications as a starting point when selecting a sample for Splicer:
 
+- Choose a sample that resonates in some way with space and/or time. 
 - Ideally, the sample should be a **three-dimensional object**.  
 - **Flat, two-dimensional objects** are generally less suitable.  
 - **Very dark**, **very glossy**, or **dark and glossy** surfaces can be challenging to capture accurately.
 
 These considerations help ensure optimal results during imaging and reconstruction.
 
-!!! tip "If you are unsure whether your sample is suitable, check with splicer operator."  
+> If you are unsure whether your sample is suitable, check with splicer operator.  
 
 | Type| Description |
 | ----- | ----- |
