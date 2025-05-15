@@ -30,9 +30,9 @@ nav:
     - Naming Convention: namingconventions.md
     - Physical Dimension: physicaldimensions.md
     - Axis Specification: axisspecifications.md
+    - Light Requirements: lightrequirements.md
     - Link to Relevant Manuals: linkmanuals.md
   #   - Image Output: placeholder.md
-  #   - Light needed: placeholder.md
   - Building splicer:
     - Tools: placeholder.md
   #   - Start: placeholder.md
