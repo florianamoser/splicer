@@ -9,13 +9,13 @@ In 2017, I initiated the project <a href="https://florianamoser.xyz/aporetic-spe
 
 I began to observe how the photographic process had fundamentally changed. For much of its history, lens-based photography followed a relatively stable structure—from its analogue beginnings through early digital practice:
 
-**light → lens → photosensitive surface → latent image → development → photograph**
+> **light → lens → photosensitive surface → latent image → development → photograph**
 
 This linear chain grounded the photographic image in a direct, optical, and material relationship with the world.
 
 With the rise of computational photography, the photographic process has undergone a profound transformation:
 
-**light → lens → photosensitive surface → data set → algorithmic analysis and reconstruction → photographic image**
+> **light → lens → photosensitive surface → data set → algorithmic analysis and reconstruction → photographic image**
 
 This shift redefines the veracity of the material produced by a camera. While computational photography may feel like an upgrade—offering significant improvements in usability, automation, and accessibility (the phone becomes a camera; it detects snow, sunsets, and faces; it is fast, portable, and always connected)—it also functions as a perception filter applied to the physical world. Features such as depth blur, automated lighting effects, and facial filters provide creative convenience, but they simultaneously reshape how we perceive, interpret, and interact with reality on a foundational level.
 
@@ -23,4 +23,12 @@ Before the emergence of AI-generated imagery, the computer-generated image (CGI)
 
 Following the *Aporetic Spectacle* project, it became clear that a deeper engagement with the act of photographing was necessary. Merely probing the black box and interpreting its outputs was no longer sufficient. I needed to open the photographic apparatus itself—to disassemble its components, examine the technologies underpinning them, and reconfigure them into a new kind of camera. One that could operate simultaneously as a tool and as a subject of inquiry.  
 
-**Splicer is that camera.**
+Splicer is that camera.
+
+
+
+
+
+
+
+
