@@ -27,6 +27,7 @@ nav:
     - Grounded Apparatus, Situated Image: theory-3.md
     - Splicer: theory-4.md
   - Specifications: 
+    - Operational Principles of Splicer: operationprinciples.md
     - Naming Convention: namingconventions.md
     - Physical Dimension: physicaldimensions.md
     - Axis Specification: axisspecifications.md
