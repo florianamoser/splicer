@@ -1,5 +1,5 @@
-# splicer
+# Splicer
 
-splicer is a camera apparatus for visual sampling
-
-this is work in progress, estimated initial release summer 2025
+Splicer is a camera apparatus for visual sampling
+Check <a href="documentation.splicer.camera">documentation.splicer.camera</a> for more in-depth informations.
+Initial release summer 2025
