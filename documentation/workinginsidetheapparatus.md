@@ -24,11 +24,12 @@ Before the emergence of AI-generated imagery, the computer-generated image (CGI)
 Following the *Aporetic Spectacle* project, it became clear that a deeper engagement with the act of photographing was necessary. Merely probing the black box and interpreting its outputs was no longer sufficient. I needed to open the photographic apparatus itself—to disassemble its components, examine the technologies underpinning them, and reconfigure them into a new kind of camera. One that could operate simultaneously as a tool and as a subject of inquiry.  
 
 Splicer is that camera.
-
-
-
-
-
-
-
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
