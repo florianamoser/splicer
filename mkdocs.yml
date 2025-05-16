@@ -19,7 +19,7 @@ nav:
     - Changelog: changelog.md
   - Introduction: 
     - Research Questions: researchquestions.md 
-    - Three Popes and the End of Indexicality: threepopes.md 
+    - Three Popes and the End of Indexicality: three-popes.md 
     - Working Inside The Apparatus: workinginsidetheapparatus.md 
     - "«Re: Documentation: Splicer»": re-documentation.md
   - Theory:
@@ -65,7 +65,7 @@ nav:
     # - "Conversation 1: Charles Kwong": placeholder.md
     # - "Conversation 2: Lukas Schmid": placeholder.md
   - Outlook: 
-    - Outlook: outlook.md 
+    - Preliminary Summary and Outlook: summaryoutlook.md 
   
     # - Monochrome and tri-color capture: monocolorcapture.md
     # - Merging tri-color capture images: mergingcolorimages.md
