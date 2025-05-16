@@ -111,7 +111,7 @@ plugins:
       cover_title: Splicer Manual
       cover_subtitle: Refer to the digital version on documentation.splicer.camera for the latest version.
       cover_logo: assets/splicer_logo_black.svg
-      custom_template_path: https://github.com/florianamoser/splicer/tree/main/documentation/templates/
+      # custom_template_path: https://github.com/florianamoser/splicer/tree/main/documentation/templates/
 
       toc_title: Contents
       heading_shift: false
