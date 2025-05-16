@@ -1,6 +1,6 @@
 # Project information
 site_name: splicer
-site_url: https://florianamoser.github.io/splicer/
+site_url: https://documentation.splicer.camera/
 site_author: Florian Amoser
 
 # Repository
@@ -111,9 +111,9 @@ plugins:
       cover_title: Splicer Manual
       cover_subtitle: Refer to the digital version on documentation.splicer.camera for the latest version.
       cover_logo: assets/splicer_logo_black.svg
-      custom_template_path: /templates/template.html
-      #
-      toc_title: Table of Contents
+      custom_template_path: 
+
+      toc_title: Contents
       heading_shift: false
       toc_level: 3
       ordered_chapter_level: 3
