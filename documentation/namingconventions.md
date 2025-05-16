@@ -6,7 +6,7 @@ Understanding Splicer requires a shared vocabulary to refer to its components, t
 
 ## System Overview
 
-![Splicer Naming Convention System](assets/FlorianAmoser_Splicer_Namingschema_System.webp)  
+![Splicer Naming Convention System](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Namingschema_System.webp)  
 *Figure 1: Overview of Splicer with key components annotated.*
 
 Splicer is composed of two primary modules:
@@ -30,8 +30,8 @@ Splicer is composed of two primary modules:
 
 ## Axis Overview
 
-![Splicer Naming Convention Axis](path/to/axis-overview.jpg)  
 >> ADD DIAGRAM CLEAN DRAWN
+![Splicer Naming Convention Axis](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/axis-overview.jpg)  
 *Figure 2: Axis overview and denomination.*
 
 The optical origin of Splicer is defined at the **lensboard**. While not the optical nodal point (which shifts depending on the lens used), the front surface of the lensboard is chosen as a fixed, consistent reference. If the nodal point were used, any lens change would alter the zero positions of the longitudinal axes, making consistent configuration files of the motion system impractical.

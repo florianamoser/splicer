@@ -2,22 +2,22 @@ This is a fictional email exchange that stages the internal frictions and cross-
 
 *Click on image to enlarge*  
 
-![Re: Documentation Splicer: Project Manager](/splicer/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-ProjectManager.webp){ align=left }  
+![Re: Documentation Splicer: Project Manager](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-ProjectManager.webp){ align=left }  
 
-![Re: Documentation Splicer: Assistant](/splicer/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-Assistant.webp){ align=left }  
+![Re: Documentation Splicer: Assistant](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-Assistant.webp){ align=left }  
 
-![Re: Documentation Splicer: Programmer](/splicer/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-Programmer.webp){ align=left }  
+![Re: Documentation Splicer: Programmer](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-Programmer.webp){ align=left }  
 
-![Re: Documentation Splicer: MechanicalEng](/splicer/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-MechanicalEng.webp){ align=left }  
+![Re: Documentation Splicer: MechanicalEng](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-MechanicalEng.webp){ align=left }  
 
-![Re: Documentation Splicer: Mechanic](/splicer/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-Mechanic.webp){ align=left }  
+![Re: Documentation Splicer: Mechanic](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-Mechanic.webp){ align=left }  
 
-![Re: Documentation Splicer: Electrician](/splicer/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-Electrician.webp){ align=left }  
+![Re: Documentation Splicer: Electrician](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-Electrician.webp){ align=left }  
 
-![Re: Documentation Splicer: Photographer](/splicer/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-Photographer.webp){ align=left }  
+![Re: Documentation Splicer: Photographer](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-Photographer.webp){ align=left }  
 
-![Re: Documentation Splicer: Artist](/splicer/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-Artist.webp){ align=left }  
+![Re: Documentation Splicer: Artist](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-Artist.webp){ align=left }  
 
-![Re: Documentation Splicer: Programmer 2](/splicer/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-Programmer-2.webp){ align=left }  
+![Re: Documentation Splicer: Programmer 2](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-Programmer-2.webp){ align=left }  
 
-![Re: Documentation Splicer: Theorist](/splicer/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-Theorist.webp){ align=left }  
+![Re: Documentation Splicer: Theorist](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_ReDocumentationSplicer-Theorist.webp){ align=left }  

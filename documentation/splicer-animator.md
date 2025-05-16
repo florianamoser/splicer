@@ -11,7 +11,7 @@
 
 **Splicer-animator Interface Overview**
 
-![splicer animator in blender: overview](/splicer/assets/splicer-animator-1.webp){ align=left }  
+![splicer animator in blender: overview](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/splicer-animator-1.webp){ align=left }  
 *Click on image to enlarge*
 
 1. **Tabs**: Switch between **Animator** and **Export Script** workspace.  
@@ -24,7 +24,7 @@
 
 **Splicer-animator Aspect Ratio**
 
-![splicer animator in blender: Aspect Ratio](/splicer/assets/splicer-animator-2.webp){ align=left }  
+![splicer animator in blender: Aspect Ratio](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/splicer-animator-2.webp){ align=left }  
 *Click on image to enlarge*
 
 !!! tip "Aspect Ratio of the Image"
@@ -39,7 +39,7 @@
 
 **Splicer-animator Animate Sample**
 
-![splicer animator in blender: Animate Sample](/splicer/assets/splicer-animator-3.webp){ align=left }  
+![splicer animator in blender: Animate Sample](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/splicer-animator-3.webp){ align=left }  
 *Click on image to enlarge*
 
 !!! tip "Read the chapter "Axis Specification" before starting animation"

@@ -1,4 +1,4 @@
-![Three Popes And The End Of Indexicality](/splicer/assets/FlorianAmoser_Splicer_ThreePopesAndTheEndOfIndexicality.webp){ align=left }  
+![Three Popes And The End Of Indexicality](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_ThreePopesAndTheEndOfIndexicality.webp){ align=left }  
 *Click on image to enlarge*  
 Collage by the author. Images used under fair use for research and critical commentary. © Respective copyright holders.
 
