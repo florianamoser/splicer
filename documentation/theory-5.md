@@ -34,6 +34,8 @@ Panofsky, E. (2012). *Perspective as a Symbolic Form* (C. S. Wood, Trans.; First
 
 Rosa, H. (2019). *Resonance: A Sociology of the Relationship to the World*. Polity Press.  
 
+Steyerl, H. (2003). Documentarism as Politics of Truth. https://transversal.at/transversal/1003/steyerl/en  
+
 Steyerl, H. (2009, November). *In Defense of the Poor Image*. *E-Flux Journal*, Issue #10, 86–92.  
 
 Varoufakis, Y. (2024). *Technofeudalism: What Killed Capitalism*. Melville House.  
