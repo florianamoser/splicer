@@ -5,9 +5,9 @@ Splicer employs a high-resolution line scan sensor for image acquisition. Unlike
 ## Sensor Overview
 
 - **Sensor type**: Monochrome line scan CCD  
-- **Resolution**: 1 × 8196 pixels  
+- **Resolution**: 1 × 8192 pixels  
 - **Pixel pitch**: 7 µm (micrometers)  
-- **Sensor width**: ~57.4 mm (8196 × 7 µm)  
+- **Sensor width**: ~57.3 mm (8192 × 7 µm)  
 - **Line orientation**: Typically vertical, but can be rotated in the optical path if necessary  
 
 Each pixel represents a discrete intensity value, and because the sensor is monochrome, color must be derived through alternative methods (trichromatic filtering).
@@ -23,13 +23,13 @@ A **trigger signal** controls the precise moment each line is captured, allowing
 The total number of captured lines determines the height (or width, depending on orientation) of the final image. For reference:
 
 - **Square image**:  
-  Requires 8196 lines to match the sensor’s vertical resolution.  
-  → **8196 × 8196 pixels**
+  Requires 8192 lines to match the sensor’s vertical resolution.  
+  → **8192 × 8192 pixels**
     
 - **4:5 aspect ratio** (landscape orientation):  
   Requires:  
-  `8196 ÷ 4 × 5 = 10,245` lines  
-  → **8196 × 10,245 pixels**
+  `8192 ÷ 4 × 5 = 10,240` lines  
+  → **8192 × 10,245 pixels**
 
 ## Extended Image Length and Iterative Capture
 

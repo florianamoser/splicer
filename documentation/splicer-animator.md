@@ -29,7 +29,7 @@
 
 !!! tip "Aspect Ratio of the Image"
 
-    To start a new image, decide first on the aspect ratio of the image. The sensor has 8096 by 1 pixels. A square image (Aspect Ratio 1:1) requires therefore 8096 lines (equal to 8096 frames in Blender. The terms **"lines"** and **"frames"** are used interchangeably.). An horizontal image with the ratio 4:5 therefore requires `8096 / 4 * 5 = 10120` frames in Blender and results in an output image of about 82 Megapixel.  
+    To start a new image, decide first on the aspect ratio of the image. The sensor has 8192 by 1 pixels. A square image (Aspect Ratio 1:1) requires therefore 8192 lines (equal to 8192 frames in Blender. The terms **"lines"** and **"frames"** are used interchangeably.). An horizontal image with the ratio 4:5 therefore requires `8192 / 4 * 5 = 10240` frames in Blender and results in an output image of about 82 Megapixel.  
 
 1. **Select the Camera object** in the Blender Outliner.
 2. Set the **Frame Range → End** value to the desired image length.

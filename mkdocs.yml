@@ -35,7 +35,7 @@ nav:
     - Axis Specification: axisspecifications.md
     - Image Output: imageoutput.md
     - Light Requirements: lightrequirements.md
-    - Relevant Manuals: linkmanuals.md
+    - Relevant Manuals: external-manuals.md
   - Building Splicer:
     - Becoming Splicer: becomingsplicer.md
   #   - Start: placeholder.md
