@@ -1,0 +1,14 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,value,mount_type,place
+20.701,-10.033,0.0,top, ,,MountingHole_3.5mm_Pad_TopBottom,MountingHole_3.5mm_Pad_TopBottom,tht,False
+19.05,-17.78,0.0,top,1,,TestPoint_THTPad_2.0x2.0mm_Drill1.0mm,1,tht,True
+34.925,-3.429,0.0,top,1-4,,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,XH2.5 01x04,tht,True
+22.606,-17.78,0.0,top,2,,TestPoint_THTPad_2.0x2.0mm_Drill1.0mm,2,tht,True
+26.162,-17.78,0.0,top,3,,TestPoint_THTPad_2.0x2.0mm_Drill1.0mm,3,tht,True
+29.718,-17.78,0.0,top,4,,TestPoint_THTPad_2.0x2.0mm_Drill1.0mm,4,tht,True
+33.274,-17.78,0.0,top,5,,TestPoint_THTPad_2.0x2.0mm_Drill1.0mm,5,tht,True
+31.028,-10.795,0.0,top,5-6,,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,XH2.5 01x02,tht,True
+36.83,-17.78,0.0,top,6,,TestPoint_THTPad_2.0x2.0mm_Drill1.0mm,6,tht,True
+40.386,-17.78,0.0,top,7,,TestPoint_THTPad_2.0x2.0mm_Drill1.0mm,7,tht,True
+39.898,-10.795,0.0,top,7-8,,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,XH2.5 01x02,tht,True
+43.942,-17.78,0.0,top,8,,TestPoint_THTPad_2.0x2.0mm_Drill1.0mm,8,tht,True
+4.191,-4.826,0.0,top,RJ45,,RJ45_Amphenol_54602-x08_Horizontal,RJ45,tht,True
