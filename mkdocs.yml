@@ -33,6 +33,7 @@ nav:
     - Physical Dimension: physicaldimensions.md
     - Naming Convention: namingconventions.md
     - Axis Specification: axisspecifications.md
+    - Sample Selection Guidelines: samplerequirements.md
     - Image Output: imageoutput.md
     - Light Requirements: lightrequirements.md
     - Relevant Manuals: external-manuals.md
@@ -52,7 +53,7 @@ nav:
   #   - Frame grabber settings: placeholder.md
   #   - Sensor settings and calibration: placeholder.md
   - Using Splicer: 
-    - Sample Selection Guidelines: samplerequirements.md
+    - Mounting a Sample: sample-fixtures.md
     - Controlling Splicer: splicer-animator.md
     - Image Capture Software: imagecapture.md
     - Monochrome and RGB Capture: monoandrgb.md
@@ -62,7 +63,7 @@ nav:
       - Before startup: checklist-startup.md
   - Conversations:
     - Methodology: conversation-methodology.md
-    # - "Conversation 1: Charles Kwong": placeholder.md
+    - "Conversation 1: Charles Kwong": conversation-1-charleskwong.md
     # - "Conversation 2: Lukas Schmid": placeholder.md
   - Outlook: 
     - Preliminary Summary and Outlook: summaryoutlook.md 
