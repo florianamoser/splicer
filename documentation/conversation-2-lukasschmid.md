@@ -25,7 +25,7 @@ Finally, we explored how Splicer, as a apparatus, plays with perception and cont
 
 This led to a nuanced conversation about the logic embedded in machines, and how understanding those parameters might allow someone to decode what they see. If one knows how Splicer works, does the resulting image become more "objective"? Or does its strangeness reinforce the idea that all images are interpretive?
 
-![Conversation 2, Lukas Schmid](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-2_LukasSchmid.webp){align=left}  
+![Conversation 2, Lukas Schmid](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-2_LukasSchmid.webp){align=left, heigth="1000px"}  
 ```Final image, 18'000 sampling lines```
   
 # The Sample
