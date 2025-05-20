@@ -1,13 +1,15 @@
+WORK IN PROGRESS
+
 # Context
 In February 2025, composer and artist Charles Kwong stepped into Florian Amoser’s studio in Olten for the inaugural multi day collaboration with Splicer.  
 
 Charles is classically trained composer from Hong Kong with an increasing focus on experimental sound was immediately drawn to Splicer when I told him about the apparatus. Charles' comment during an earlier discussion on Splicer’s conceptual affinity with granular synthesis made him a fitting first collaborator. Granular Synthesis, a composition approach conceptualized by Iannis Xenakis in th 1960ies is a sonic technique that decomposes sound into tiny fragments (“grains”) that are then recombined to form new auditory textures. Out of this discussion we coined the term Granular perspective as Splicer does something similar as granular synthesis but with the sample, space, and time.  
 
 > « In working with Splicer, what I find interesting is that it reveals a kind of perception that neither of us could have foreseen. None of us knew what the image would look like at the start – we were discovering it through the process. That’s where I see the uniqueness or value of this kind of image-making: it shows that photography is really about creating something, not just capturing something that already exists. »  
-> Charles Kwong, Splicer collaboration debrief, April 3, 2025.
+> ```Charles Kwong, Splicer collaboration debrief, April 3, 2025.```
 
 ![Conversation 1, Charles Kwong](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation1_CharlesKwong_1.webp){ align=left}  
-*Conversation 1, Charles Kwong, Image 1, the instrument up close*  
+```Conversation 1, Charles Kwong, Image 1, the instrument up close```
 
 # Situated Collaboration as Experimental Method
 The collaboration between Charles and Splicer unfolded less as a production session and more as a shared experiment, an open-ended exploration shaped by dialogue, iteration, and the physical presence of myself as a helping hand. Rather than arriving with a fixed concept or outcome, Charles approached the machine with curiosity and a striking level of motivation. Charles was eager to test its visual logic through improvisation, experimenting playfully and extensively with different settings and ideas. At times, I even had to slow the process down to avoid getting lost in the sheer range of possibilities.
