@@ -1,5 +1,3 @@
-## Abstract
-
 Splicer is a photographic apparatus that challenges conventional camera design. Developed by Florian Amoser using a line scan sensor sourced from industrial surplus, it functions as a multi-axial visual sampler. While grounded in traditional lens-based imaging, Splicer produces images that are not direct representations of the physical world but rather spatial and temporal condensations – non-linear translations offering a granular perspective on the physical world.
 
 Originally started as a personal investigation into the photographic apparatus, Splicer evolved into a tool for artistic research and critical inquiry. It explores the mechanics, hierarchies, and performative dimensions of image production, bridging lens-based photography with post-photographic discourses. The apparatus captures four-dimensional interactions of space and time, reducing them into two-dimensional photographic outcomes through motion-controlled scanning of physical samples.Splicer is intended to function in workshop, exhibition, or residency settings – ideally as an active, performative tool through which the nature of photography can be explored, questioned, and redefined. It is particularly well suited for collaborative settings, where shared use and dialogue can enrich both process and outcome.
@@ -8,7 +6,7 @@ This documentation serves as both a technical documentation and a discursive com
 
 For further questions or inquiries, please contact: florian@amoser.ch.
 
-## Acknowledgements
+# Acknowledgements
 
 First and foremost, I would like to thank my partner, Stefanie, for her incredible support, patience and encouragement for this obsessive project. Thank you also to my parents, Caroline and Christian, and my brother, Simon.
 
@@ -21,7 +19,7 @@ Also, thank you also to everyone at the Master Transdisciplinarity Studies in th
 
 Thank you to everyone who supports open-source software, open-source hardware, and open access to knowledge. This project would not have been possible without your contributions. I would especially like to acknowledge the following projects: LinuxCNC, Voron Design and Blender. 
 
-## Print Version
+# Print Version
 
 > THIS NEEDS CONFIG WORK and a bit of layout love
 
@@ -29,12 +27,12 @@ A simplified version of this documentation for print is available here: There is
 
 <a href="https://github.com/florianamoser/splicer/blob/gh-pages/FlorianAmoser_Splicer_Manual.pdf" target="_blank">Splicer Manual as PDF</a>
 
-## Licence
+# Licence
 
 All software and hardware components of Splicer are open source and released under the GNU General Public License v3 (GPLv3). All images, photographs, diagrams, and texts – unless otherwise noted – are © Florian Amoser.
 
 The texts in this manual have been optimized with the help of OpenAI’s ChatGPT model 4o.
 
-## Changelog
+# Changelog
 
 23.05.2025 initial release of this documentation
