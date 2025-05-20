@@ -1,3 +1,37 @@
-test
-test
-test
+### Context
+In February 2025, composer and artist Charles Kwong stepped into Florian Amoser’s studio in Olten for the inaugural multi day collaboration with Splicer. 
+Charles, a classically trained composer from Hong Kong with an increasing focus on experimental sound, electronics, and hand-built ceramic instruments, was immediately drawn to Splicer when I told him about the apparatus. His comment during an earlier discussion on Splicer’s conceptual affinity with granular synthesis – a sonic technique that decomposes sound into tiny fragments (“grains”) that are then recombined to form new auditory textures – made him a fitting first collaborator. Out of this discussion we coined the term Granular perspective as Splicer does something similar as granular synthesis but with the sample, space, and time.  
+
+> « In working with Splicer, what I find interesting is that it reveals a kind of perception that neither of us could have foreseen. None of us knew what the image would look like at the start – we were discovering it through the process. That’s where I see the uniqueness or value of this kind of image-making: it shows that photography is really about creating something, not just capturing something that already exists. »
+> Charles Kwong, Splicer collaboration debrief, April 3, 2025.
+
+![Conversation 1, Charles Kwong](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation1_CharlesKwong_1.webp){ align=left}  
+
+### Situated Collaboration as Experimental Method
+The collaboration between Charles and Florian unfolded less as a production session and more as a shared experiment – an open-ended exploration shaped by dialogue, iteration, and the physical presence of the Splicer apparatus. Rather than arriving with a fixed concept or outcome, Charles approached the machine with a spirit of curiosity and a striking level of motivation. He was eager to test its visual logic through improvisation, experimenting playfully and extensively with different settings and ideas. At times, Florian even had to slow the process down to avoid getting lost in the sheer range of possibilities.
+
+This energetic engagement fostered a space of mutual exchange. The collaboration became more than an image-making exercise – it was a discursive process that allowed both artists to reflect on their respective practices through the lens of the other. For Charles, the unfamiliar medium of experimental photography echoed aspects of his sonic work; for Florian, Charles’ insights opened new conceptual paths for understanding Splicer’s potential. The process proved deeply enriching for both, grounded not in output alone, but in the shared act of exploration.
+
+![Charles and Splicer](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-1_CharlesKwong_10_small.jpg){align=left}  
+
+### Temporality and the Shifted Experience of the Photographic Moment
+In their conversation, Charles Kwong and Florian Amoser explore how photography intersects with the experience of time. Charles reflects on the fundamental difference between space and time: while we can move freely through space, time only moves in one direction. Once a moment has passed, it cannot be re-entered. Photography, he notes, attempts to hold onto this passing, but only ever offers a fragment that can never replicate the immediacy of lived experience.
+
+Florian adds that photography, by its very nature, is always about the past. The moment the shutter is pressed, the present becomes irretrievable. Even practices like live-streaming only simulate the “now,” but remain rooted in delay. From this, they suggest that any art form valuing embodied, real-time experience implicitly critiques the dominant media logic of capture, reproduction, and circulation.
+
+It is in this light that Charles finds Splicer compelling. Unlike conventional cameras that freeze a single instant, Splicer accumulates many small fragments of time into one image. Drawing a parallel to granular synthesis in music, he sees this as a temporal layering, a visual accumulation rather than a singular capture. The final image, though static, carries traces of the process that produced it. For Charles, this is where the value lies: not in representation, but in revealing a new perspective, one that emerges through time rather than being extracted from it.
+
+### Additive vs. Subtractive Image Construction (and its Sonic Analogue)
+During their collaboration, Charles and Florian tried to draw parallels between photographic and sonic composition, particularly through the lens of additive and subtractive synthesis – concepts from electronic music. In subtractive synthesis, sound is shaped by filtering out frequencies from a rich signal; in additive synthesis, sound is constructed by layering discrete elements to build complexity.
+
+This analogy may become a useful framework to describe different photographic logics. Traditional photography, they observed, often works subtractively: subjects are cleaned, posed, retouched – imperfections removed to reveal a purified image. By contrast, post-photographic practices like CGI or AI rendering tend to be additive, fabricating images from nothing or layering in noise, texture, and "imperfection" to simulate realism.
+
+Splicer, intriguingly, operates across both modes. It subtracts micro-slices of time and space and then adds them together into a new composition. The result is not a snapshot, but a visual construct that imagines a different continuity. For Charles, this hybrid process resonates deeply with his compositional work, where real-world resonance and abstract construction often merge. The machine doesn’t just capture what is there; it builds something that wasn’t visible before.
+
+### The sample
+
+Charles brought one of his hand-built ceramic instruments, developed as part of his recent work in experimental music and transdisciplinary art. During performance, the instrument houses a wireless microphone that creates a feedback loop with a nearby speaker. Unlike conventional musical practices that avoid this unwanted feedback, this instrument embraces it. By moving through space and adjusting the proximity between microphone and speaker, and by covering or uncovering the instrument’s holes with his fingers, Charles modulates the feedback in real time. The resulting sound emerges from a dynamic interplay between body, object, and acoustic environment. Sonically, the instrument functions as a resonant body in space, with qualities reminiscent of a flute.
+
+On Splicer, this ceramic instrument became the sample. The movement of the sample during capture was echoing how Charles would handle the instrument in performance. The imaging process recorded the sample from multiple angles, including the underside and the inside, surfaces rarely visible. The diptych captures this performance: in one image, the instrument, typically obscured by the hand during performance, appears floating and untouched; in the other, Charles’s hand is recorded along as he activates the ceramic instrument. The result is not just a visual document of the object’s appearance, but of its activation: gesture, motion, and intention become embedded in the final image.
+
+![Conversation 1, Charles Kwong, Diptych](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation1_CharlesKwong_Diptych.webp){align=left}  
