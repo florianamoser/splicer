@@ -29,7 +29,7 @@ This led to a nuanced conversation about the logic embedded in machines, and how
   
 <figure markdown="1" width="500">
 ![Conversation 2, Lukas Schmid](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-2_LukasSchmid.webp) 
-<figcaption>Conversation 2, Lukas Schmid, final image, 18'000 sampling lines</figcaption> 
+<figcaption>Conversation 2, Lukas Schmid, Final image</figcaption> 
 </figure>
   
 # The Sample
