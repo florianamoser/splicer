@@ -12,11 +12,11 @@ docs_dir: documentation
 # Navigation
 nav:
   - Abstract: 
-    - README.md
-    - Acknowledgements: acknowledgements.md
-    - Print Version: printversion.md
-    - Licence: licence.md
-    - Changelog: changelog.md
+    - abstract/README.md
+    - Acknowledgements: abstract/acknowledgements.md
+    - Print Version: abstract/printversion.md
+    - Licence: abstract/licence.md
+    - Changelog: abstract/changelog.md
   - Introduction: 
     - Research Questions: researchquestions.md 
     - Three Popes and the End of Indexicality: three-popes.md 
