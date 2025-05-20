@@ -12,7 +12,7 @@ docs_dir: documentation
 # Navigation
 nav:
   - Abstract: 
-    - abstract/README.md
+    - README.md
     - Acknowledgements: abstract/acknowledgements.md
     - Print Version: abstract/printversion.md
     - Licence: abstract/licence.md

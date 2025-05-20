@@ -1,4 +1,6 @@
-# Abstract
+# Introduction
+
+## Abstract
 
 Splicer is a photographic apparatus that challenges conventional camera design. Developed by Florian Amoser using a line scan sensor sourced from industrial surplus, it functions as a multi-axial visual sampler. While grounded in traditional lens-based imaging, Splicer produces images that are not direct representations of the physical world but rather spatial and temporal condensations – non-linear translations offering a granular perspective on the physical world.
 
