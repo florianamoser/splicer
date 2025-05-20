@@ -10,8 +10,7 @@ Charles is classically trained composer from Hong Kong with an increasing focus 
 
 <figure markdown="1">
 ![Conversation 1, Charles Kwong](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation1_CharlesKwong_1.webp){ align=left}  
-Conversation 1, Charles Kwong, Image 1, The underside of the instrument up close
-<figcaption>Conversation 1, Charles Kwong, Making Off</figcaption> 
+<figcaption>Conversation 1, Charles Kwong, The underside of the instrument up close</figcaption> 
 </figure>
 
 # Situated Collaboration as Experimental Method
@@ -22,7 +21,7 @@ This engagement fostered a space of mutual exchange. The collaboration became mo
 <!-- ![Charles and Splicer](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-1_CharlesKwong_10_small.jpg){align=left}  
 *Conversation 1, Charles Kwong, Making Off*   -->
 
-<figure markdown="1" width="500px">
+<figure markdown="1" width="500">
 ![Charles and Splicer](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-1_CharlesKwong_10_small.jpg)
 <figcaption>Conversation 1, Charles Kwong, Making Off</figcaption> 
 </figure>
@@ -40,9 +39,11 @@ During their collaboration, we tried to draw parallels between photographic and 
 This analogy may become a useful framework to describe different photographic logics but needs further exploration. We observed, that in lens-based photography, often the post processing works subtractively: subjects are cleaned, posed, retouched: imperfections are subtracted to reveal a purified image. By contrast, post-photographic practices like CGI or AI tend to be additive, fabricating images from nothing or layering in noise, texture, and adding imperfections to simulate believable realism.
 
 Splicer may be seen as operating across both modes. It subtracts micro-slices of time and space and then adds them together into a new composition. The result is not a snapshot, but a visual construct that imagines a different continuity. For Charles, this hybrid process resonates deeply with his compositional work, where real-world resonance and abstract construction often merge. The machine doesn’t just capture what is there; it builds something that wasn’t visible before.
-  
+
+<figure markdown="1">
 ![Conversation 1, Charles Kwong, Diptych](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation1_CharlesKwong_Diptych.webp){align=left}  
-*Conversation 1, Charles Kwong, Final vertical diptych, 2x 10'000 sampling lines*
+<figcaption>Conversation 1, Charles Kwong, Final vertical diptych</figcaption> 
+</figure>
 
 # The Sample
 

@@ -5,8 +5,11 @@ In March 2025, engineer Lukas Schmid visited Florian Amoser’s studio in Olten 
 
 The invitation for the Conversation emerged from this long-standing exchange. It was a chance not only to acknowledge Lukas’ contribution to the apparatus’s construction, but also to open a reflective space between two different ways of thinking: engineering logic and photographic experimentation.
   
-![Conversation 2, Lukas Schmid, Making Off](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-2_LukasSchmid_MakingOff.webp){align=left, width="450"}
-```Making Off```  
+<figure markdown="1" width="400">
+![Conversation 2, Lukas Schmid, Making Off](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-2_LukasSchmid_MakingOff.webp)  
+<figcaption>Conversation 2, Lukas Schmid, Making Off</figcaption> 
+</figure>
+  
 
 # Photography between Visual Memory and Technical Notation
 Lukas described his everyday photography as primarily pragmatic. His phone camera is a tool for documenting technical details: e.g., a car part, a door hinge, or a wiring detail—functioning like a visual notebook. At the same time, he acknowledges the emotional value of photography as a trigger for memory, akin to how smell or taste can evoke vivid recollections. The photographs as such are thereby not really an important object other than functioning as this trigger for memory.  
@@ -25,8 +28,10 @@ Finally, we explored how Splicer, as a apparatus, plays with perception and cont
 
 This led to a nuanced conversation about the logic embedded in machines, and how understanding those parameters might allow someone to decode what they see. If one knows how Splicer works, does the resulting image become more "objective"? Or does its strangeness reinforce the idea that all images are interpretive?
 
-![Conversation 2, Lukas Schmid](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-2_LukasSchmid.webp){align=left, width="450"}  
-```Final image, 18'000 sampling lines```
+<figure markdown="1" width="400">
+![Conversation 2, Lukas Schmid](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-2_LukasSchmid.webp) 
+<figcaption>Conversation 2, Lukas Schmid, final image, 18'000 sampling lines</figcaption> 
+</figure>
   
 # The Sample
 
