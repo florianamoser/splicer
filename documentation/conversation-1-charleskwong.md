@@ -8,8 +8,11 @@ Charles is classically trained composer from Hong Kong with an increasing focus 
 > « In working with Splicer, what I find interesting is that it reveals a kind of perception that neither of us could have foreseen. None of us knew what the image would look like at the start – we were discovering it through the process. That’s where I see the uniqueness or value of this kind of image-making: it shows that photography is really about creating something, not just capturing something that already exists. »  
 > ```Charles Kwong, Splicer collaboration debrief, April 3, 2025.```
 
+<figure markdown="1">
 ![Conversation 1, Charles Kwong](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation1_CharlesKwong_1.webp){ align=left}  
-```Conversation 1, Charles Kwong, Image 1, the instrument up close```
+Conversation 1, Charles Kwong, Image 1, The underside of the instrument up close
+<figcaption>Conversation 1, Charles Kwong, Making Off</figcaption> 
+</figure>
 
 # Situated Collaboration as Experimental Method
 The collaboration between Charles and Splicer unfolded less as a production session and more as a shared experiment, an open-ended exploration shaped by dialogue, iteration, and the physical presence of myself as a helping hand. Rather than arriving with a fixed concept or outcome, Charles approached the machine with curiosity and a striking level of motivation. Charles was eager to test its visual logic through improvisation, experimenting playfully and extensively with different settings and ideas. At times, I even had to slow the process down to avoid getting lost in the sheer range of possibilities.
@@ -19,8 +22,8 @@ This engagement fostered a space of mutual exchange. The collaboration became mo
 <!-- ![Charles and Splicer](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-1_CharlesKwong_10_small.jpg){align=left}  
 *Conversation 1, Charles Kwong, Making Off*   -->
 
-<figure markdown="1">
-![Charles and Splicer](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-1_CharlesKwong_10_small.jpg){width="500"}
+<figure markdown="1" width="500px">
+![Charles and Splicer](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-1_CharlesKwong_10_small.jpg)
 <figcaption>Conversation 1, Charles Kwong, Making Off</figcaption> 
 </figure>
 
