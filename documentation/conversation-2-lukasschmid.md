@@ -9,6 +9,11 @@ The invitation for the Conversation emerged from this long-standing exchange. It
 ![Conversation 2, Lukas Schmid, Making Off](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-2_LukasSchmid_MakingOff.webp)  
 <figcaption>Conversation 2, Lukas Schmid, Making Off</figcaption> 
 </figure>
+
+<figure markdown="1" width="500">
+![Charles and Splicer](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-1_CharlesKwong_10_small.jpg)
+<figcaption>Conversation 1, Charles Kwong, Making Off</figcaption> 
+</figure>
   
 
 # Photography between Visual Memory and Technical Notation
