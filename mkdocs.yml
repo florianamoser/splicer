@@ -63,7 +63,7 @@ nav:
   - Conversations:
     - Methodology: conversation-methodology.md
     - "Conversation 1: Charles Kwong": conversation-1-charleskwong.md
-    # - "Conversation 2: Lukas Schmid": placeholder.md
+    - "Conversation 2: Lukas Schmid": conversation-2-lukasschmid.md
   - Outlook: 
     - Preliminary Summary and Outlook: summaryoutlook.md 
   
