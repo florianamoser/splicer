@@ -16,11 +16,11 @@ The collaboration between Charles and Splicer unfolded less as a production sess
 
 This engagement fostered a space of mutual exchange. The collaboration became more than an image-making exercise, it was a discursive process that allowed both artists to reflect on their respective practices through the lens of the other. For Charles, the relatively unfamiliar medium of experimental photography echoed aspects of his sonic work; for me, Charles’ insights opened new conceptual paths for understanding Splicer’s potential. The process proved deeply enriching for both, grounded not in output alone, but in this shared act of exploration.
 
-![Charles and Splicer](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-1_CharlesKwong_10_small.jpg){align=left}  
-*Conversation 1, Charles Kwong, Making Off*  
+<!-- ![Charles and Splicer](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-1_CharlesKwong_10_small.jpg){align=left}  
+*Conversation 1, Charles Kwong, Making Off*   -->
 
 <figure markdown="1">
-![Charles and Splicer](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-1_CharlesKwong_10_small.jpg)
+![Charles and Splicer](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-1_CharlesKwong_10_small.jpg){width="500"}
 <figcaption>Conversation 1, Charles Kwong, Making Off</figcaption> 
 </figure>
 
