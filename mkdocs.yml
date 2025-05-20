@@ -102,6 +102,7 @@ copyright: Copyright &copy; 2025 Florian Amoser
 
 extra_css:
     - templates/pdf-print.css
+    
 # Plugins
 plugins:
   - search
