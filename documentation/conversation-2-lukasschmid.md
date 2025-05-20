@@ -5,7 +5,7 @@ In March 2025, engineer Lukas Schmid visited Florian Amoser’s studio in Olten 
 
 The invitation for the Conversation emerged from this long-standing exchange. It was a chance not only to acknowledge Lukas’ contribution to the apparatus’s construction, but also to open a reflective space between two different ways of thinking: engineering logic and photographic experimentation.
   
-![Conversation 2, Lukas Schmid, Making Off](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-2_LukasSchmid_MakingOff.webp){align=left}
+![Conversation 2, Lukas Schmid, Making Off](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-2_LukasSchmid_MakingOff.webp){align=left, heigth="800"}
 ```Making Off```  
 
 # Photography between Visual Memory and Technical Notation
@@ -25,7 +25,7 @@ Finally, we explored how Splicer, as a apparatus, plays with perception and cont
 
 This led to a nuanced conversation about the logic embedded in machines, and how understanding those parameters might allow someone to decode what they see. If one knows how Splicer works, does the resulting image become more "objective"? Or does its strangeness reinforce the idea that all images are interpretive?
 
-![Conversation 2, Lukas Schmid](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-2_LukasSchmid.webp){align=left, heigth="1000px"}  
+![Conversation 2, Lukas Schmid](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-2_LukasSchmid.webp){align=left, heigth="800"}  
 ```Final image, 18'000 sampling lines```
   
 # The Sample
