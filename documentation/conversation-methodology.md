@@ -22,10 +22,10 @@ The primary outcome of each conversation is one or more images created with Spli
 
 ---
 
-## Methodology Changelog
+## Changelog
 
 - **Interview Timing Revised**  
   The initial methodology structured each collaboration into three phases: an introductory interview, a day of working with Splicer, and a follow-up debriefing approximately one week later. While this structure created a clear temporal framework, it tended to direct the initial conversations toward general or basic discussions about photography. More importantly, the most insightful and situated reflections emerged organically during the collaborative work itself. These moments were not adequately captured or valued within the original format. As a result, the interview component has been repositioned to take place during the collaborative session, allowing discourse to emerge directly from the shared engagement with the machine, the material, and the process.
 
-- **Guest Curation Strategy Adjusted**  
-  Initially, the selection of guests was guided by the idea of inviting individuals whose professional backgrounds aligned with the personas I had adopted during the development of Splicer—such as engineer, photographer, theorist, or technician. However, this approach proved too narrow. The apparatus and its conceptual framework are layered and transdisciplinary by nature. The richest discussions and most resonant insights arose when these disciplinary boundaries were crossed or unsettled. The methodology has therefore shifted toward embracing transdisciplinarity more openly, inviting collaborators who bring unexpected perspectives and can speak to the multiple dimensions—technical, aesthetic, political, poetic—through which Splicer operates.
+- **Invitation Curation Strategy Adjusted**  
+  Initially, the selection of guests was guided by the idea of inviting individuals whose professional backgrounds aligned with the personas I had adopted during the development of Splicer: engineer, photographer, theorist, or technician. However, this approach proved too narrow. The apparatus and its conceptual framework are layered and transdisciplinary by nature. The richest discussions and most resonant insights arose when these disciplinary boundaries were crossed or unsettled. The methodology has therefore shifted toward embracing transdisciplinarity more openly, inviting collaborators who bring unexpected perspectives and can speak to the multiple dimensions through which Splicer operates: technical, aesthetic, political, poetic.
