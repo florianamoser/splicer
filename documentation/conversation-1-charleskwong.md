@@ -19,6 +19,11 @@ This engagement fostered a space of mutual exchange. The collaboration became mo
 ![Charles and Splicer](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-1_CharlesKwong_10_small.jpg){align=left}  
 *Conversation 1, Charles Kwong, Making Off*  
 
+<figure markdown="1">
+![Charles and Splicer](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-1_CharlesKwong_10_small.jpg)
+<figcaption>Conversation 1, Charles Kwong, Making Off</figcaption> 
+</figure>
+
 # Temporality and the Shifted Experience of the Photographic Moment
 In the conversation we explored how photography intersects with the experience of time. Charles reflected on the fundamental difference between space and time: while we can move freely through space, time only moves in one direction. Once a moment has passed, it cannot be re-entered. Photography, he noted, attempts to hold onto this passing, but only ever offers a fragment that can never replicate the immediacy of lived experience.
 
@@ -36,7 +41,7 @@ Splicer may be seen as operating across both modes. It subtracts micro-slices of
 ![Conversation 1, Charles Kwong, Diptych](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation1_CharlesKwong_Diptych.webp){align=left}  
 *Conversation 1, Charles Kwong, Final vertical diptych, 2x 10'000 sampling lines*
 
-# The sample
+# The Sample
 
 Charles brought one of his hand-built ceramic instruments, developed as part of his recent work in experimental music and transdisciplinary art. During performance, the instrument houses a wireless microphone that creates a feedback loop with a nearby speaker. Unlike conventional musical practices that avoid this unwanted feedback, this instrument embraces it. By moving through space and adjusting the proximity between microphone and speaker, and by covering or uncovering the instrument’s holes with his fingers, Charles modulates the feedback in real time. The resulting sound emerges from a dynamic interplay between body, object, and acoustic environment. Sonically, the instrument functions as a resonant body in space, with qualities reminiscent of a flute.
 
