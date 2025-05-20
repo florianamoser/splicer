@@ -7,6 +7,7 @@ Charles is classically trained composer from Hong Kong with an increasing focus 
 > Charles Kwong, Splicer collaboration debrief, April 3, 2025.
 
 ![Conversation 1, Charles Kwong](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation1_CharlesKwong_1.webp){ align=left}  
+*Conversation 1, Charles Kwong, Image 1, the instrument up close*  
 
 # Situated Collaboration as Experimental Method
 The collaboration between Charles and Splicer unfolded less as a production session and more as a shared experiment, an open-ended exploration shaped by dialogue, iteration, and the physical presence of myself as a helping hand. Rather than arriving with a fixed concept or outcome, Charles approached the machine with curiosity and a striking level of motivation. Charles was eager to test its visual logic through improvisation, experimenting playfully and extensively with different settings and ideas. At times, I even had to slow the process down to avoid getting lost in the sheer range of possibilities.
@@ -14,6 +15,7 @@ The collaboration between Charles and Splicer unfolded less as a production sess
 This engagement fostered a space of mutual exchange. The collaboration became more than an image-making exercise, it was a discursive process that allowed both artists to reflect on their respective practices through the lens of the other. For Charles, the relatively unfamiliar medium of experimental photography echoed aspects of his sonic work; for me, Charles’ insights opened new conceptual paths for understanding Splicer’s potential. The process proved deeply enriching for both, grounded not in output alone, but in this shared act of exploration.
 
 ![Charles and Splicer](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-1_CharlesKwong_10_small.jpg){align=left}  
+*Conversation 1, Charles Kwong, Making Off*  
 
 # Temporality and the Shifted Experience of the Photographic Moment
 In the conversation we explored how photography intersects with the experience of time. Charles reflected on the fundamental difference between space and time: while we can move freely through space, time only moves in one direction. Once a moment has passed, it cannot be re-entered. Photography, he noted, attempts to hold onto this passing, but only ever offers a fragment that can never replicate the immediacy of lived experience.
@@ -30,6 +32,7 @@ This analogy may become a useful framework to describe different photographic lo
 Splicer may be seen as operating across both modes. It subtracts micro-slices of time and space and then adds them together into a new composition. The result is not a snapshot, but a visual construct that imagines a different continuity. For Charles, this hybrid process resonates deeply with his compositional work, where real-world resonance and abstract construction often merge. The machine doesn’t just capture what is there; it builds something that wasn’t visible before.
   
 ![Conversation 1, Charles Kwong, Diptych](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation1_CharlesKwong_Diptych.webp){align=left}  
+*Conversation 1, Charles Kwong, Final vertical diptych, 2x 10'000 sampling lines*
 
 # The sample
 
