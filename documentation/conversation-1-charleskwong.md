@@ -9,7 +9,7 @@ Charles is classically trained composer from Hong Kong with an increasing focus 
 > ```Charles Kwong, Splicer collaboration debrief, April 3, 2025.```
 
 <figure markdown="1">
-![Conversation 1, Charles Kwong](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation1_CharlesKwong_1.webp){ align=left}  
+![Conversation 1, Charles Kwong](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation1_CharlesKwong_1.webp)
 <figcaption>Conversation 1, Charles Kwong, The underside of the instrument up close</figcaption> 
 </figure>
 
