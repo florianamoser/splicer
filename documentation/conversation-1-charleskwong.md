@@ -41,7 +41,7 @@ This analogy may become a useful framework to describe different photographic lo
 Splicer may be seen as operating across both modes. It subtracts micro-slices of time and space and then adds them together into a new composition. The result is not a snapshot, but a visual construct that imagines a different continuity. For Charles, this hybrid process resonates deeply with his compositional work, where real-world resonance and abstract construction often merge. The machine doesn’t just capture what is there; it builds something that wasn’t visible before.
 
 <figure markdown="1">
-![Conversation 1, Charles Kwong, Diptych](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation1_CharlesKwong_Diptych.webp){align=left}  
+![Conversation 1, Charles Kwong, Diptych](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation1_CharlesKwong_Diptych.webp) 
 <figcaption>Conversation 1, Charles Kwong, Final vertical diptych</figcaption> 
 </figure>
 
