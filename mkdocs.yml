@@ -12,7 +12,7 @@ docs_dir: documentation
 # Navigation
 nav:
   - Abstract: 
-    - Abstract: README.md
+    - README.md
     - Acknowledgements: acknowledgements.md
     - Print Version: printversion.md
     - Licence: licence.md
@@ -102,7 +102,7 @@ copyright: Copyright &copy; 2025 Florian Amoser
 
 extra_css:
     - templates/pdf-print.css
-    
+
 # Plugins
 plugins:
   - search
