@@ -21,7 +21,7 @@ This engagement fostered a space of mutual exchange. The collaboration became mo
 <!-- ![Charles and Splicer](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-1_CharlesKwong_10_small.jpg){align=left}  
 *Conversation 1, Charles Kwong, Making Off*   -->
 
-<figure markdown="1" width="500">
+<figure markdown="1" width="500px">
 ![Charles and Splicer](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-1_CharlesKwong_10_small.jpg)
 <figcaption>Conversation 1, Charles Kwong, Making Off</figcaption> 
 </figure>
