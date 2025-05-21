@@ -1,7 +1,15 @@
 
 
-blockquote {
-    background-color: rgba(248, 248, 248, 1);
+/* blockquote {
     color:rgba(0, 0, 0, 1);
     padding: 1em;
+} */
+
+.md-typeset blockquote {
+    background-color: rgb(215, 245, 255);
+    padding-top: .3rem;
+    padding-right: .3rem;
+    padding-bottom: .3rem;
+    color:rgba(0, 0, 0, 1);
+    border-left: .2rem solid rgb(9, 13, 87);
 }
