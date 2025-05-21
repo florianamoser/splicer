@@ -44,13 +44,12 @@ nav:
     - 24 Packages from Aliexpress: building-packages.md
     - Sensor and Framegrabber: building-sensor.md
     - Lens Choice: building-lens.md
-    - Camera Bellows: building-bellow.md safasfasf
+    - Camera Bellows: building-bellow.md
     #  - everything becomes transparent
   #   - Building Aluminium Structure: placeholder.md
     - Electrical Wiring: building-wiring.md
     - GCODE on Splicer: building-gcode.md
-  # - Integration of axis: Integration
-    # - Placement and leveling of machine: placeholder.md
+    - Integration of Motionsystem: building-linuxcnc-integration.md
   # - Focus calibration: placeholder.md
     - Frame grabber settings: building-framegrabber.md
     - Sensor settings: building-sensor-settings.md
