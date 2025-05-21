@@ -2,7 +2,7 @@
 
 1. How can a lens-based photographic apparatus for a post-photographic era work?  
 2. How is Splicer perceived by other disciplines?  
-3. How can abstraction in photography help overcome attention economy?
+3. How can abstraction in photography help overcome the attention economy?
 
 These questions are addressed in the following pages through an analysis of the theoretical context, the applied development of a photographic apparatus (Splicer), reflective artistic works emerging from this development, and collaborative experiments that explore Splicer as both a tool and a discursive framework.
 
