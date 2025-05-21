@@ -13,14 +13,14 @@ The invitation for the Conversation emerged from this long-standing exchange. It
 # Photography between Visual Memory and Technical Notation
 Lukas described his everyday photography as primarily pragmatic. His phone camera is a tool for documenting technical details: e.g., a car part, a door hinge, or a wiring detail—functioning like a visual notebook. At the same time, he acknowledges the emotional value of photography as a trigger for memory, akin to how smell or taste can evoke vivid recollections. The photographs as such are thereby not really an important object other than functioning as this trigger for memory.  
 
-> "Photos are, to me, like another visual sensory impression […] a trigger that moves the brain into a situation […]."
+> «To me, photos are like another visual sensory impression […] a trigger that moves the brain into a situation […].»  
 > Lukas Schmid, April 2025.
 
 
 # The Subjectivity of Images and the Myth of Neutral Vision  
 A recurring theme in the conversation was the tension between objectivity and subjectivity in photography. Lukas reflected on how, over time and especially with the rise of AI-generated and manipulated images, he has become more critical of the intentions behind photographs, particularly in media:  
 
-> "I used to see the whole thing as more neutral […]. Today I think: there's an intention behind every image."  
+> «I used to see the whole thing as more neutral […]. Today I think: there's an intention behind every image.»  
 > Lukas Schmid, April 2025.
 
 An important discussion was, whether the perception of photographs has changed because the images themselves have become more constructed or because the viewer now brings greater media literacy and contextual awareness. This led to a shared conclusion: every image is shaped by subjective framing, whether by the photographer, apparatus, or viewer.  
