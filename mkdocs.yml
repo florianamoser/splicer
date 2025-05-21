@@ -53,7 +53,7 @@ nav:
       - Placement and leveling of machine: placement.md
       - Integration of Motionsystem: building-linuxcnc-integration.md
       - GCODE on Splicer: building-gcode.md
-  # - Focus calibration: placeholder.md
+      - Focus calibration: building-focuscalibration.md
       - Frame grabber settings: building-framegrabber.md
       - Sensor settings: building-sensor-settings.md
   - Using Splicer: 
@@ -68,10 +68,10 @@ nav:
       - Setting up after Transport: checklist-after-transport.md
       - Before startup: checklist-startup.md
   - Conversations:
-    - Methodology: conversation-methodology.md
-    - "Conversation 1: Charles Kwong": conversation-1-charleskwong.md
-    - "Conversation 2: Lukas Schmid": conversation-2-lukasschmid.md
-    - "Conversation 3: Rony Emmenegger": conversation-3-ronyemmenegger.md
+       - Methodology: conversation-methodology.md
+       - "Conversation 1: Charles Kwong": conversation-1-charleskwong.md
+       - "Conversation 2: Lukas Schmid": conversation-2-lukasschmid.md
+       - "Conversation 3: Rony Emmenegger": conversation-3-ronyemmenegger.md
   - Outlook: 
     - Preliminary Summary and Outlook: summaryoutlook.md 
   

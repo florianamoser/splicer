@@ -31,7 +31,7 @@ Finally, we explored how Splicer, as an apparatus, plays with perception and con
 This led to a nuanced conversation about the [logic embedded in machines](https://documentation.splicer.camera/theory-3/), and how understanding those parameters might allow someone to decode what they see. If one knows [how Splicer works](https://documentation.splicer.camera/operationalprinciples/), the resulting image may become more "objective"; alternatively, its strangeness may reinforce the idea that all images are interpretive.
   
 <figure markdown="1">
-![Conversation 2, Lukas Schmid](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-2_LukasSchmid.webp) {width="500"}
+![Conversation 2, Lukas Schmid](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-2_LukasSchmid.webp){width="500"}
 <figcaption>Conversation 2, Lukas Schmid, Final image</figcaption> 
 </figure>
   
