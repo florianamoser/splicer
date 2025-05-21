@@ -40,12 +40,12 @@ nav:
   - Building Splicer:
     - Becoming Splicer: becomingsplicer.md
     - Start: building-start.md
+    - Sourcing Parts: building-sourcing.md
     - Sensor and Framegrabber: building-sensor.md
-  #   - Lens choice: placeholder.md
+    - Lens choice: building-lens.md
   #   - RGB Trichromy filter choice: placeholder.md
-  #   - Sourcing Parts: placeholder.md
   #   - Building Aluminium Structure: placeholder.md
-  #   - Wiring: placeholder.md
+    - Wiring: building-wiring.md
   #   - Gcode Specifications: placeholder.md
   - Initial Startup:
     - Placement and leveling of machine: placeholder.md
