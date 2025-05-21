@@ -3,6 +3,10 @@
 <figcaption>Splicer Wiring Diagram</figcaption> 
 </figure>
 
+> **Splicer / Wiring Diagram, December 2023**
+> White pen plot on 70×100 cm black cardboard
+> This piece functions simultaneously as a technical document and an artwork. It presents a digitally hand-drawn wiring diagram of Splicer, offering all necessary information for electrical integration. Beyond its utilitarian purpose, the diagram is a scaled representation of an internal aspect of Splicer.
+
 This diagram is both functional and a artistic work: it shows a digitally hand-drawn depiction of Splicer’s wiring. It gives all required information for electrical integration and is in itself a scaled repiction of an aspect of Splicer.
 
 Splicer operates across four independent voltages, each serving distinct components of the apparatus. The separation of these layers is essential for maintaining signal integrity, safety, and operational stability.
