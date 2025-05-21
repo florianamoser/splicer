@@ -6,7 +6,9 @@ While the dynamic range of this sensor is limited and it requires a high level o
 
 It is essential to use a monochrome sensor. Tests conducted with a Takex TLC-7300UCL, a trilinear color sensor with three parallel lines, have demonstrated that bilinear or trilinear sensors introduce parallax errors due to spatial separation of the sensor lines. These errors render the output unusable for the imaging approach employed by Splicer.
 
-![Splicer Sensor](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Sensor.webp){ align=left}  
+<figure markdown="1">
+![Splicer Sensor](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Sensor.webp){width="450"}
+</figure>
 
 > **Splicer / Sensor**  
 > C-print 40x50cm  

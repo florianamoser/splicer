@@ -31,8 +31,10 @@ The broken end of the core, used as the focal point in the Splicer image, become
 
 This tension mirrors broader themes in Rony’s research. Scientific knowledge is never total, and our access to geological futures is always mediated, situated, and contingent. The image thus becomes a site where clarity and uncertainty coexist.
 
-![Conversation 3, Rony Emmennegger](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-3_RonyEmmenegger.webp){ align=left}  
-```Conversation 3, Rony Emmennegger, Opalinusmassiv```
+<figure markdown="1">
+![Conversation 3, Rony Emmennegger](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-3_RonyEmmenegger.webp) 
+<figcaption>Conversation 3, Rony Emmennegger, Opalinusmassiv</figcaption> 
+</figure>
 
 # The Sample
 Rony brought a cylindrical core sample of Opalinus Clay, a sedimentary rock formation currently under consideration as Switzerland’s primary host layer for the deep geological storage of radioactive waste. The core was not extracted from one of the official boreholes used in current site investigations but originates from the Mont Terri rock laboratory in St. Ursanne, where Opalinus Clay lies close to the surface. This particular core is most probably a discarded sample, the official core samples from potential deep storage sites are stored in laboratories. Yet still this drill core is materially representative of the opalinus clay's properties. With a diameter of roughly 3.2 cm and a length of about 25–30 cm, the sample carries visible traces of its extraction: spiral markings from the drilling process and a fracture at both ends, where the stone has broken along a slanted geological strata plane. While not a scientific sample per se, the core remains deeply symbolic as a material witness to deep time and as a proxy for a larger, politically and ethically charged infrastructural project.

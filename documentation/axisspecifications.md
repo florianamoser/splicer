@@ -1,5 +1,5 @@
 <figure markdown="1">
-![Splicer Axis Diagram](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_AllAxisDiagram.webp)
+![Splicer Axis Diagram](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_AllAxisDiagram.webp){width="450"}
 <figcaption>Splicer Axis Diagram</figcaption> 
 </figure>
 
