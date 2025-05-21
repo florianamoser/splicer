@@ -3,7 +3,7 @@
 <figcaption>Splicer Wiring Diagram</figcaption> 
 </figure>
 
-This diagram shows a hand-drawn depiction of Splicer’s wiring. It gives all required information for electrical integration.
+This diagram is both functional and a artistic work: it shows a digitally hand-drawn depiction of Splicer’s wiring. It gives all required information for electrical integration and is in itself a scaled repiction of an aspect of Splicer.
 
 Splicer operates across four independent voltages, each serving distinct components of the apparatus. The separation of these layers is essential for maintaining signal integrity, safety, and operational stability.
 

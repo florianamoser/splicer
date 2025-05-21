@@ -54,7 +54,7 @@
 
 **Splicer-animator Export Gcode**
 
-![splicer animator in blender: Export Gcode](/splicer/assets/splicer-animator-4.webp){ align=left }  
+![splicer animator in blender: Export Gcode](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/splicer-animator-4.webp){ align=left }  
 *Click on image to enlarge*
 
 1. Select the **Export Script** workspace.
@@ -73,7 +73,7 @@
 
 **Splicer-animator Check Export and Debugging**
 
-![splicer animator in blender: Check Export and Debugging](/splicer/assets/splicer-animator-5.webp){ align=left }  
+![splicer animator in blender: Check Export and Debugging](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/splicer-animator-5.webp){ align=left }  
 *Click on image to enlarge*
 
 !!! tip "Export Debugging"
