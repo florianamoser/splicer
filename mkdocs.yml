@@ -33,32 +33,36 @@ nav:
     - Physical Dimension: physicaldimensions.md
     - Naming Convention: namingconventions.md
     - Axis Specification: axisspecifications.md
-    - Sample Selection Guidelines: samplerequirements.md
-    - Image Output: imageoutput.md
-    - Light Requirements: lightrequirements.md
-    - Relevant Manuals: external-manuals.md
+    - Monochrome and RGB Capture: monoandrgb.md
   - Building Splicer:
     - Becoming Splicer: becomingsplicer.md
-    - Getting Started: building-start.md
-    - Sourcing Parts: building-sourcing.md
-    - 24 Packages from Aliexpress: building-packages.md
-    - Sensor and Framegrabber: building-sensor.md
-    - Lens Choice: building-lens.md
-    - Camera Bellows: building-bellow.md
+    - Getting Started: 
+      - building-start.md
+      - Relevant Manuals: external-manuals.md
+    - Sourcing Parts: 
+      - building-sourcing.md
+      - 24 Packages from Aliexpress: building-packages.md
+      - Sensor and Framegrabber: building-sensor.md
+      - Lens Choice: building-lens.md
+    - Building:
+      - Camera Bellows: building-bellow.md
     #  - everything becomes transparent
   #   - Building Aluminium Structure: placeholder.md
-    - Electrical Wiring: building-wiring.md
-    - GCODE on Splicer: building-gcode.md
-    - Integration of Motionsystem: building-linuxcnc-integration.md
+      - Electrical Wiring: building-wiring.md
+    - Integration:
+      - Placement and leveling of machine: placement.md
+      - Integration of Motionsystem: building-linuxcnc-integration.md
+      - GCODE on Splicer: building-gcode.md
   # - Focus calibration: placeholder.md
-    - Frame grabber settings: building-framegrabber.md
-    - Sensor settings: building-sensor-settings.md
-    - Placement and leveling of machine: placement.md
+      - Frame grabber settings: building-framegrabber.md
+      - Sensor settings: building-sensor-settings.md
   - Using Splicer: 
+    - Sample Selection Guidelines: samplerequirements.md
     - Mounting a Sample: sample-fixtures.md
+    - Image Output: imageoutput.md
+    - Light Requirements: lightrequirements.md
     - Controlling Splicer: splicer-animator.md
-    - Image Capture Software: imagecapture.md
-    - Monochrome and RGB Capture: monoandrgb.md
+    # - Image Capture Software: imagecapture.md
     - Checklists:
       - Setting up for Transport: checklist-transport.md
       - Setting up after Transport: checklist-after-transport.md

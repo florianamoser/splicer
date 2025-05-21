@@ -1,3 +1,9 @@
+![Splicer Sensor](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Sensor.webp){ align=left}  
+
+> **Splicer / Sensor**
+> C-print 40x50cm
+  
+
 Any monochrome line scan sensor can, in principle, be used with Splicer. However, sensors other than the Dalsa Teledyne P2-49-08k40 will require modifications to the sensor mount and potentially to the entire toolhead layout.
 
 Key considerations when selecting a sensor include its availability and the interface or data acquisition infrastructure required to operate it. The Dalsa Teledyne P2-49-08k40, for example, requires a Windows-based computer equipped with an FPGA PCI frame grabber to capture image data. This sensor uses a Camera Link interface and connects via two MDR26 cables to the Dalsa Teledyne Xcelera-HS PX8 frame grabber. These components occasionally become available on the industrial surplus market and can be acquired at reasonable prices. The sensor referenced here was sourced from surplus in Seoul, Korea, and the frame grabber from a Chinese surplus vendor.
