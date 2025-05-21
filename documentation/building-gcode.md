@@ -16,11 +16,6 @@ Splicer interprets GCODE through a LinuxCNC-based controller, which interfaces w
 | `M62 Pn`  | **Sets digital output pin `n` ON** on the Mesa 7i96                      |
 | `M63 Pn`  | **Sets digital output pin `n` OFF** on the Mesa 7i96                     |
 
-These commands are used in sequence:
-
-``` gcode
-M62 P2      ; Turn output pin 2 ON (trigger ON)
-M63 P2      ; Turn output pin 2 OFF (trigger OFF) ```
 Each rising and falling edge of the output signal is interpreted as one discrete line trigger by the image capture system.
 
 # G93 Inverse Feedrate Mode
@@ -32,7 +27,7 @@ Splicer operates in `G93` Inverse Time Feedrate Mode, which interprets feedrate 
 
 This Python script is used to export a motion animation from Blender into machine-readable GCODE for Splicer. It generates a `.ngc` file based on animated object movement, camera parameters, and output pin triggers, using `G93` inverse feedrate for precise timing.
 
-## 📁 File & Capture Setup
+## File & Capture Setup
 
 ```python
 import bpy
