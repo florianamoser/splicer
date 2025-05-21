@@ -39,23 +39,22 @@ nav:
     - Relevant Manuals: external-manuals.md
   - Building Splicer:
     - Becoming Splicer: becomingsplicer.md
-    - Start: building-start.md
+    - Getting Started: building-start.md
     - Sourcing Parts: building-sourcing.md
     - 24 Packages from Aliexpress: building-packages.md
     - Sensor and Framegrabber: building-sensor.md
-    - Lens choice: building-lens.md
+    - Lens Choice: building-lens.md
     - Camera Bellows: building-bellow.md safasfasf
     #  - everything becomes transparent
-  #   - RGB Trichromy filter choice: placeholder.md
   #   - Building Aluminium Structure: placeholder.md
-    - Wiring: building-wiring.md
+    - Electrical Wiring: building-wiring.md
+    - GCODE on Splicer: building-gcode.md
   # - Integration of axis: Integration
-    - Splicer GCODE: building-gcode.md
     # - Placement and leveling of machine: placeholder.md
   # - Focus calibration: placeholder.md
     - Frame grabber settings: building-framegrabber.md
-    - Frame grabber settings: building-sensor-settings.md
-  # - Sensor settings: placeholder.md
+    - Sensor settings: building-sensor-settings.md
+    - Placement and leveling of machine: placement.md
   - Using Splicer: 
     - Mounting a Sample: sample-fixtures.md
     - Controlling Splicer: splicer-animator.md
