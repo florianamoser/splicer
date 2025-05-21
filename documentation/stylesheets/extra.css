@@ -1,6 +1,7 @@
 
 
 blockquote {
-    background-color: rgb(240, 240, 240);
-    color:#000;
+    background-color: rgba(248, 248, 248, 1);
+    color:rgba(0, 0, 0, 1);
+    padding: 1em;
 }
