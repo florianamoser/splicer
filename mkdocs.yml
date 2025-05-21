@@ -11,8 +11,8 @@ docs_dir: documentation
 
 # Navigation
 nav:
-  - Abstract: 
-    - README.md
+  - Start: 
+    - Abstract: README.md
     - Acknowledgements: abstract/acknowledgements.md
     - Print Version: abstract/printversion.md
     - Licence: abstract/licence.md
@@ -41,20 +41,20 @@ nav:
     - Becoming Splicer: becomingsplicer.md
     - Start: building-start.md
     - Sourcing Parts: building-sourcing.md
-    # - 24 Packages from Aliexpress: building-sourcing.md
+    - 24 Packages from Aliexpress: building-packages.md
     - Sensor and Framegrabber: building-sensor.md
     - Lens choice: building-lens.md
-    - Camera Bellows: building-bellow.md
-    #  everything becomes transparent
+    - Camera Bellows: building-bellow.md safasfasf
+    #  - everything becomes transparent
   #   - RGB Trichromy filter choice: placeholder.md
   #   - Building Aluminium Structure: placeholder.md
     - Wiring: building-wiring.md
-  #   - Gcode Specifications: placeholder.md
   # - Integration of axis: Integration
-    # - Placement and leveling of machine: placeholder.md
     - Splicer GCODE: building-gcode.md
+    # - Placement and leveling of machine: placeholder.md
   # - Focus calibration: placeholder.md
-  # - Frame grabber settings: placeholder.md
+    - Frame grabber settings: building-framegrabber.md
+    - Frame grabber settings: building-sensor-settings.md
   # - Sensor settings: placeholder.md
   - Using Splicer: 
     - Mounting a Sample: sample-fixtures.md
@@ -73,7 +73,6 @@ nav:
   - Outlook: 
     - Preliminary Summary and Outlook: summaryoutlook.md 
   
-    # - Monochrome and tri-color capture: monocolorcapture.md
     # - Merging tri-color capture images: mergingcolorimages.md
 
 ## DO NOT CHANGE BELOW THIS LINE

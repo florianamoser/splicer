@@ -1,3 +1,7 @@
+This following series of articles is intended to provide sufficient information to build, understand, or repair Splicer. It is not a step-by-step assembly guide, though such a manual may eventually be developed. Instead, the technical documentation focuses on specific and critical aspects of the apparatus.
+
+The documentation assumes a degree of prior knowledge: a technically inclined person, familiar with CNC systems, electronics, basics in software and photography, should be able to reconstruct or troubleshoot Splicer based on the information provided. 
+
 # Warnings / Caution
 Splicer is an open machine by design — physically and conceptually. This openness fosters transparency but also introduces risk. Please read the following cautions carefully before beginning assembly or operation.
 
