@@ -1,3 +1,3 @@
-This is an automatically converted pdf version from this online documentation for personal reference. There is no changelog in the printversion, only the most recent version is available.
-
+If you need to print a version of this online documentation, a PDF is available for personal reference. This is an automatically converted version of the most recent state of the documentation. There is no changelog included, and only the latest version is available. For the most complete and interactive experience, the online documentation should be considered the primary source. The printed version is intended mainly for offline use.  
+  
 <a href="https://github.com/florianamoser/splicer/blob/gh-pages/FlorianAmoser_Splicer_Manual.pdf" target="_blank">Splicer Manual as PDF</a>
