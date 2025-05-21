@@ -1,10 +1,13 @@
-IMAGE OF AXIS
+<figure markdown="1">
+![Splicer Axis Diagram](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_AllAxisDiagram.webp)
+<figcaption>Splicer Axis Diagram</figcaption> 
+</figure>
 
 Each axis on Splicer is identified by a letter, a joint number, and a step generator (step-gen) number. The joint and step-gen numbers are primarily relevant during initial configuration or for debugging purposes. They are included here solely for the sake of completeness. The axis letters follow standard CNC axis naming conventions (A, B, C, X, Y, Z, U, V, W) and cannot be arbitrarily assigned.  
 
-!!! tip "This has no impact during normal operation."
+> **This has no impact during normal operation.**  
     
-    Special cases include axes `Z`, `A`, and `B`. In software, `Axis Z` simultaneously controls two physical motors on the machine. Axes `A` and `B` in software control two motors via a CoreXY kinematic translation. The corresponding physical motors are also labeled A and B; however, they do not correspond to software axes A and B. This distinction is only relevant during the configuration of Splicer. Although the naming scheme is suboptimal, it cannot be changed due to the constraints of the CNC axis naming convention and the CoreXY naming convention. 
+>    Special cases include axes `Z`, `A`, and `B`. In software, `Axis Z` simultaneously controls two physical motors on the machine. Axes `A` and `B` in software control two motors via a CoreXY kinematic translation. The corresponding physical motors are also labeled A and B; however, they do not correspond to software axes A and B. This distinction is only relevant during the configuration of Splicer. Although the naming scheme is suboptimal, it cannot be changed due to the constraints of the CNC axis naming convention and the CoreXY naming convention. 
 
 ***
 
