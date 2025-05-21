@@ -39,9 +39,9 @@ nav:
     - Relevant Manuals: external-manuals.md
   - Building Splicer:
     - Becoming Splicer: becomingsplicer.md
-  #   - Start: placeholder.md
+    - Start: building-start.md
+    - Sensor and Framegrabber: building-sensor.md
   #   - Lens choice: placeholder.md
-  #   - Sensor choice: placeholder.md
   #   - RGB Trichromy filter choice: placeholder.md
   #   - Sourcing Parts: placeholder.md
   #   - Building Aluminium Structure: placeholder.md

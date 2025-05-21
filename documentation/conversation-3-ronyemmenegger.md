@@ -7,7 +7,7 @@ As a geographer, Rony is interested in how expertise, rock formations, and deep 
 
 This thematic overlap made the collaboration with Splicer uniquely resonant. Rony brought not only geological expertise but also a keen interest in how science and infrastructure are visually represented. He was particularly focused on the depiction and interpretation of Opalinus clay, the sedimentary rock layer chosen as the most suitable host for Switzerland’s future nuclear waste repository.
 
-The collaboration offered a space to reflect on shared inquiries that animate both disciplines. These include how we visualize the invisible and how we give form to time. They also involve considering how the photograph, as both image and artifact, can serve as a tool for engaging with uncertainty, memory, and speculation about the deep underground.
+The collaboration offered a space to reflect on shared inquiries that animate both disciplines. These include how we visualize the invisible and how we give form to time. They also involve considering how the photograph, as both image and artefact, can serve as a tool for engaging with uncertainty, memory, and speculation about the deep underground.
 
 # Deep Time and the Politics of Temporal Representation
 A central thread throughout the conversation is the difficulty and necessity of grappling with deep geological time in the context of radioactive waste storage. Rony emphasized that while the time scales involved (hundreds of thousands to millions of years) appear to exceed human cognition, they are not beyond imagination; rather, they require new cognitive frameworks and representational tools.
