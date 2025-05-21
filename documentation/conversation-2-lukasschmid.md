@@ -5,8 +5,8 @@ In March 2025, engineer Lukas Schmid visited my studio in Olten for the second C
 
 The invitation for the Conversation emerged from this long-standing exchange. It was a chance not only to acknowledge Lukas’ contribution to the apparatus’s construction, but also to open a reflective space between two different ways of thinking: engineering logic and photographic experimentation.  
   
-<figure markdown="1" width="500">
-![Conversation 2, Lukas Schmid, Making Off](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-2_LukasSchmid_MakingOff.webp)  
+<figure markdown="1">
+![Conversation 2, Lukas Schmid, Making Off](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-2_LukasSchmid_MakingOff.webp){width="500"}
 <figcaption>Conversation 2, Lukas Schmid, Making Off</figcaption> 
 </figure>  
   
@@ -30,8 +30,8 @@ Finally, we explored how Splicer, as an apparatus, plays with perception and con
 
 This led to a nuanced conversation about the [logic embedded in machines](https://documentation.splicer.camera/theory-3/), and how understanding those parameters might allow someone to decode what they see. If one knows [how Splicer works](https://documentation.splicer.camera/operationalprinciples/), the resulting image may become more "objective"; alternatively, its strangeness may reinforce the idea that all images are interpretive.
   
-<figure markdown="1" width="500">
-![Conversation 2, Lukas Schmid](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-2_LukasSchmid.webp) 
+<figure markdown="1">
+![Conversation 2, Lukas Schmid](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Conversation-2_LukasSchmid.webp) {width="500"}
 <figcaption>Conversation 2, Lukas Schmid, Final image</figcaption> 
 </figure>
   

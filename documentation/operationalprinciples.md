@@ -1,8 +1,11 @@
-# Operational Principles of Splicer
-
 Much like audio samplers – widely used in electronic music to record, cut, stretch, loop, and filter sound bites to produce entirely new compositions – Splicer applies a similar logic to visual material. A physical object, or sample, is placed in front of Splicer's camera module, where it becomes the raw input for an image-generation process rooted in multi-dimensional visual sampling.
 
 Unlike conventional cameras, Splicer does not rely on a rectangular area sensor. Instead, it employs a line scan sensor composed of a single row of pixels. This type of sensor is commonly used in industrial applications for quality control of continuous materials such as paper, textiles, or metal on conveyor systems. The same technology is also found in photo finish cameras at sporting events, where it enables high-precision, time-resolved imaging of competitors crossing the finish line.
+
+<figure markdown="1">
+![Splicer Process Diagram](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_ProcessDiagram.webp)
+<figcaption>Splicer Process Diagram</figcaption> 
+</figure>
 
 The principle of line-based image capture has historical roots in analog photography, most notably in slit-scan techniques used for producing panoramic images. Companies such as the Swiss manufacturer Seitz have a long-standing tradition of developing rotational panoramic cameras based on this method. A more abstract and cinematic application of slit-scan imaging appears in the iconic Stargate sequence of 2001: A Space Odyssey (1968), directed by Stanley Kubrick, where it was used to evoke temporal and spatial distortion.
 
