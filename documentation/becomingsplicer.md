@@ -9,15 +9,13 @@ What followed was a period of prototyping – and failing – during which the i
 
 In 2023 and 2024, the addition of a motorized camera lift and a completely rebuilt camera module (v2) expanded the control system to the nine axes originally envisioned. By the beginning of 2025, the project reached a provisional point of completion.
 
----
-
-This continuous and open-ended process has led to a somewhat peculiar situation. For a long time, I’ve told people that Splicer is working – but not yet finished. In a world that expects clear outcomes and definitive endpoints, such ongoing development was often met with confusion or impatience. Eventually, people stopped asking whether it was done. Strangely, this created a kind of comfortable space: the project continues on its own terms, without the pressure of finality.
-
-I’ve come to accept that Splicer may never truly be finished. It might one day simply be left behind – abandoned in whatever state it has reached, still unresolved, yet somehow complete in its incompleteness. Especially within the context of most of photography, where an image either exists or it doesn’t, a project oriented toward *potential photography* – a machine for images that might still come – was often met with bewilderment. And perhaps it is precisely this state of perpetual incompletion that keeps the machine alive with possibility: enabling the imagination of latent images still embedded in its logic, waiting to be revealed.
-
 ![Splicer Looking at Florian, Autumn 2024](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Development-Splicerlookingatflorian.webp)
 
 ```  
-SPLICER / DEVELOPMENT, Splicer Looking at Florian, Autumn 2021  
+SPLICER / DEVELOPMENT, Splicer Looking at Florian, Autumn 2024  
 C-print, 40 × 50 cm  
 ```  
+
+The continuous and open-ended process has led to a somewhat peculiar situation. For a long time, I’ve told people that Splicer is working – but not yet finished. In a world that expects clear outcomes and definitive endpoints, such ongoing development was often met with confusion or impatience. Eventually, people stopped asking whether it was done. Strangely, this created a kind of comfortable space: the project continues on its own terms, without the pressure of finality.
+
+I’ve come to accept that Splicer may never truly be finished. It might one day simply be left behind – abandoned in whatever state it has reached, still unresolved, yet somehow complete in its incompleteness. Especially within the context of most of photography, where an image either exists or it doesn’t, a project oriented toward *potential photography* – a machine for images that might still come – was often met with bewilderment. And perhaps it is precisely this state of perpetual incompletion that keeps the machine alive with possibility: enabling the imagination of latent images still embedded in its logic, waiting to be revealed.
