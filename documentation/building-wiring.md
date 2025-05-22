@@ -1,18 +1,11 @@
 <figure markdown="1">
-![Splicer Wiring Diagram](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_ElectronicsDiagram.webp)
+![Splicer Wiring](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Wiring.webp)
 </figure>
 
 ```  
-SPLICER / WIRING DIAGRAM, December 2023  
-White pen plot on 70 × 100 cm black cardboard
-
-This piece functions simultaneously as a technical document and an artwork. 
-It presents a digitally hand-drawn wiring diagram of Splicer, offering all 
-necessary information for electrical integration. Beyond its utilitarian 
-purpose, the diagram is a scaled representation of an internal aspect of Splicer.  
-```    
-  
-This diagram is both functional and a artistic work: it shows a digitally hand-drawn depiction of Splicer’s wiring. It gives all required information for electrical integration and is in itself a scaled repiction of an aspect of Splicer.
+SPLICER / DEVELOPMENT, Wiring, Winter 2024  
+C-print, 40 × 50 cm
+```  
 
 Splicer operates across four independent voltages, each serving distinct components of the apparatus. The separation of these layers is essential for maintaining signal integrity, safety, and operational stability.
 
@@ -24,10 +17,17 @@ Splicer operates across four independent voltages, each serving distinct compone
 !!! warning "Ensure each PSU is clearly labeled, fused, and verified before initial startup. All wiring connections must be made only while the machine is fully disconnected from mains power. Never connect or disconnect components with live voltage present."
 
 <figure markdown="1">
-![Splicer Wiring](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Wiring.webp)
+![Splicer Wiring Diagram](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_ElectronicsDiagram.webp)
 </figure>
 
 ```  
-SPLICER / DEVELOPMENT, Wiring, Winter 2024  
-C-print, 40 × 50 cm
-```  
+SPLICER / WIRING DIAGRAM, December 2023  
+White pen plot on 70 × 100 cm black cardboard
+
+This piece functions simultaneously as a technical document 
+and an artwork. It presents a digitally hand-drawn wiring 
+diagram of Splicer, offering all necessary information for 
+electrical integration. Beyond its utilitarian purpose, the 
+diagram is a scaled representation of an internal aspect of 
+Splicer.  
+```    
