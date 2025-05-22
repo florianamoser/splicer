@@ -4,12 +4,13 @@ Originally started as a personal investigation into the photographic apparatus, 
 
 This documentation serves as both a technical documentation and a discursive companion to the project. It encompasses development notes, service guidelines, and reflections on photographic practice. The documentation concludes with a preliminary summary and an outlook.
 
-![Splicer Development Prototype, Spring 2021](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Development-Prototyp-1.webp){ align=left }  
+For further questions or inquiries, please contact: florian@amoser.ch.  
 
+![Splicer Development Prototype, Spring 2021](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Development-Prototyp-1.webp){ align=left }  
+  
 ```
-Splicer / Development Prototype, Spring 2021
+SPLICER / DEVELOPMENT, SPRING 2021
 C-print, 40x50 cm
 ```
 
-For further questions or inquiries, please contact: florian@amoser.ch.
 

@@ -1,4 +1,8 @@
 ![Three Popes And The End Of Indexicality](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_WorkingInsideTheApparatus.webp){ align=left }  
+```
+SPLICER / DEVELOPMENT, SPRING 2021
+C-print, 40 x 50 cm
+```
 
 My access to the photographic image economy is very organic: since around 2011 I have worked in and around photography. As a photographer and as an assistant, in commercial or artistic productions or in institutional settings. During this time, I also studied photography and worked in an art school, supporting teaching, exhibition, and research efforts on photography. The insights gained through these experiences form the starting point for my applied critique of photography and visual culture.
 

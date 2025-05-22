@@ -71,8 +71,8 @@
 
 ***
 
-**Splicer-animator Check Export and Debugging**
-
+**Splicer-animator Check Export and Debugging**  
+  
 ![splicer animator in blender: Check Export and Debugging](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/splicer-animator-5.webp){ align=left }  
 *Click on image to enlarge*
 
