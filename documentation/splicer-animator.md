@@ -9,7 +9,7 @@
 
 ***
 
-**Splicer-animator Interface Overview**
+**Splicer-Animator Interface Overview**
 
 ![splicer animator in blender: overview](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/splicer-animator-1.webp){ align=left }  
 *Click on image to enlarge*
@@ -22,7 +22,7 @@
 
 ***
 
-**Splicer-animator Aspect Ratio**
+**Splicer-Animator Aspect Ratio**
 
 ![splicer animator in blender: Aspect Ratio](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/splicer-animator-2.webp){ align=left }  
 *Click on image to enlarge*
@@ -37,7 +37,7 @@
 
 ***
 
-**Splicer-animator Animate Sample**
+**Splicer-Animator Animate Sample**
 
 ![splicer animator in blender: Animate Sample](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/splicer-animator-3.webp){ align=left }  
 *Click on image to enlarge*
@@ -52,7 +52,7 @@
 
 ***
 
-**Splicer-animator Export Gcode**
+**Splicer-Animator Export Gcode**
 
 ![splicer animator in blender: Export Gcode](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/splicer-animator-4.webp){ align=left }  
 *Click on image to enlarge*
@@ -71,12 +71,12 @@
 
 ***
 
-**Splicer-animator Check Export and Debugging**  
+**Splicer-Animator Check Export and Debugging**  
   
-![splicer animator in blender: Check Export and Debugging](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/splicer-animator-5.webp){ align=left }  
-*Click on image to enlarge*
-
-!!! info "Export Debugging"
+![splicer animator in blender: Check Export and Debugging](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/splicer-animator-5.webp)  
+*Click on image to enlarge*  
+  
+!!! info "Export Debugging"  
 
     If no Gcode file is generated, check the **Terminal** for messages. Setting `debug = True` in the export script enables verbose output, providing detailed information about the values being written to the Gcode file.
 
