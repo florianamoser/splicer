@@ -50,6 +50,7 @@ nav:
       - Everything becomes transparent: building-everythingtransparent.md
   #   - Building Aluminium Structure: placeholder.md
       - Electrical Wiring: building-wiring.md
+      - Electrical Interface between 
     - Integration:
       - Placement and leveling of machine: placement.md
       - Integration of Motionsystem: building-linuxcnc-integration.md
@@ -57,11 +58,12 @@ nav:
       - Focus calibration: building-focuscalibration.md
       - Frame grabber settings: building-framegrabber.md
       - Sensor settings: building-sensor-settings.md
+      # - Study Images
   - Using Splicer: 
     - Sample Selection Guidelines: samplerequirements.md
     - Mounting a Sample: sample-fixtures.md
-    - Image Output: imageoutput.md
     - Light Requirements: lightrequirements.md
+    - Image Output: imageoutput.md
     - Splicer-Animator: splicer-animator.md
     # - Image Capture Software: imagecapture.md
     - Checklists:
@@ -108,8 +110,8 @@ theme:
 copyright: Copyright 2025 Florian Amoser, florianamoser.xyz
 
 extra_css:
-    - templates/pdf-print.css
     - stylesheets/extra.css
+    - stylesheets/pdf-print.css
 
 # Plugins
 plugins:

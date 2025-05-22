@@ -1,3 +1,22 @@
+
+
+/*
+** for PDF Printing
+*/ 
+/* fixed for `base.css` of mkdocs v1.0.4 */
+code, pre code {
+    font-family: Space Grotesk, "Space Mono" monospace !important;
+}
+
+@media print {
+    hr {
+        display: none;
+    }
+    p {
+	font-size: inherit;
+    }
+}
+
 @page {
     size: A4;
     margin: 2cm;
@@ -13,7 +32,7 @@
         color: #888;
     }
 }
-
+/* 
 h1 {
     string-set: chapter content();
     page-break-before: always;
@@ -41,4 +60,4 @@ section {
 
 h1, h2 {
     color: #005999;
-}
+} */
