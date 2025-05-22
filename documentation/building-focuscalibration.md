@@ -12,16 +12,23 @@ The resulting images are examined to locate the region of maximum sharpness, ind
 Once a full dataset of `Y` and corresponding `V` values has been established, the relationship can be modeled using a polynomial curve function. Surprisingly, ChatGPT has proven to be an effective tool for estimating the curve from raw calibration data. The resulting function allows Splicer to calculate the appropriate `V` value dynamically for any `Y` position.
 
 As a last step, the function is to be [embedded directly into the Splicer Animator Script](https://documentation.splicer.camera/building-gcode/), enabling all future GCODE exports to include automated focus compensation without requiring manual adjustment. The [calibration target](https://github.com/florianamoser/splicer/blob/main/hardware/cad/splicer_sample-mounts/splicer_focus-calibration.f3d) used in this process is open-source and can be downloaded and 3D-printed from the official GitHub repository.
-
+  
 <figure markdown="1">
 ![Splicer Focus Calibration](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_FocusValidation.webp)
-<figcaption>Splicer Focus Validation</figcaption> 
-</figure>
+</figure>  
 
-> **Splicer / Focus Validation**  
-> C-print, 30x37.5cm on paper 40x50  
->  
-> This image is a validation capture of Splicer’s autofocus calibration. From left to right are a sequence of Y-axis positions, each corresponding to a different object distance from the lens. The photograph reveals how the sharpness plane shifts across the distance: at times falling in front of, and at other times behind, the calibration target’s ideal focus point. The work functions both as a diagnostic image and a representation of the spatial and optical interplay.  
+```
+SPLICER / FOCUS VALIDATION, 17. Februar 2025
+C-print, 30x37.5cm on paper 40x50  
+
+This image is a validation capture of Splicer’s autofocus calibration. 
+From left to right are a sequence of Y-axis positions, each 
+corresponding to a different object distance from the lens. The photograph
+reveals how the sharpness plane shifts across the distance: at times 
+falling in front of, and at other times behind, the calibration target’s 
+ideal focus point. The work functions both as a diagnostic image and 
+a representation of the spatial and optical interplay.  
+```
 
 <!-- > Splicer / Focus Validation
 > C-print, 30x37.5cm on paper 40x50, with pen plot annotation

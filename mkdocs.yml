@@ -61,7 +61,7 @@ nav:
     - Mounting a Sample: sample-fixtures.md
     - Image Output: imageoutput.md
     - Light Requirements: lightrequirements.md
-    - Controlling Splicer: splicer-animator.md
+    - Splicer-Animator: splicer-animator.md
     # - Image Capture Software: imagecapture.md
     - Checklists:
       - Setting up for Transport: checklist-transport.md

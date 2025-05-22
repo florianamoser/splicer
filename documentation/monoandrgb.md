@@ -1,4 +1,4 @@
-![Splicer Trichrome Capture](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Trichrome.webp){ align="left" }  
+![Splicer Trichrome Capture](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Trichrome.webp)  
 
 ```    
 SPLICER / STATIC TRICHROME IMAGE CAPTURE

@@ -15,7 +15,7 @@ This continuous and open-ended process has led to a somewhat peculiar situation.
 
 I’ve come to accept that Splicer may never truly be finished. It might one day simply be left behind – abandoned in whatever state it has reached, still unresolved, yet somehow complete in its incompleteness. Especially within the context of most of photography, where an image either exists or it doesn’t, a project oriented toward *potential photography* – a machine for images that might still come – was often met with bewilderment. And perhaps it is precisely this state of perpetual incompletion that keeps the machine alive with possibility: enabling the imagination of latent images still embedded in its logic, waiting to be revealed.
 
-![Splicer Looking at Florian, Autumn 2024](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Development-Splicerlookingatflorian.webp){ align=left }  
+![Splicer Looking at Florian, Autumn 2024](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Development-Splicerlookingatflorian.webp)
 
 ```  
 SPLICER / DEVELOPMENT, Splicer Looking at Florian, Autumn 2021  
