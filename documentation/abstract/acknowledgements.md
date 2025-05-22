@@ -1,5 +1,3 @@
-## Acknowledgements
-
 First and foremost, I would like to thank my partner, Stefanie, for her incredible support, patience and encouragement for this obsessive project.   
 
 Thank you also to my parents, Caroline and Christian, and my brother, Simon.

@@ -1,7 +1,10 @@
 
 
 blockquote {
-    padding: 1em;
+    padding: 0.6em;
+    background-color: rgb(252, 252, 252);
+    border-left: none;
+    color:rgba(0, 0, 0, 1);
 }
 
 [dir=ltr] .md-typeset blockquote 
@@ -9,7 +12,7 @@ blockquote {
     background-color: rgb(252, 252, 252);
     padding-top: .3rem;
     padding-right: .3rem;
-    padding-bottom: .3rem;
     color:rgba(0, 0, 0, 1);
+    padding-bottom: .3rem;
     border-left: none;
 }

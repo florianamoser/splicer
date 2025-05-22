@@ -4,7 +4,7 @@
 2. How is Splicer perceived by other disciplines?  
 3. How can abstraction in photography help overcome the attention economy?
 
-These questions are addressed in the following pages through an analysis of the theoretical context, the applied development of a photographic apparatus (Splicer), reflective artistic works emerging from this development, and collaborative experiments that explore Splicer as both a tool and a discursive framework.
+These questions are addressed in the following pages through an analysis of the [theoretical context](https://documentation.splicer.camera/theory-1/), the [applied development of a photographic apparatus](https://documentation.splicer.camera/operationalprinciples/) (Splicer), reflective artistic works emerging from this development ([here](https://documentation.splicer.camera/building-packages/), [here](https://documentation.splicer.camera/building-wiring/) and [more](https://documentation.splicer.camera/monoandrgb/) throughout the document), and [collaborative experiments that explore Splicer](https://documentation.splicer.camera/conversation-methodology/) as both a tool and a discursive framework.
 
 ---
 
