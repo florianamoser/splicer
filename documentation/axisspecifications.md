@@ -5,9 +5,9 @@
 
 Each axis on Splicer is identified by a letter, a joint number, and a step generator (step-gen) number. The joint and step-gen numbers are primarily relevant during initial configuration or for debugging purposes. They are included here solely for the sake of completeness. The axis letters follow standard CNC axis naming conventions (A, B, C, X, Y, Z, U, V, W) and cannot be arbitrarily assigned.  
 
-> **This has no impact during normal operation.**  
+!!! info "**This has no impact during normal operation.**"  
     
->    Special cases include axes `Z`, `A`, and `B`. In software, `Axis Z` simultaneously controls two physical motors on the machine. Axes `A` and `B` in software control two motors via a CoreXY kinematic translation. The corresponding physical motors are also labeled A and B; however, they do not correspond to software axes A and B. This distinction is only relevant during the configuration of Splicer. Although the naming scheme is suboptimal, it cannot be changed due to the constraints of the CNC axis naming convention and the CoreXY naming convention. 
+    Special cases include axes `Z`, `A`, and `B`. In software, `Axis Z` simultaneously controls two physical motors on the machine. Axes `A` and `B` in software control two motors via a CoreXY kinematic translation. The corresponding physical motors are also labeled A and B; however, they do not correspond to software axes A and B. This distinction is only relevant during the configuration of Splicer. Although the naming scheme is suboptimal, it cannot be changed due to the constraints of the CNC axis naming convention and the CoreXY naming convention. 
 
 ***
 
@@ -47,9 +47,9 @@ From the perspective of the lens, `Z` controls the vertical position (height) of
 
 ### **A-Axis, B-Axis**
 
-> **`A` and `B` refer to different things in software and hardware**  
->  
-> `Axis A` (software) does **not** directly correspond to `Motor A` due to the use of **CoreXY kinematics**. `Axis B`**` (software) is also abstracted in the same way. Always refer to the configuration documentation when working with AB axes to avoid confusion. 
+!!! warning "**`A` and `B` refer to different things in software and hardware**" 
+    
+    `Axis A` (software) does **not** directly correspond to `Motor A` due to the use of **CoreXY kinematics**. `Axis B`**` (software) is also abstracted in the same way. Always refer to the configuration documentation when working with AB axes to avoid confusion. 
 
 **A-Axis**  
 
@@ -97,11 +97,9 @@ From the perspective of the lens, `C` controls the rotation of the sample around
 |---|---|---|---|---|---|
 | `8` | `4` | `Degrees` | `Vertical Orientation` | `-200°` | `+200°` |  
 
-> **Rotating the sensor **always** requires supervision of the sensor cables.**  
->  
-> `U` controls the **orientation of the sensor line**. A value of `U = 0` aligns the sensor vertically. Positive values of `U` rotate the sensor **clockwise**. Negative values of `U` rotate the sensor **counterclockwise**. A value of `U = 90` results in a **horizontal** orientation.  
-
-Care must be taken to monitor cable tension and routing behind the sensor carriage at all times during rotation to prevent damage.
+!!! warning "**Rotating the sensor ***always*** requires supervision of the sensor cables.**"  
+   
+     `U` controls the **orientation of the sensor line**. A value of `U = 0` aligns the sensor vertically. Positive values of `U` rotate the sensor **clockwise**. Negative values of `U` rotate the sensor **counterclockwise**. A value of `U = 90` results in a **horizontal** orientation. Care must be taken to monitor cable tension and routing behind the sensor carriage at all times during rotation to prevent damage.
 
 ***
 

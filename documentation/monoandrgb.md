@@ -1,9 +1,10 @@
 ![Splicer Trichrome Capture](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Trichrome.webp){ align="left" }  
   
-> **Splicer / Static Trichrome Image Capture**  
-> 5 pigment prints, 21×29.7 cm each (A4), arranged sequentially  
->  
-> This series visualizes the trichromatic image reconstruction process used in Splicer. Each print corresponds to a monochrome capture through a different optical filter: no filter, red, green, and blue. The fifth print presents the resulting full-color image, assembled from the filtered channels. While the RGB sequence is sufficient to produce a color image, the unfiltered capture often contributes to enhanced detail and reduced noise.  
+!!! example "**Splicer / Static Trichrome Image Capture**"  
+
+    5 pigment prints, 21×29.7 cm each (A4), arranged sequentially  
+
+    This series visualizes the trichromatic image reconstruction process used in Splicer. Each print corresponds to a monochrome capture through a different optical filter: no filter, red, green, and blue. The fifth print presents the resulting full-color image, assembled from the filtered channels. While the RGB sequence is sufficient to produce a color image, the unfiltered capture often contributes to enhanced detail and reduced noise.  
   
 ---  
 
@@ -25,9 +26,9 @@ For monochrome captures, a single exposure is often sufficient. However, due to 
 
 To capture full-color images using the monochrome sensor, Splicer employs a **tri-color filter method** based on classical color separation. This technique, which dates back to the earliest forms of color photography[^3], involves capturing three separate exposures through red, green, and blue filters. The resulting images—commonly referred to as *Trichromes* are then combined to produce a full-color image.
 
-> **RGB Line Scan Sensors**
->
-> Line scan sensors capable of capturing color do exist. Instead of a single monochrome line of pixels, they feature either a bilinear Bayer pattern across two lines or a trilinear line array, where each of the three lines is sensitive to a different primary color (red, green, or blue). These lines are physically offset from one another (e.g., by 40 µm in the tested Takex TLC-7300 UCL Sensor[^3]). Tests with the mentioned trilinear RGB sensor have shown that this physical offset introduces significant divergence in the optical path for each line in the physical space. As a result, such sensors are only suitable for capturing flat objects. In the specific use case of Splicer, the geometric misalignment introduced by the offset renders trilinear sensors unsuitable.   
+!!! info "**RGB Line Scan Sensors**"
+
+    Line scan sensors capable of capturing color do exist. Instead of a single monochrome line of pixels, they feature either a bilinear Bayer pattern across two lines or a trilinear line array, where each of the three lines is sensitive to a different primary color (red, green, or blue). These lines are physically offset from one another (e.g., by 40 µm in the tested Takex TLC-7300 UCL Sensor[^3]). Tests with the mentioned trilinear RGB sensor have shown that this physical offset introduces significant divergence in the optical path for each line in the physical space. As a result, such sensors are only suitable for capturing flat objects. In the specific use case of Splicer, the geometric misalignment introduced by the offset renders trilinear sensors unsuitable.   
 
 Splicer has a filterwheel in it's optical path. Position 1: no filter, Position 2: red filter, Position 3: green filter, Position 4: blue filter.
 
@@ -66,9 +67,9 @@ Kodak Wratten 2, green #58 Transmission Curve[^6]
 ![Kodak Wratten 2 #47 Transmission Curve](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/mono-and-rgb_5.png){width="450", align="left"}  
 Kodak Wratten 2, blue #47 Transmission Curve[^7]  
   
-> **RGB Filter Wheel**  
->  
-> The filter wheel is currently operated manually and must be rotated by hand. Preparations are underway to enable motorized control via a servo, which will be triggered in Gcode.  
+!!! info "**RGB Filter Wheel**"  
+    
+    The filter wheel is currently operated manually and must be rotated by hand. Preparations are underway to enable motorized control via a servo, which will be triggered in Gcode.  
   
 
 [^1]: Piranha 2, Line Scan CCD Cameras User Manual, Teledyne Dalsa, 2011: 12.  
