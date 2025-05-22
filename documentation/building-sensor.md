@@ -10,8 +10,7 @@ It is essential to use a monochrome sensor. Tests conducted with a Takex TLC-730
 ![Splicer Sensor](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Sensor.webp){width="450"}
 </figure>
 
-> **Splicer / Sensor**  
-> C-print 40x50cm  
-> 
-> The Line Scan Sensor in Splicer.
-  
+```  
+SPLICER / DEVELOPMENT, Sensor
+C-print, 40 × 50 cm  
+```  

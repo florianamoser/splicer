@@ -36,5 +36,6 @@ Splicer includes a Guideline Laser, precisely mounted to the Lensboard, for quic
 * Simultaneously verify that X = 0 maintains a consistent position along the optical axis for the entire length of the Y-Axis.
 * If misalignments occur, re-adjust the Sample Mover’s leveling or mounting angle and repeat the laser check.
 
-> **Important**  
-> Any repositioning of either the Camera Tower or the Sample Mover invalidates the previous focus calibration. After every physical move or disconnection, the focus system (V-Axis) must be recalibrated using a reference sample and confirmed via test captures and the new focus function needs to be added to the [Splicer Animator GCODE script](https://documentation.splicer.camera/building-gcode/).
+!!! warning "Important"  
+
+    Any repositioning of either the Camera Tower or the Sample Mover invalidates the previous focus calibration. After every physical move or disconnection, the focus system (V-Axis) must be recalibrated using a reference sample and confirmed via test captures and the new focus function needs to be added to the [Splicer Animator GCODE script](https://documentation.splicer.camera/building-gcode/).  

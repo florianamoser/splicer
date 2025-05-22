@@ -21,6 +21,8 @@ SPLICER / DEVELOPMENT, Summer 2021
 Side-by-side Stereophotograph, 11.5 x 15.5 cm Pigment prints, Mirror box
 ```
 
+---
+
 ### Purpose of This Documentation
 
 Furthermore, this online documentation serves multiple purposes. It inhabits a space between functional manual and aesthetic reflection on the practice of open documentation. There is no single prescribed mode of engagement: it can be approached as an instruction booklet, a workshop service manual, software documentation, an artist’s notebook, or even as a reflective art project in its own right.

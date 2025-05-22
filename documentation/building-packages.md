@@ -3,7 +3,7 @@
 </figure>
 
 ```
-Splicer / Supply Chain, February 2024
+SPLICER / SUPPLY CHAIN, February 2024
 Laser print on recycled A4 paper, black and white, cross-polarized photography
 
 An inventory of the invisible infrastructures behind artistic tools, 
