@@ -105,7 +105,7 @@ theme:
   extra:
     homepage: https://www.splicer.camera
     
-copyright: &copy; 2025 Florian Amoser
+copyright: &copy; 2025 Florian Amoser, <a href="https://florianamoser.xyz" target="_blank">florianamoser.xyz</a>
 
 extra_css:
     - templates/pdf-print.css
