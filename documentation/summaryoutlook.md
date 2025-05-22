@@ -1,5 +1,12 @@
 # Preliminary Summary (Summer 2025)
 
+![Splicer Wiring Aftermath](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Wiring-Aftermath.webp){ align=left }  
+  
+```
+Splicer / Wiring Aftermath  
+C-print, 40x50 cm
+```  
+  
 As of summer 2025, Splicer stands as an open, performative, and situated photographic apparatus designed to query the transformations in contemporary photography culture. The project has developed through a transdisciplinary method, interweaving conceptual reflection, technical experimentation, artistic collaboration, and critical engagement with the infrastructures and [aesthetics of image production.](https://documentation.splicer.camera/theory-1/)
 
 The project began as an applied critique of photography’s entanglement with the [attention economy, computational abstraction, and publication platforms.](https://documentation.splicer.camera/theory-2/) Rather than rejecting these dynamics from the outside, Splicer was built to [operate within them](https://documentation.splicer.camera/theory-3/), while simultaneously partially [resisting their logic](https://documentation.splicer.camera/theory-4/). Constructed from industrial surplus and open-source components, the apparatus deliberately foregrounds its own material and operational transparency.
