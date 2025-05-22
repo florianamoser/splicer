@@ -6,11 +6,11 @@ This documentation serves as both a technical documentation and a discursive com
 
 For further questions or inquiries, please contact: florian@amoser.ch.  
   
-![Splicer Development Prototype, Spring 2021](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Development-Prototyp-1.webp){align=left }  
+![Splicer Development Prototype, Spring 2021](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Development-Prototyp-1.webp) 
   
-```  
-SPLICER / DEVELOPMENT, Spring 2021  
-C-print, 40 × 50 cm  
-```  
+```
+SPLICER / DEVELOPMENT, Spring 2021
+C-print, 40 × 50 cm
+```
 
 
