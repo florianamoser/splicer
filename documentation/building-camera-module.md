@@ -29,4 +29,4 @@ Motorized Filter Changer (built, integration to software is still outstanding): 
 
 ![Splicer Camera Module v2](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Development-CameraModuleV2.webp)
 
-Camera Module v2 is a fully custom-built unit, planned and constructed fully in CAD. The module continues the ethos of an open camera with its inner workings deliberately exposed. The full range of possibilities this new module enable, remain to be discovered.
+Camera Module v2 is a fully custom-built unit, planned and constructed fully in CAD. The module continues the ethos of an open camera with its inner workings deliberately exposed. The full range of possibilities this new module enables, still remain to be discovered.

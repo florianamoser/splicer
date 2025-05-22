@@ -1,5 +1,5 @@
 <figure markdown="1">
-![Everything becomes transparent](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Development-EverythingBecomesTransparent.webp){width=500}
+![Everything becomes transparent](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Development-EverythingBecomesTransparent.webp)
 </figure>
 
 ```
