@@ -3,9 +3,10 @@ In February 2025, composer and artist Charles Kwong stepped into my studio in Ol
 
 Charles is classically trained composer from Hong Kong with an increasing focus on experimental sound was immediately drawn to Splicer when I told him about the apparatus. Charles' comment during an earlier discussion on Splicer’s conceptual affinity with granular synthesis made him a fitting first collaborator. Granular Synthesis, a composition approach conceptualized by Iannis Xenakis in the 1960ies, is a sonic technique that decomposes sound into tiny fragments (“grains”) that are then recombined to form new auditory textures `Xenakis, 1990`. Out of this discussion we coined the term Granular perspective as Splicer does something similar as granular synthesis but with the [sample, space, and time.](https://documentation.splicer.camera/theory-1/) 
 
-!!! quote "Charles Kwong, Splicer collaboration debrief, April 3, 2025."
+!!! quote ""
     
-    « In working with Splicer, what I find interesting is that it reveals a kind of perception that neither of us could have foreseen. None of us knew what the image would look like at the start – we were discovering it through the process. That’s where I see the uniqueness or value of this kind of image-making: it shows that photography is really about creating something, not just capturing something that already exists. »  
+    «In working with Splicer, what I find interesting is that it reveals a kind of perception that neither of us could have foreseen. None of us knew what the image would look like at the start – we were discovering it through the process. That’s where I see the uniqueness or value of this kind of image-making: it shows that photography is really about creating something, not just capturing something that already exists.»
+    Charles Kwong, Splicer collaboration debrief, April 3, 2025.  
 
 
 <figure markdown="1">
