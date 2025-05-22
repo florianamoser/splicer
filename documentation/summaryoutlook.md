@@ -1,5 +1,5 @@
 
-![Splicer Wiring Aftermath](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Wiring-Aftermath.webp){ align=left }  
+![Splicer Wiring Aftermath](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Wiring-Aftermath.webp){align=left }  
     
 ```
 SPLICER / WIRING AFTERMATH

@@ -3,8 +3,8 @@
 ```
 SPLICER / DEVELOPMENT, Spring 2021
 C-print, 40 x 50 cm
-```  
-  
+```
+
 My access to the photographic image economy is very organic: since around 2011 I have worked in and around photography. As a photographer and as an assistant, in commercial or artistic productions or in institutional settings. During this time, I also studied photography and worked in an art school, supporting teaching, exhibition, and research efforts on photography. The insights gained through these experiences form the starting point for my applied critique of photography and visual culture.
 
 The initial motivation for working in photography was to better understand my surroundings. However, in a society saturated with images, perception is increasingly shaped through photographic devices rather than through direct sensory experience. These devices and imaging processes—though often unnoticed—significantly impact how I perceive the world. This realization led me to focus my work on the filter of perception: the photographic apparatus.
