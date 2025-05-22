@@ -1,7 +1,9 @@
 ![Splicer Trichrome Capture](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Trichrome.webp){ align="left" }  
   
-!!! example "**Splicer / Static Trichrome Image Capture** 5 pigment prints, 21×29.7 cm each (A4), arranged sequentially"  
+!!! example "**Splicer / Static Trichrome Image Capture**"  
 
+    `5 pigment prints, 21×29.7 cm each (A4), arranged sequentially`  
+    
     This series visualizes the trichromatic image reconstruction process used in Splicer. Each print corresponds to a monochrome capture through a different optical filter: no filter, red, green, and blue. The fifth print presents the resulting full-color image, assembled from the filtered channels. While the RGB sequence is sufficient to produce a color image, the unfiltered capture often contributes to enhanced detail and reduced noise.  
   
 ---  
