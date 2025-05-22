@@ -97,7 +97,7 @@ From the perspective of the lens, `C` controls the rotation of the sample around
 |---|---|---|---|---|---|
 | `8` | `4` | `Degrees` | `Vertical Orientation` | `-200°` | `+200°` |  
 
-!!! warning "**Rotating the sensor ***always*** requires supervision of the sensor cables.**"  
+!!! warning "**Rotating the sensor ALWAYS requires supervision of the sensor cables.**"  
    
      `U` controls the **orientation of the sensor line**. A value of `U = 0` aligns the sensor vertically. Positive values of `U` rotate the sensor **clockwise**. Negative values of `U` rotate the sensor **counterclockwise**. A value of `U = 90` results in a **horizontal** orientation. Care must be taken to monitor cable tension and routing behind the sensor carriage at all times during rotation to prevent damage.
 
