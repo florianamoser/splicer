@@ -14,7 +14,7 @@ Each pixel represents a discrete intensity value, and because the sensor is mono
 
 The sensor captures a single vertical line at a time. To construct a complete two-dimensional image, successive lines must be captured while the sample moves.
 
-A **trigger signal** controls the precise moment each line is captured, allowing for real-time coordination with Splicer's multi-axis motion system. This ensures that spatial and temporal synchonisation is maintained, even during complex motion paths or non-linear sampling routines.
+A trigger signal controls the precise moment each line is captured, allowing for real-time coordination with Splicer's multi-axis motion system. This ensures that spatial and temporal synchonisation is maintained, even during complex motion paths or non-linear sampling routines.
 
 ### Spatial Format and Dimensions
 
@@ -22,16 +22,16 @@ The total number of captured lines determines the height (or width, depending on
 
 - Square image    
   Requires 8192 lines to match the sensor’s vertical resolution.  
-  → **8192 × 8192 pixels**
+  → 8192 × 8192 pixels
     
 - 4:5 aspect ratio (landscape orientation)  
   Requires: 8192 ÷ 4 × 5 = 10,240 lines  
-  → **8192 × 10,245 pixels**
+  → 8192 × 10,245 pixels
 
 ### Extended Image Length and Iterative Capture
 
 In principle, the maximum resolution in the direction of capture is undefined. In practice, however, operational constraints such as capture duration and workflow complexity impose effective boundaries.
 
-Successful images have been captured with up to **65,000 captured lines**, resulting in extremely high-resolution panoramic formats (520 Megapixels, Aspect ratio 8:65). These extended formats are possible, but become increasingly cumbersome and slow to work with — both during capture as in print.
+Successful images have been captured with up to 65,000 captured lines, resulting in extremely high-resolution panoramic formats (520 Megapixels, Aspect ratio 8:65). These extended formats are possible, but become increasingly cumbersome and slow to work with — both during capture as in print.
 
-To accommodate this, Splicer supports an **iterative image-making process**. Rather than capturing a full-resolution image in a single pass, operators may opt to capture **individual sections or segments**. This allows for focused work on specific sections of the composition before committing to a full-scale final image, improving both control and efficiency during the development phase.
+To accommodate this, Splicer supports an iterative image-making process. Rather than capturing a full-resolution image in a single pass, operators may opt to capture individual sections or segments. This allows for focused work on specific sections of the composition before committing to a full-scale final image, improving both control and efficiency during the development phase.

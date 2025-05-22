@@ -1,5 +1,5 @@
 ### Tools required   
-Duster
+- Duster
 
 ### Checklist
 - [ ] Check placement of the machine. Ensure the sample mover has enough clearance for homing moves. 

@@ -2,10 +2,10 @@
 
 [Click here for current release of the Splicer-Animator](https://github.com/florianamoser/splicer/tree/main/software/animator)
 
-> **Prerequisite to run splicer-animator**  
->  
->    The script has so far only been tested on MacOS. When starting Blender from the application launcher, the splicer-animation-script is not able to write the GCODE to the harddisk. Blender needs to be started from the command line. Follow the link below for more informations on how to start blender from the command line.  
->   [Blender Documentation MacOS: Launching from the command line](https://docs.blender.org/manual/en/latest/advanced/command_line/launch/macos.html){:target="_blank"}  
+!!! info "**Prerequisite to run splicer-animator**"  
+    
+    The script has so far only been tested on MacOS. When starting Blender from the application launcher, the splicer-animation-script is not able to write the GCODE to the harddisk. Blender needs to be started from the command line. Follow the link below for more informations on how to start blender from the command line.  
+    [Blender Documentation MacOS: Launching from the command line](https://docs.blender.org/manual/en/latest/advanced/command_line/launch/macos.html){:target="_blank"}  
 
 ***
 
@@ -27,7 +27,7 @@
 ![splicer animator in blender: Aspect Ratio](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/splicer-animator-2.webp){ align=left }  
 *Click on image to enlarge*
 
-!!! tip "Aspect Ratio of the Image"
+!!! info "Aspect Ratio of the Image"
 
     To start a new image, decide first on the aspect ratio of the image. The sensor has 8192 by 1 pixels. A square image (Aspect Ratio 1:1) requires therefore 8192 lines (equal to 8192 frames in Blender. The terms **"lines"** and **"frames"** are used interchangeably.). An horizontal image with the ratio 4:5 therefore requires `8192 / 4 * 5 = 10240` frames in Blender and results in an output image of about 82 Megapixel.  
 
@@ -42,7 +42,7 @@
 ![splicer animator in blender: Animate Sample](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/splicer-animator-3.webp){ align=left }  
 *Click on image to enlarge*
 
-!!! tip "Read the chapter "Axis Specification" before starting animation"
+!!! info "Read the chapter "Axis Specification" before starting animation"
 
 1. **Select the Sample object** in the Blender Outliner.  
 2. Set the **Sample object dimensions** to match the physical dimensions of the actual sample.  
@@ -61,11 +61,11 @@
 2. Set the **Name Variable** to the desired image title.
 3. Click the **Play** button. The G-code will be exported to the folder specified by the **path variable** in the script.
 
-!!! tip "Gcode Naming Scheme"
+!!! info "Gcode Naming Scheme"
 
     Gcode files are named using the following format: **Date_ProjectName_StartFrame-EndFrame**. This naming convention helps track the settings required for configuring the Capture Software.  
 
-!!! tip "Working Iteratively"
+!!! info "Working Iteratively"
 
     After creating an initial rough animation, it is often useful to work on smaller frame ranges to fine-tune specific sections of the image.  To do this, adjust the **Start Frame**, **End Frame**, and **Preview Range** settings in the Camera configuration panel. Once the adjustments are complete, switch back to the **full frame range** for the final capture.  
 
@@ -76,7 +76,7 @@
 ![splicer animator in blender: Check Export and Debugging](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/splicer-animator-5.webp){ align=left }  
 *Click on image to enlarge*
 
-!!! tip "Export Debugging"
+!!! info "Export Debugging"
 
     If no Gcode file is generated, check the **Terminal** for messages. Setting `debug = True` in the export script enables verbose output, providing detailed information about the values being written to the Gcode file.
 
