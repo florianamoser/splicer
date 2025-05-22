@@ -1,3 +1,3 @@
 |Date| Content|
 |---|---|
-|**23.05.2025**| initial release of this documentation|
+|**23.05.2025**| initial release of documentation.camera.splicer |

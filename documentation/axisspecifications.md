@@ -1,5 +1,5 @@
 <figure markdown="1">
-![Splicer Axis Diagram](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_AllAxisDiagram.webp){width="450"}
+![Splicer Axis Diagram](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_AllAxisDiagram.webp){width="500"}
 <figcaption>Splicer Axis Diagram</figcaption> 
 </figure>
 
@@ -47,9 +47,9 @@ From the perspective of the lens, `Z` controls the vertical position (height) of
 
 ### **A-Axis, B-Axis**
 
-!!! warning "`A` and `B` refer to different things in software and hardware"
-
-    `Axis A` (software) does **not** directly correspond to `Motor A` due to the use of **CoreXY kinematics**. `Axis B`**` (software) is also abstracted in the same way. Always refer to the configuration documentation when working with AB axes to avoid confusion. 
+> **`A` and `B` refer to different things in software and hardware**  
+>  
+> `Axis A` (software) does **not** directly correspond to `Motor A` due to the use of **CoreXY kinematics**. `Axis B`**` (software) is also abstracted in the same way. Always refer to the configuration documentation when working with AB axes to avoid confusion. 
 
 **A-Axis**  
 
@@ -97,9 +97,9 @@ From the perspective of the lens, `C` controls the rotation of the sample around
 |---|---|---|---|---|---|
 | `8` | `4` | `Degrees` | `Vertical Orientation` | `-200°` | `+200°` |  
 
-!!! warning "Rotating the sensor **always** requires supervision of the sensor cables."
-
-`U` controls the **orientation of the sensor line**. A value of `U = 0` aligns the sensor vertically. Positive values of `U` rotate the sensor **clockwise**. Negative values of `U` rotate the sensor **counterclockwise**. A value of `U = 90` results in a **horizontal** orientation.
+> **Rotating the sensor **always** requires supervision of the sensor cables.**  
+>  
+> `U` controls the **orientation of the sensor line**. A value of `U = 0` aligns the sensor vertically. Positive values of `U` rotate the sensor **clockwise**. Negative values of `U` rotate the sensor **counterclockwise**. A value of `U = 90` results in a **horizontal** orientation.  
 
 Care must be taken to monitor cable tension and routing behind the sensor carriage at all times during rotation to prevent damage.
 

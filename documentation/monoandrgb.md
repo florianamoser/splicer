@@ -1,20 +1,21 @@
-![Splicer Trichrome Capture](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Trichrome.webp){ align=left}   
+![Splicer Trichrome Capture](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Trichrome.webp){ align=left}  
   
-> **Splicer / Static Trichrome Image Capture**
-> 5 pigment prints, 21×29.7 cm each (A4), arranged sequentially
->
+
+> **Splicer / Static Trichrome Image Capture**  
+> 5 pigment prints, 21×29.7 cm each (A4), arranged sequentially  
+>  
 > This series visualizes the trichromatic image reconstruction process used in Splicer. Each print corresponds to a monochrome capture through a different optical filter: no filter, red, green, and blue. The fifth print presents the resulting full-color image, assembled from the filtered channels. While the RGB sequence is sufficient to produce a color image, the unfiltered capture often contributes to enhanced detail and reduced noise.  
   
 ---  
 
 # Monochrome Capture
 
-![splicer sensor spectral sensitivity](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/mono-and-rgb_1.png){ align=left, width="450" }
+![splicer sensor spectral sensitivity](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/mono-and-rgb_1.png){ align=left, width="450" }  
 Splicer sensor spectral sensitivity[^1]
 
 The Splicer's line sensor is monochrome and exhibits sensitivity in the infrared (IR) spectrum. To ensure accurate image capture, a UV/IR blocking filter is installed in the optical path behind the lens, preventing unwanted spectral tinting the output.   
 
-![UV&IR Cut Filter Transmission curve](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/mono-and-rgb_2.png){ align=left, width="450" } 
+![UV&IR Cut Filter Transmission curve](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/mono-and-rgb_2.png){ align=left, width="450" }  
 Transmission Curve of Hoya UV & IR cut filter[^2]
   
 ---
@@ -53,21 +54,24 @@ The current RGB separation filters are 75 × 75 mm gel filters from Lee Filter
 These reference numbers follow the Kodak Wratten 2[^5] naming scheme.  
 As of now, these specific filters appear to be discontinued. A potential, but  more costly, replacement could be glass filters available from Edmund Optics.  
 
-![Kodak Wratten 2 #25 Transmission Curve](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/mono-and-rgb_3.png){align=left,width="450" }  
+![Kodak Wratten 2 #25 Transmission Curve](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/mono-and-rgb_3.png){width="450", align=left }  
 Kodak Wratten 2, red #25 Transmission Curve[^5]  
 
-![Kodak Wratten 2 #58 Transmission Curve](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/mono-and-rgb_4.png){align=left,width="450" } 
+---
+
+![Kodak Wratten 2 #58 Transmission Curve](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/mono-and-rgb_4.png){width="450", align=left }  
 Kodak Wratten 2, green #58 Transmission Curve[^6]  
 
+---
 
 ![Kodak Wratten 2 #47 Transmission Curve](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/mono-and-rgb_5.png){width="450", align=left }  
 Kodak Wratten 2, blue #47 Transmission Curve[^7]  
-
-
-> **RGB Filter Wheel**
->
-> The filter wheel is currently operated manually and must be rotated by hand. Preparations are underway to enable motorized control via a servo, which will be triggered in Gcode.
-
+  
+  
+> **RGB Filter Wheel**  
+>  
+> The filter wheel is currently operated manually and must be rotated by hand. Preparations are underway to enable motorized control via a servo, which will be triggered in Gcode.  
+  
 
 [^1]: Piranha 2, Line Scan CCD Cameras User Manual, Teledyne Dalsa, 2011: 12.  
 [^2]: [Hoya UV&IR Cut Filter](https://hoyafilter.com/product/uv_ir_cut/) 
