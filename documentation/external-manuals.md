@@ -1,5 +1,7 @@
 Following is a list of manuals for software and hardware used in the development of Splicer. These resources were essential in building, calibrating, and debugging various components of the apparatus.
 
+---
+
 ### Manual: Camera Sensor  
 <a href="https://www.manualslib.com/manual/2720050/Teledyne-Dalsa-Piranha-2-P2-2x-40-Series.html#product-DALSA%20Piranha%202%20P2-2x-08K40" target="_blank" rel="noopener noreferrer">
 Teledyne Dalsa Piranha 2 P2-2x-08K40</a>

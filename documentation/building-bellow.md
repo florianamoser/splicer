@@ -6,7 +6,7 @@ During the development of the Camera Module v2, a practical and low-cost solutio
 
 To complete the structure, the bellows were glued to their rigid front and rear bellow boards using contact adhesive. These 3D-printed parts specifically designed for the Splicer are available in the GitHub repository, see links below. Small neodymium magnets (3×6 mm) were glued into dedicated recesses in the bellow boards using thick cyanoacrylate adhesive. These allow the bellows to snap securely into place, attaching magnetically both to the lensboard / RGB Filter Changer and the toolhead, ensuring light-tightness and modular handling. The resulting bellows are lightweight, fully opaque, and robust enough for repeated mounting and dismounting.
 
-## Bellow Board Download Lins 
-[Front Bellow Board](https://github.com/florianamoser/splicer/blob/main/hardware/cad/splicer_camera/splicer_camera_toolhead/splicer_camera_toolhead_bellow-board-front.f3d)
-[Back Bellow Board](https://github.com/florianamoser/splicer/blob/main/hardware/cad/splicer_camera/splicer_camera_toolhead/splicer_camera_toolhead_bellow-board-back.f3d)
+### Bellow Board Download Links  
+[Front Bellow Board](https://github.com/florianamoser/splicer/blob/main/hardware/cad/splicer_camera/splicer_camera_toolhead/splicer_camera_toolhead_bellow-board-front.f3d)  
+[Back Bellow Board](https://github.com/florianamoser/splicer/blob/main/hardware/cad/splicer_camera/splicer_camera_toolhead/splicer_camera_toolhead_bellow-board-back.f3d)  
 
