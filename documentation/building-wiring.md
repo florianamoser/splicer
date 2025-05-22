@@ -1,5 +1,5 @@
 <figure markdown="1">
-![Splicer Wiring](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Wiring.webp)
+![Splicer Wiring](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Wiring.webp){width="500"}
 </figure>
 
 ```  

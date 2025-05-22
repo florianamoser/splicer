@@ -1,4 +1,4 @@
-**Splicer-Animator** is the splicer control script. Use it to control the precise movement of the sample. The script is running in Blender to convert a frame animation to machine readable gcode file on splicer.
+**Splicer-Animator** is the splicer control script. Use it to control the precise movement of the sample. The script is running in Blender to convert a frame animation to machine readable GCODE file on splicer.
 
 [Click here for current release of the Splicer-Animator](https://github.com/florianamoser/splicer/tree/main/software/animator)
 
@@ -52,18 +52,18 @@
 
 ***
 
-**Splicer-Animator Export Gcode**
+**Splicer-Animator Export GCODE**
 
-![splicer animator in blender: Export Gcode](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/splicer-animator-4.webp){ align=left }  
+![splicer animator in blender: Export GCODE](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/splicer-animator-4.webp){ align=left }  
 *Click on image to enlarge*
 
 1. Select the **Export Script** workspace.
 2. Set the **Name Variable** to the desired image title.
-3. Click the **Play** button. The G-code will be exported to the folder specified by the **path variable** in the script.
+3. Click the **Play** button. The GCODE will be exported to the folder specified by the **path variable** in the script.
 
-!!! info "Gcode Naming Scheme"
+!!! info "GCODE Naming Scheme"
 
-    Gcode files are named using the following format: **Date_ProjectName_StartFrame-EndFrame**. This naming convention helps track the settings required for configuring the Capture Software.  
+    GCODE files are named using the following format: **Date_ProjectName_StartFrame-EndFrame**. This naming convention helps track the settings required for configuring the Capture Software.  
 
 !!! info "Working Iteratively"
 
@@ -78,7 +78,7 @@
   
 !!! info "Export Debugging"  
 
-    If no Gcode file is generated, check the **Terminal** for messages. Setting `debug = True` in the export script enables verbose output, providing detailed information about the values being written to the Gcode file.
+    If no GCODE file is generated, check the **Terminal** for messages. Setting `debug = True` in the export script enables verbose output, providing detailed information about the values being written to the GCODE file.
 
 
 
