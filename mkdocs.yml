@@ -45,8 +45,9 @@ nav:
       - Sensor and Framegrabber: building-sensor.md
       - Lens Choice: building-lens.md
     - Building:
+      - Camera Module: building-camera-module.md
       - Camera Bellows: building-bellow.md
-    #  - everything becomes transparent
+      - Everything becomes transparent: building-everythingtransparent.md
   #   - Building Aluminium Structure: placeholder.md
       - Electrical Wiring: building-wiring.md
     - Integration:
