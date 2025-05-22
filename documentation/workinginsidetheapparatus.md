@@ -1,4 +1,4 @@
-![Three Popes And The End Of Indexicality](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_WorkingInsideTheApparatus.webp){ align=left }
+![Three Popes And The End Of Indexicality](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_WorkingInsideTheApparatus.webp)
 
 ```
 SPLICER / DEVELOPMENT, Spring 2021
