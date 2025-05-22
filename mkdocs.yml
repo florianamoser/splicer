@@ -50,7 +50,7 @@ nav:
       - Everything becomes transparent: building-everythingtransparent.md
   #   - Building Aluminium Structure: placeholder.md
       - Electrical Wiring: building-wiring.md
-      - Electrical Interface between 
+      # - Electrical Interface between mesa und frame grabber
     - Integration:
       - Placement and leveling of machine: placement.md
       - Integration of Motionsystem: building-linuxcnc-integration.md
