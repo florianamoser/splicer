@@ -105,7 +105,7 @@ theme:
   extra:
     homepage: https://www.splicer.camera
     
-copyright: Copyright &copy; 2025 Florian Amoser
+copyright: &copy; 2025 Florian Amoser
 
 extra_css:
     - templates/pdf-print.css
@@ -115,13 +115,13 @@ extra_css:
 plugins:
   - search
   - to-pdf:
-      author: Florian Amoser
+      # author: Florian Amoser
       #copyright: Florian Amoser
       
       cover: true
       back_cover: false
-      cover_title: Splicer Manual
-      cover_subtitle: Refer to the digital version on documentation.splicer.camera for the latest version.
+      cover_title: splicer
+      cover_subtitle: This document may be outdated. Latest version at documentation.splicer.camera
       cover_logo: assets/splicer_logo_black.svg
       custom_template_path: https://github.com/florianamoser/splicer/tree/main/documentation/templates/
 
