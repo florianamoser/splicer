@@ -24,8 +24,7 @@ Splicer is composed of two primary modules:
 
 ## Axis Overview
 
->> ADD DIAGRAM CLEAN DRAWN
-![Splicer Naming Convention Axis](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/axis-overview.jpg)  
+![Splicer Axis Naming Convention ](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/2025_splicer_axisnamingschema_gray.webp)   
 Axis overview and denomination.
 
 The optical origin of Splicer is defined at the lensboard. While not the optical nodal point (which shifts depending on the lens used), the front surface of the lensboard is chosen as the fixed, consistent reference plane. If the nodal point were used, any lens change would alter the zero positions of the longitudinal axes, making consistent configuration files of the motion system impractical.
