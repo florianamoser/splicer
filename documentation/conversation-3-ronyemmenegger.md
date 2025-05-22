@@ -23,8 +23,8 @@ Rony and Florian reflected on how core samples are conventionally visualized in 
 
 This opens up questions about the status of the image: When does a rock sample stop being data and start becoming an artifact? What does it mean to visualize a core not for calibration or measurement, but for resonance, ambiguity, and speculative reflection? 
 
-## Surface, Depth, and the Limits of Knowing
-
+## Surface, Depth, and the Limits of Knowing   
+   
 !!! quote ""  
    
    «The statement about what is actually inside the core sample is always accompanied by a certain degree of uncertainty. Admittedly, this uncertainty is largely marginal. But perhaps more importantly, it symbolically reflects the fact that any extrapolated statements about the composition of the entire geological subsurface, its past and consequently its future, based solely on the core sample are inherently linked to uncertainty. In this way, the depth, the loss of sharpness with depth in the image [The image created with Spicer], symbolically represents the uncertainties involved in geological investigations of the underground, which are always, in their entirety, tied to a degree of the unknown. It also stands as a metaphor for the uncertainties inherent in making long term projections into the future, statements about how the rock will develop once radioactive waste is stored within it.»  
