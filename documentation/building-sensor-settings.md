@@ -3,7 +3,7 @@ As shown in the [sensor manual](https://documentation.splicer.camera/external-ma
 A simple get-camera-parameters `gcp` command will show the currently active settings on the sensor. 
 Below is a dump the settings currently active on Splicer. The `Analog Gain` might be reduced in the future when brigher lights are used during sampling. 
 
-The `Exposure Time` parameter is often changed throughout the process of image creation. While 3200uSec results in the brightest possible image, it requires the feedrate within LinuxCNC to be reduced to 25%. Otherwise there is a risk of dropped lines. During early development of the image, the exposure time is often reduced to 1500uSec or lower. Send a set-exposure-time `set 1500` to reduce the exposure time to 1500uSec.  
+The `Exposure Time` parameter is often changed throughout the process of image creation. While `3200 uSec` results in the brightest possible image, it requires the feedrate within LinuxCNC to be reduced to `25%`. Otherwise there is a risk of dropped lines. During early development of the image, the exposure time is often reduced to `1500 uSec` or lower. Send a set-exposure-time `set 1500` to reduce the exposure time to `1500 uSec`.  
 
 ```
 OK>gcp

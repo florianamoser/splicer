@@ -1,10 +1,10 @@
-# Light Requirements
+## Light Requirements
 
 Due to the specific optical and mechanical properties of Splicer's imaging system, adequate and stable lighting is critical to ensure proper image acquisition. The following guidelines and considerations must be observed to achieve consistent and high-quality results.
 
 ---
 
-## Exposure Time and Light Intensity
+### Exposure Time and Light Intensity
 
 The line scan sensor used in Splicer operates with extremely short exposure times of **3,200 microseconds or shorter per line**. This necessitates **high-intensity illumination** to ensure a sufficient signal-to-noise ratio in the captured image.
 
@@ -16,7 +16,7 @@ The RGB trichromatic filter system in the optical path introduces additional lig
 
 ---
 
-## Recommended Lighting Setup
+### Recommended Lighting Setup
 
 **LED lighting** is recommended due to its efficiency, spectral stability, and continuous output. The current configuration uses **three 200W LED lights**, collectively producing up to **40,000 lux** at the sample position—equivalent to full, direct sunlight. This is considered the **minimum usable illumination**; higher lux levels may be necessary depending on:
 
@@ -30,7 +30,7 @@ The RGB trichromatic filter system in the optical path introduces additional lig
 
 ---
 
-## Light Diffusion and Sample Safety
+### Light Diffusion and Sample Safety
 
 Use **diffusion foils** or other translucent materials to build a lightbox around the sample. This softens shadows and helps achieve even lighting. The configuration should be adapted based on the sample’s optical properties and fragility.
 

@@ -1,37 +1,34 @@
-# Image Output Specifications
-
 Splicer employs a high-resolution line scan sensor for image acquisition. Unlike conventional area sensors, which capture two-dimensional frames in a single exposure, a line scan sensor captures one line of pixels at a time, progressively building an image.
 
-## Sensor Overview
+### Sensor Overview
 
-- **Sensor type**: Monochrome line scan CCD  
-- **Resolution**: 1 × 8192 pixels  
-- **Pixel pitch**: 7 µm (micrometers)  
-- **Sensor width**: ~57.3 mm (8192 × 7 µm)  
-- **Line orientation**: Typically vertical, but can be rotated in the optical path if necessary  
+- Sensor type: Monochrome line scan CCD  
+- Resolution: 1 × 8192 pixels  
+- Pixel pitch: 7 µm (micrometers)  
+- Sensor width: ~57.3 mm (8192 × 7 µm)  
+- Line orientation: Typically vertical, but can be rotated in the optical path if necessary  
 
 Each pixel represents a discrete intensity value, and because the sensor is monochrome, color must be derived through alternative methods (trichromatic filtering).
 
-## Image Construction
+### Image Construction
 
 The sensor captures a single vertical line at a time. To construct a complete two-dimensional image, successive lines must be captured while the sample moves.
 
 A **trigger signal** controls the precise moment each line is captured, allowing for real-time coordination with Splicer's multi-axis motion system. This ensures that spatial and temporal synchonisation is maintained, even during complex motion paths or non-linear sampling routines.
 
-## Spatial Format and Dimensions
+### Spatial Format and Dimensions
 
 The total number of captured lines determines the height (or width, depending on orientation) of the final image. For reference:
 
-- **Square image**:  
+- Square image    
   Requires 8192 lines to match the sensor’s vertical resolution.  
   → **8192 × 8192 pixels**
     
-- **4:5 aspect ratio** (landscape orientation):  
-  Requires:  
-  `8192 ÷ 4 × 5 = 10,240` lines  
+- 4:5 aspect ratio (landscape orientation)  
+  Requires: 8192 ÷ 4 × 5 = 10,240 lines  
   → **8192 × 10,245 pixels**
 
-## Extended Image Length and Iterative Capture
+### Extended Image Length and Iterative Capture
 
 In principle, the maximum resolution in the direction of capture is undefined. In practice, however, operational constraints such as capture duration and workflow complexity impose effective boundaries.
 
