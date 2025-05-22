@@ -1,7 +1,6 @@
 ![Splicer Trichrome Capture](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/FlorianAmoser_Splicer_Trichrome.webp){ align="left" }  
   
-!!! example "**Splicer / Static Trichrome Image Capture**  
-    5 pigment prints, 21×29.7 cm each (A4), arranged sequentially"  
+!!! example "**Splicer / Static Trichrome Image Capture** 5 pigment prints, 21×29.7 cm each (A4), arranged sequentially"  
 
     This series visualizes the trichromatic image reconstruction process used in Splicer. Each print corresponds to a monochrome capture through a different optical filter: no filter, red, green, and blue. The fifth print presents the resulting full-color image, assembled from the filtered channels. While the RGB sequence is sufficient to produce a color image, the unfiltered capture often contributes to enhanced detail and reduced noise.  
   
@@ -53,19 +52,17 @@ The current RGB separation filters are 75 × 75 mm gel filters from Lee Filter
 These reference numbers follow the Kodak Wratten 2[^5] naming scheme.  
 As of now, these specific filters appear to be discontinued. A potential, but  more costly, replacement could be glass filters available from Edmund Optics.  
 
-<figure markdown="span">
-![Kodak Wratten 2 #25 Transmission Curve](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/mono-and-rgb_3.png){width="450", align="left" }  
-</figure>  
+![Kodak Wratten 2 #25 Transmission Curve](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/mono-and-rgb_3.png){ align=leftß, width="450" }  
 Kodak Wratten 2, red #25 Transmission Curve[^5]  
   
 ---  
   
-![Kodak Wratten 2 #58 Transmission Curve](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/mono-and-rgb_4.png){width="450", align="left"}  
+![Kodak Wratten 2 #58 Transmission Curve](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/mono-and-rgb_4.png){ align=leftß, width="450" }  
 Kodak Wratten 2, green #58 Transmission Curve[^6]  
   
 ---  
   
-![Kodak Wratten 2 #47 Transmission Curve](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/mono-and-rgb_5.png){width="450", align="left"}  
+![Kodak Wratten 2 #47 Transmission Curve](https://raw.githubusercontent.com/florianamoser/splicer/refs/heads/main/documentation/assets/mono-and-rgb_5.png){ align=leftß, width="450" }  
 Kodak Wratten 2, blue #47 Transmission Curve[^7]  
   
 !!! info "**RGB Filter Wheel**"  
