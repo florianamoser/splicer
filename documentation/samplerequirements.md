@@ -7,7 +7,7 @@ Use the following specifications as a starting point when selecting a sample for
 
 These considerations help ensure optimal results during imaging and reconstruction.
 
-> If you are unsure whether your sample is suitable, check with splicer operator.  
+!!! note "If you are unsure whether your sample is suitable, check with splicer operator." 
 
 | Type| Description |
 | ----- | ----- |

@@ -40,8 +40,8 @@ nav:
       - Start: building-start.md
       - Relevant Manuals: external-manuals.md
     - Sourcing Parts: 
-      - Sourcing Parts: building-sourcing.md
       - 24 Packages from Aliexpress: building-packages.md
+      - Sourcing Parts: building-sourcing.md
       - Sensor and Framegrabber: building-sensor.md
       - Lens Choice: building-lens.md
     - Building:
