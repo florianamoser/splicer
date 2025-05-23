@@ -5,6 +5,7 @@
 ```
 SPLICER / EVERYTHING BECOMES TRANSPARENT, Sensor Carriage, 2023 - 2025
 Pigment Print of Rendering, 22 × 27.5 cm, 3D Print 
+Series of 9 works
 
 This work reflects on a profound shift in how objects come into being. 
 Developed in parallel with the construction of the Camera Module v2, 
