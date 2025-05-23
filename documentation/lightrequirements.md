@@ -16,7 +16,7 @@ The RGB trichromatic filter system in the optical path introduces additional lig
 
 ### Recommended Lighting Setup
 
-LED lighting is recommended due to its efficiency, spectral stability, and continuous output. The current configuration uses three 200W LED lights, collectively producing up to 40,000 lux at the sample position—equivalent to full, direct sunlight. This is considered the minimum usable illumination; higher lux levels may be necessary depending on:
+LED lighting is recommended due to its efficiency, spectral stability, and continuous output. The current configuration uses three 200W LED lights, collectively producing up to 40,000 lux at the sample position – equivalent to full, direct sunlight. This is considered the minimum usable illumination; higher lux levels may be necessary depending on:
 
 - Aperture settings  
 - Sample reflectivity 
@@ -24,7 +24,7 @@ LED lighting is recommended due to its efficiency, spectral stability, and conti
 - Sample size  
 - Desired acquisition speed
 
-!!! info "**Avoid flickering**: Some dimming circuits introduce flicker at high frame rates, causing visible banding in the final image. To prevent this, operate flickerprone lights at full power. Adjust intensity by changing the distance between the light source and the subject — not via dimming controls."
+!!! info "**Avoid flickering**: Some dimming circuits introduce flicker at high frame rates, causing visible banding in the final image. To prevent this, operate flickerprone lights at full power. Adjust intensity by changing the distance between the light source and the subject  –  not via dimming controls."
 
 ---
 

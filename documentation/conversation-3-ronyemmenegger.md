@@ -17,7 +17,7 @@ Rony and Florian reflected on how core samples are conventionally visualized in 
 
 !!! quote ""  
     
-    «The usual goal is to capture [a drill core] as completely as possible. Wherever it's damaged, it can't really be used properly anymore. What we did today is exactly the opposite. We're using the end of the drill core and going beyond the purely scientifically inspired representation of the core. And one wants to consider how the transition works — from the drill core outward and at the end of the drill core, where one also begins to look inside.»  
+    «The usual goal is to capture [a drill core] as completely as possible. Wherever it's damaged, it can't really be used properly anymore. What we did today is exactly the opposite. We're using the end of the drill core and going beyond the purely scientifically inspired representation of the core. And one wants to consider how the transition works – from the drill core outward and at the end of the drill core, where one also begins to look inside.»  
     Rony Emmenegger, May 2025.  
 
 

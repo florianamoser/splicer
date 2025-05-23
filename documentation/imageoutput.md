@@ -32,6 +32,6 @@ The total number of captured lines determines the height (or width, depending on
 
 In principle, the maximum resolution in the direction of capture is undefined. In practice, however, operational constraints such as capture duration and workflow complexity impose effective boundaries.
 
-Successful images have been captured with up to 65,000 captured lines, resulting in extremely high-resolution panoramic formats (520 Megapixels, Aspect ratio 8:65). These extended formats are possible, but become increasingly cumbersome and slow to work with — both during capture as in print.
+Successful images have been captured with up to 65,000 captured lines, resulting in extremely high-resolution panoramic formats (520 Megapixels, Aspect ratio 8:65). These extended formats are possible, but become increasingly cumbersome and slow to work with – both during capture as in print.
 
 To accommodate this, Splicer supports an iterative image-making process. Rather than capturing a full-resolution image in a single pass, operators may opt to capture individual sections or segments. This allows for focused work on specific sections of the composition before committing to a full-scale final image, improving both control and efficiency during the development phase.

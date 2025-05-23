@@ -31,7 +31,7 @@ Transmission Curve of Hoya UV & IR cut filter[^2]
 
 For monochrome captures, a single exposure is often sufficient. However, due to the limited dynamic range of Splicer's sensor, it may be necessary to capture multiple images at different exposure levels. These can then be blended manually in post-processing software to achieve acceptable results.
 
-To capture full-color images using the monochrome sensor, Splicer employs a **tri-color filter method** based on classical color separation. This technique, which dates back to the earliest forms of color photography[^3], involves capturing three separate exposures through red, green, and blue filters. The resulting images—commonly referred to as *Trichromes* are then combined to produce a full-color image.
+To capture full-color images using the monochrome sensor, Splicer employs a **tri-color filter method** based on classical color separation. This technique, which dates back to the earliest forms of color photography[^3], involves capturing three separate exposures through red, green, and blue filters. The resulting images – commonly referred to as *Trichromes* are then combined to produce a full-color image.
 
 !!! info "**RGB Line Scan Sensors**"
 
