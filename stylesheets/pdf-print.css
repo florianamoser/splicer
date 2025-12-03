@@ -1,0 +1,63 @@
+
+
+/*
+** for PDF Printing
+*/ 
+/* fixed for `base.css` of mkdocs v1.0.4 */
+code, pre code {
+    font-family: Space Grotesk, "Space Mono" monospace !important;
+}
+
+@media print {
+    hr {
+        display: none;
+    }
+    p {
+	font-size: inherit;
+    }
+}
+
+@page {
+    size: A4;
+    margin: 2cm;
+
+    @bottom-right {
+        content: "Page " counter(page) " of " counter(pages);
+        font-size: 10pt;
+    }
+
+    @top-left {
+        content: string(chapter);
+        font-size: 9pt;
+        color: #888;
+    }
+}
+/* 
+h1 {
+    string-set: chapter content();
+    page-break-before: always;
+}
+
+body {
+    font-family: "DejaVu Sans", sans-serif;
+    line-height: 1.5;
+    color: #333;
+}
+
+.cover-page {
+    page-break-after: always;
+    text-align: center;
+    margin-top: 30%;
+}
+
+.toc {
+    page-break-after: always;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h1, h2 {
+    color: #005999;
+} */
